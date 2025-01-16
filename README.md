@@ -1,5 +1,5 @@
 ## Sci-fi
-- *Culture Series* by Iain M. Banks
+- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks
   - *Consider Phlebas* (1987)
   - *The Player of Games* (1988)
   - *Use of Weapons* (1990)
@@ -10,7 +10,53 @@
   - *Matter* (2008)
   - *Surface Detail* (2010)
   - *The Hydrogen Sonata* (2012)
+- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by James S.A. Corey
+  - *Leviathan Wakes* (2011)
+  - *Caliban's War* (2012)
+  - *Abaddon's Gate* (2013)
+  - *Cibola Burn* (2014)
+  - *Nemesis Games* (2015)
+  - *Babylon's Ashes* (2016)
+  - *Persepolis Rising* (2017)
+  - *Tiamat's Wrath* (2018)
+- [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by Frank Herbert
+  - *Dune* (1965)
+  - *Dune Messiah* (1969)
+  - *Children of Dune* (1976)
+  - *God Emperor of Dune* (1981)
+  - *Heretics of Dune* (1982)
+  - *Chapterhouse: Dune* (1985)
+- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin
+  - *The Three Body Problem* (2008)
+  - *The Dark Forest* (2008)
+  - *The Wandering Earth* (2010)
+- Neal Stephenson books:
+  - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
+  - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
+  - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
+  - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
+  - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
+- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by Pierce Brown
+  - *Red Rising* (2014)
+  - *Golden Son* (2015)
+  - *Morning Star* (2016)
+  - *Iron Gold* (2018)
 
-# Fantasy
+## Fantasy
+  - [*The Lord of the Rings*](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings) series by J.R.R. Tolkien
+    - *The Fellowship of the Ring* (1954)
+    - *The Two Towers* (1954)
+    - *The Return of the King* (1955)
+  - [*UNSONG*](https://unsongbook.com/) by Scott Alexander
+  - [*The Baroque Cycle*](https://en.wikipedia.org/wiki/The_Baroque_Cycle) by Neal Stephenson
+    - *Quicksilver* (2003)
+    - *The Confusion* (2004)
+    - *The System of the World* (2004)
+- [*The Book of the New Sun*](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun) series by Gene Wolfe
+  - *The Shadow of the Torturer* (1980)
+  - *The Claw of the Conciliator* (1982)
+  - *The Sword of the Lictor* (1984)
+  - *The Citadel of the Autarch* (1985)
 
-# Non-fiction
+
+## Non-fiction
