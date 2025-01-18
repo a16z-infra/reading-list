@@ -4,7 +4,7 @@
 
 This is a list of books that at least one member of the a16z infra team read and loved. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers.
 
-# Table of Contents
+## Table of Contents
 
   - [Sci-fi](#sci-fi)
     - [Must reads](#must-reads)
