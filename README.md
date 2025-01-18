@@ -1,3 +1,7 @@
+# a16z Infra Reading List
+
+![image](https://github.com/user-attachments/assets/f0e6bc00-0cda-4460-9620-163da423448f)
+
 This is a list of books that at least one member of the a16z infra team read and loved. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers.
 
 ## Sci-fi
