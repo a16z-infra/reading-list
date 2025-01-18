@@ -6,7 +6,6 @@ This is a list of books that at least one member of the a16z infra team read and
 
 # Table of Contents
 
-- [a16z Infra Reading List](#a16z-infra-reading-list)
   - [Sci-fi](#sci-fi)
     - [Must reads](#must-reads)
     - [Very good books](#very-good-books)
