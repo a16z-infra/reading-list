@@ -4,6 +4,20 @@
 
 This is a list of books that at least one member of the a16z infra team read and loved. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers.
 
+# Table of Contents
+
+- [a16z Infra Reading List](#a16z-infra-reading-list)
+  - [Sci-fi](#sci-fi)
+    - [Must reads](#must-reads)
+    - [Very good books](#very-good-books)
+    - [Historical artifacts (that are also good books)](#historical-artifacts-that-are-also-good-books)
+    - [Pretty good books](#pretty-good-books)
+  - [Fantasy](#fantasy)
+    - [Very good books](#very-good-books-1)
+    - [Pretty good books](#pretty-good-books-1)
+    - [Other](#other)
+  - [Comic books!](#comic-books)
+
 ## Sci-fi
 
 ### Must reads
