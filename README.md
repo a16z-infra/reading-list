@@ -57,17 +57,17 @@ This is a list of books that at least one member of the a16z infra team read and
 
 ### Very good books
 
-- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
-  - *The Three Body Problem* (2008)
-  - *The Dark Forest* (2008)
-  - *The Wandering Earth* (2010)
-
 - Neal Stephenson: [...]
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
   - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
   - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
   - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
+
+- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
+  - *The Three Body Problem* (2008)
+  - *The Dark Forest* (2008)
+  - *The Wandering Earth* (2010)
 
 - [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: [...]
   - *Altered Carbon* (2002)
