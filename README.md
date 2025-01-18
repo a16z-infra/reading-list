@@ -53,6 +53,24 @@ This is a list of books that at least one member of the a16z infra team read and
 
 ### Very good books
 
+- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
+  - *The Three Body Problem* (2008)
+  - *The Dark Forest* (2008)
+  - *The Wandering Earth* (2010)
+
+- Neal Stephenson: [...]
+  - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
+  - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
+  - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
+  - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
+  - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
+
+- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: [...]
+  - *Altered Carbon* (2002)
+  - *Broken Angels* (2004)
+  - *Woken Furies* (2006)
+  - *Shadows Rising* (2008)
+
 - [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by James S.A. Corey: An accessible space opera set in the near future. It's a series about people more than technology, where the politics (Earth, Mars, and the Belt) feel very believable.
   - *Leviathan Wakes* (2011)
   - *Caliban's War* (2012)
@@ -62,24 +80,6 @@ This is a list of books that at least one member of the a16z infra team read and
   - *Babylon's Ashes* (2016)
   - *Persepolis Rising* (2017)
   - *Tiamat's Wrath* (2018)
-
-- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
-  - *The Three Body Problem* (2008)
-  - *The Dark Forest* (2008)
-  - *The Wandering Earth* (2010)
-
-- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: [...]
-  - *Altered Carbon* (2002)
-  - *Broken Angels* (2004)
-  - *Woken Furies* (2006)
-  - *Shadows Rising* (2008)
-
-- Neal Stephenson: [...]
-  - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
-  - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
-  - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
-  - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
-  - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
 
 
 
@@ -93,18 +93,8 @@ This is a list of books that at least one member of the a16z infra team read and
 
 - Isaac Asimov: [...]
   - [Robot series](https://en.wikipedia.org/wiki/Robot_series_(Asimov)) (1940-1950)
-    - [*I, Robot*](https://en.wikipedia.org/wiki/I,_Robot) (1950)
-    - [*The Robots of Dawn*](https://en.wikipedia.org/wiki/The_Robots_of_Dawn) (1983)
-    - [*The Robots of Venus*](https://en.wikipedia.org/wiki/The_Robots_of_Venus) (1987)
   - [Galactic Empire series](https://en.wikipedia.org/wiki/Galactic_Empire_(series)) (1952-1964)
-    - [*The End of Eternity*](https://en.wikipedia.org/wiki/The_End_of_Eternity) (1955)
-    - [*The Gods Themselves*](https://en.wikipedia.org/wiki/The_Gods_Themselves) (1972)
   - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) (1951-1966)
-    - [*Foundation*](https://en.wikipedia.org/wiki/Foundation_(Asimov_novel)) (1951)
-    - [*Foundation and Empire*](https://en.wikipedia.org/wiki/Foundation_and_Empire) (1952)
-    - [*Second Foundation*](https://en.wikipedia.org/wiki/Second_Foundation) (1953)
-    - [*Foundation's Edge*](https://en.wikipedia.org/wiki/Foundation%27s_Edge) (1982)
-    - [*The Fountains of Paradise*](https://en.wikipedia.org/wiki/The_Fountains_of_Paradise) (1979)
 
 - Jules Verne: [...]
   - [*Journey to the Center of the Earth*](https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth) (1864)
@@ -155,12 +145,12 @@ This is a list of books that at least one member of the a16z infra team read and
     - *The Sword of the Lictor* (1984)
     - *The Citadel of the Autarch* (1985)
 
-  - [*UNSONG*](https://unsongbook.com/) by Scott Alexander: Imagine the world is populated mostly by computer programmers, mystic Jewish scholars, and celestial beings. Oh and magic is real. And Richard Nixon. This book is hard to describe, but it has a completely unique universe and a fun story that ties together nicely.
-
   - [*The Baroque Cycle*](https://en.wikipedia.org/wiki/The_Baroque_Cycle) by Neal Stephenson: This is a sweeping, detailed, fantastic, and funny account of the life and times of Isaac Newton. It's like being transported to 17th century England and being at the heart of scientific discovery. If you're not a fan of Stephenson's sci-fi books, give him another chance with this series - it has endings!
     - *Quicksilver* (2003)
     - *The Confusion* (2004)
     - *The System of the World* (2004)
+
+- [*UNSONG*](https://unsongbook.com/) by Scott Alexander: Imagine the world is populated mostly by computer programmers, mystic Jewish scholars, and celestial beings. Oh and magic is real. And Richard Nixon. This book is hard to describe, but it has a completely unique universe and a fun story that ties together nicely.
 
  - Haruki Murakami books:
    - [*Norwegian Wood*](https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)) (1987)
