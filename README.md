@@ -77,6 +77,10 @@ This is a list of books that at least one member of the a16z infra team read and
   - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
   - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
 
+- Vernor Vinge's first two novels of the Zones of Thought Series, both Hugo award winners.
+  - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
+  - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
+
 - [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
   - *The Three Body Problem* (2008)
   - *The Dark Forest* (2008)
