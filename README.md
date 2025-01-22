@@ -16,6 +16,7 @@ This is a list of books that at least one member of the a16z infra team read and
     - [Pretty good books](#pretty-good-books-1)
     - [Other](#other)
   - [Comic books!](#comic-books)
+  - [Non-fiction](#non-fiction)
 
 ## Sci-fi
 
@@ -206,3 +207,9 @@ This is a list of books that at least one member of the a16z infra team read and
 - [*Ghost in the Shell*](https://en.wikipedia.org/wiki/Ghost_in_the_Shell) (1989-1991)
 - [*Akira*](https://en.wikipedia.org/wiki/Akira_(manga)) (1982)
 - [*Nausicaä of the Valley of the Wind*](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind) (1984)
+
+## Non-fiction
+
+- *The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI* by Fei-Fei Li
+- *Ask Iwata: Words of Wisdom from Satoru Iwata, Nintendo's Legendary CEO* by Satoru Iwata (Author), Hobonichi (Editor), Sam Bett (Translator)
+
