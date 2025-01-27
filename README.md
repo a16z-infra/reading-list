@@ -1,8 +1,8 @@
 # a16z Infra Reading List
 
-![image](https://github.com/user-attachments/assets/f0e6bc00-0cda-4460-9620-163da423448f)
+![image](header.png)
 
-This is a list of books that at least one member of the a16z infra team read and loved. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers.
+This is a list of books and authors that at least one member of the a16z infra team read and loved. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers!
 
 ## Table of Contents
 
@@ -12,10 +12,7 @@ This is a list of books that at least one member of the a16z infra team read and
     - [Historical artifacts (that are also good books)](#historical-artifacts-that-are-also-good-books)
     - [Pretty good books](#pretty-good-books)
   - [Fantasy](#fantasy)
-    - [Very good books](#very-good-books-1)
-    - [Pretty good books](#pretty-good-books-1)
-    - [Other](#other)
-  - [Comic books!](#comic-books)
+  - [Comic books](#comic-books)
   - [Non-fiction](#non-fiction)
 
 ## Sci-fi
@@ -30,7 +27,15 @@ This is a list of books that at least one member of the a16z infra team read and
   - *Heretics of Dune* (1982)
   - *Chapterhouse: Dune* (1985)
 
-- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks: Sci-fi nerds love this series, but it's criminally unknown among casual readers. Every book is an absolute masterpiece of relationships, technology, and inner life in a post-scarcity future. As a bonus, if you read them, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
+- [Philip K Dick](https://en.wikipedia.org/wiki/Philip_K._Dick): Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way. His stories have also been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. This is a very short list of some of his best works.
+  - [*The Minority Report*](https://en.wikipedia.org/wiki/The_Minority_Report) (1956)
+  - [*The Man in the High Castle*](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle) (1962)
+  - [*The Three Stigmata of Palmer Eldritch*](https://en.wikipedia.org/wiki/The_Three_Stigmata_of_Palmer_Eldritch) (1965)
+  - [*We Can Remember It For You Wholesale*](https://en.wikipedia.org/wiki/We_Can_Remember_It_for_You_Wholesale) (1966)
+  - [*Do Androids Dream of Electric Sheep?*](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F) (1968)
+  - [*Ubik*](https://en.wikipedia.org/wiki/Ubik) (1969)
+
+- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks: Sci-fi nerds love this series, but it's criminally unknown among casual readers. Every book is a masterpiece of relationships, technology, and inner life in a post-scarcity future. As a bonus, if you read them, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
   - *Consider Phlebas* (1987)
   - *The Player of Games* (1988)
   - *Use of Weapons* (1990)
@@ -42,14 +47,6 @@ This is a list of books that at least one member of the a16z infra team read and
   - *Surface Detail* (2010)
   - *The Hydrogen Sonata* (2012)
 
-- [Philip K Dick](https://en.wikipedia.org/wiki/Philip_K._Dick): Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea, and most are told in a fun and fast-paced way. His stories have also been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. This is a very short list of some of his best works.
-  - [*The Minority Report*](https://en.wikipedia.org/wiki/The_Minority_Report) (1956)
-  - [*The Man in the High Castle*](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle) (1962)
-  - [*The Three Stigmata of Palmer Eldritch*](https://en.wikipedia.org/wiki/The_Three_Stigmata_of_Palmer_Eldritch) (1965)
-  - [*We Can Remember It For You Wholesale*](https://en.wikipedia.org/wiki/We_Can_Remember_It_for_You_Wholesale) (1966)
-  - [*Do Androids Dream of Electric Sheep?*](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F) (1968)
-  - [*Ubik*](https://en.wikipedia.org/wiki/Ubik) (1969)
-
 - [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) series by Douglas Adams: An absolute classic of the Englishman-traveling-the-galaxy genre. This series is charming, funny, and absurd. And it has a real message to deliver about the meaning of life. Which turns out to be an integer (read on to find out which one!).
   - *The Hitchhiker's Guide to the Galaxy* (1979)
   - *The Restaurant at the End of the Universe* (1980)
@@ -57,13 +54,13 @@ This is a list of books that at least one member of the a16z infra team read and
   - *So Long, and Thanks for All the Fish* (1984)
   - *Mostly Harmless* (1992)
   
-- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by Orson Scott Card: [...]
+- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by Orson Scott Card: Bug-like aliens are coming for Earth at an unknown future time that's suspiciously similar to the 1980s. Only a young genius can save us. These books will make you 100% more ready to stand up to bullies, and you'llfeel good about spending your childhood playing video games.
   - *Ender's Game* (1985)
   - *Speaker for the Dead* (1986)
   - *Xenocide* (1991)
   - *Children of the Mind* (2008)
 
-- [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by William Gibson: Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including the word "cyberspace"). If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
+- [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by William Gibson: Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including ideas around VR, AI, and the word "cyberspace"). They are also just great, gritty sci-fi stories. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
   - [*Neuromancer*](https://en.wikipedia.org/wiki/Neuromancer) (1984)
   - [*Count Zero*](https://en.wikipedia.org/wiki/Count_Zero) (1986)
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
@@ -93,7 +90,7 @@ This is a list of books that at least one member of the a16z infra team read and
   - *Woken Furies* (2006)
   - *Shadows Rising* (2008)
 
-- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by James S.A. Corey: An accessible space opera set in the near future. It's a series about people more than technology, where the politics (Earth, Mars, and the Belt) feel very believable.
+- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by James S.A. Corey: An accessible space opera set in the near future. The series is about people more than the technology, and the politics (Earth vs. Mars vs. the Belt) feel very believable.
   - *Leviathan Wakes* (2011)
   - *Caliban's War* (2012)
   - *Abaddon's Gate* (2013)
@@ -159,8 +156,6 @@ This is a list of books that at least one member of the a16z infra team read and
 
 ## Fantasy
 
-### Very good books
-
   - [*The Book of the New Sun*](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun) series by Gene Wolfe
     - *The Shadow of the Torturer* (1980)
     - *The Claw of the Conciliator* (1982)
@@ -180,8 +175,6 @@ This is a list of books that at least one member of the a16z infra team read and
    - [*The Wind-Up Bird Chronicle*](https://en.wikipedia.org/wiki/The_Wind-Up_Bird_Chronicle) (1994)
    - [*1Q84*](https://en.wikipedia.org/wiki/1Q84) (2009)
 
-### Pretty good books
-
 - [*The Divine Cities*](https://en.wikipedia.org/wiki/The_Divine_Cities) series by Robert Jackson Bennett: [...]
   - *City of Stairs* (2013)
   - *City of Blades* (2014)
@@ -192,8 +185,6 @@ This is a list of books that at least one member of the a16z infra team read and
    - [*Stardust*](https://en.wikipedia.org/wiki/Stardust_(novel)) (2000)
    - [*American Gods*](https://en.wikipedia.org/wiki/American_Gods) (2001)
    - [*Anansi Boys*](https://en.wikipedia.org/wiki/Anansi_Boys) (2005)
-
-### Other
 
 - [*The Lord of the Rings*](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings) series by J.R.R. Tolkien: Popular Hugo Weaving movie.
   - *The Fellowship of the Ring* (1954)
