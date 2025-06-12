@@ -35,7 +35,7 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Do Androids Dream of Electric Sheep?*](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F) (1968)
   - [*Ubik*](https://en.wikipedia.org/wiki/Ubik) (1969)
 
-- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks: Sci-fi nerds love this series, but it's criminally unknown among casual readers. Every book is a masterpiece of relationships, technology, and inner life in a post-scarcity future. As a bonus, if you read them, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
+- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks: Sci-fi nerds love this series, but it's criminally unknown among casual readers. Every book is a masterpiece of relationships, technology, and inner life in a post-scarcity future (i.e. a time when humans have such abundance of resources that no one needs to contribute anything back). As a bonus, if you read them, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
   - *Consider Phlebas* (1987)
   - *The Player of Games* (1988)
   - *Use of Weapons* (1990)
@@ -47,20 +47,20 @@ This is a list of books and authors that at least one member of the a16z infra t
   - *Surface Detail* (2010)
   - *The Hydrogen Sonata* (2012)
 
-- [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) series by Douglas Adams: An absolute classic of the Englishman-traveling-the-galaxy genre. This series is charming, funny, and absurd. And it has a real message to deliver about the meaning of life. Which turns out to be an integer (read on to find out which one!).
+- [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) series by Douglas Adams: An absolute classic of the Englishman-traveling-the-galaxy genre. This series is charming, funny, and absurd. And it has a real message to deliver about the meaning of life.. which turns out to be an integer (read on to find out which one!).
   - *The Hitchhiker's Guide to the Galaxy* (1979)
   - *The Restaurant at the End of the Universe* (1980)
   - *Life, the Universe and Everything* (1982)
   - *So Long, and Thanks for All the Fish* (1984)
   - *Mostly Harmless* (1992)
   
-- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by Orson Scott Card: Bug-like aliens are coming for Earth at an unknown future time that's suspiciously similar to the 1980s. Only a young genius can save us. These books will make you 100% more ready to stand up to bullies, and you'llfeel good about spending your childhood playing video games.
+- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by Orson Scott Card: Bug-like aliens are coming for Earth, in an unknown future time that's suspiciously similar to the 1980s. Only a young genius can save us. These books will make you 100% more ready to stand up to bullies, and you'll feel better about spending your childhood playing video games.
   - *Ender's Game* (1985)
   - *Speaker for the Dead* (1986)
   - *Xenocide* (1991)
   - *Children of the Mind* (2008)
 
-- [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by William Gibson: Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including ideas around VR, AI, and the word "cyberspace"). They are also just great, gritty sci-fi stories. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
+- [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by William Gibson: Gibson is the father of cyberpunk. He was one of the first people to develop the idea of "cyberspace" or the "matrix", which was kind of a mix of VR and the internet. These books are also just great, gritty sci-fi stories, written at a time when computing was new and it looked like Japan would take over the world economy. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
   - [*Neuromancer*](https://en.wikipedia.org/wiki/Neuromancer) (1984)
   - [*Count Zero*](https://en.wikipedia.org/wiki/Count_Zero) (1986)
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
@@ -68,29 +68,29 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ### Very good books
 
-- Neal Stephenson: [...]
+- Neal Stephenson: A favorite of hackers and nerds, Stephenson's books are famously well-researched, detailed, and long. They cover everything from the metaverse to cryptography to orbital mechanics. He's also famous for not writing endings, but the journey is so worth it that you probably won't even mind.
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
   - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
   - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
   - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
 
-- Vernor Vinge's first two novels of the Zones of Thought Series, both Hugo award winners.
+- *Zones of Thought* series by Vernor Vinge: Vinge is the guy who came up with the 'technological singularity' concept. His *Zones of Thought* series explores a galaxy where the laws of physics change as you get closer to the core, limiting intelligence and FTL travel. The result is a genuinely original space opera with some of the most creative alien species you'll ever read about.
   - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
   - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
 
-- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
+- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: The series that made Chinese sci-fi a global phenomenon. It starts with a secret military project trying to contact aliens and escalates into a centuries-long, mind-bending story of survival. It's famous for the 'dark forest' theory of the universe—one of the most terrifying and plausible solutions to the Fermi paradox.
   - *The Three Body Problem* (2008)
   - *The Dark Forest* (2008)
   - *The Wandering Earth* (2010)
 
-- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: [...]
+- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: Blade Runner meets hardboiled detective fiction. Consciousness is digitized and can be downloaded into new bodies ('sleeves'), making death a minor inconvenience for the super-rich. The stories follow a cynical ex-special forces soldier solving crimes in a dark, violent, and very cool future. The first book was also adapted into a pretty good Netflix show.
   - *Altered Carbon* (2002)
   - *Broken Angels* (2004)
   - *Woken Furies* (2006)
   - *Shadows Rising* (2008)
 
-- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by James S.A. Corey: An accessible space opera set in the near future. The series is about people more than the technology, and the politics (Earth vs. Mars vs. the Belt) feel very believable.
+- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by James S.A. Corey: An accessible space opera set in the near future. It answers the question This series is more about people and politics, and less about interesting new technology.  series is about people more than the technology, and the politics (Earth vs. Mars vs. the Belt) feel very believable.
   - *Leviathan Wakes* (2011)
   - *Caliban's War* (2012)
   - *Abaddon's Gate* (2013)
