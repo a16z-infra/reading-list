@@ -68,7 +68,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ### Very good books
 
-- Neal Stephenson: [...]
+- Neal Stephenson: The thinking engineer's novelist who treats his readers like they have PhDs in everything. Stephenson writes 900-page doorstops packed with cryptography, Sumerian mythology, nanotechnology, and Unix jokes. His books don't end so much as stop when he runs out of paper. A former programmer who worked on early Mac software, he brings an engineer's obsession with technical accuracy to every page. Fair warning: you'll learn more about 17th-century currency markets than you ever wanted to know.
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
   - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
@@ -79,12 +79,12 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
   - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
 
-- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: [...]
+- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by Liu Cixin: The Chinese sci-fi trilogy that made Barack Obama and Mark Zuckerberg question humanity's place in the universe. Liu, a former power plant engineer, brings hard science to cosmic horror with concepts like the dark forest theory (spoiler: the universe is quiet because everyone's hiding). The first Asian novel to win a Hugo Award, it starts with the Cultural Revolution and ends with the heat death of the universe. Engineers will appreciate the rigorous physics, from n-body problems to dimensional weapons. Warning: may cause existential dread about answering SETI signals.
   - *The Three Body Problem* (2008)
   - *The Dark Forest* (2008)
   - *The Wandering Earth* (2010)
 
-- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: [...]
+- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by Richard K. Morgan: Cyberpunk noir where death is just a hardware problem. Morgan, a former English teacher turned full-time misanthrope, created a universe where consciousness is stored in "stacks" and bodies are just "sleeves" you wear. Think Raymond Chandler meets Ghost in the Shell with extra violence. The Netflix adaptation couldn't capture the books' gleeful nihilism about what immortality does to human morality. Perfect for engineers who've ever wanted to debug human consciousness or wondered if backing up your brain counts as version control.
   - *Altered Carbon* (2002)
   - *Broken Angels* (2004)
   - *Woken Furies* (2006)
@@ -104,18 +104,18 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ### Historical artifacts (that are also good books)
 
-- HG Wells: [...]
+- HG Wells: The Victorian futurist who invented half the plots sci-fi still uses today. A biology teacher turned prophet, Wells predicted tanks, nuclear weapons, and genetic engineering while Queen Victoria was still on the throne. Unlike his contemporary Jules Verne, Wells didn't care if his science was accurate—he just wanted to explore what technology would do to society. His socialist politics shine through every story about class warfare between Morlocks and Eloi. Reading Wells today is like finding the Git repository where science fiction was first committed.
   - [*The Time Machine*](https://en.wikipedia.org/wiki/The_Time_Machine) (1895)
   - [*The War of the Worlds*](https://en.wikipedia.org/wiki/The_War_of_the_Worlds) (1898)
   - [*The Invisible Man*](https://en.wikipedia.org/wiki/The_Invisible_Man) (1897)
   - [*The Island of Doctor Moreau*](https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau) (1896)
 
-- Isaac Asimov: [...]
+- Isaac Asimov: The biochemistry professor who wrote 500+ books and basically invented modern sci-fi's rulebook. Famous for the Three Laws of Robotics (which every AI safety researcher can recite), Asimov approached fiction like debugging code—identify the problem, work through the logic, solve it cleanly. His Foundation series introduced "psychohistory," essentially data science before computers existed. His prose is as dry as technical documentation, but his ideas spawned entire subgenres. Fun fact: he was afraid of flying and did most of his traveling by cruise ship, proving you can explore the galaxy without leaving your comfort zone.
   - [Robot series](https://en.wikipedia.org/wiki/Robot_series_(Asimov)) (1940-1950)
   - [Galactic Empire series](https://en.wikipedia.org/wiki/Galactic_Empire_(series)) (1952-1964)
   - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) (1951-1966)
 
-- Jules Verne: [...]
+- Jules Verne: The 19th-century tech blogger who turned encyclopedic research into adventure stories. While Wells philosophized, Verne calculated—his moon shot trajectories were accurate enough that NASA engineers checked them. A French lawyer who spent his days reading scientific journals and technical manuals, he basically wrote hard sci-fi before science existed to be hard about. His heroes are engineers and his plots are GitHub README files: here's the problem, here's the technical solution, here's the step-by-step implementation. Spoiler: the implementation always works.
   - [*Journey to the Center of the Earth*](https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth) (1864)
   - [*Twenty Thousand Leagues Under the Sea*](https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea) (1870)
   - [*The Mysterious Island*](https://en.wikipedia.org/wiki/The_Mysterious_Island) (1874)
@@ -123,7 +123,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ### Pretty good books
   
-- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by Pierce Brown
+- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by Pierce Brown: What happens when you refactor The Hunger Games as a space opera with Roman cosplayers. Brown, who wrote the first book on his phone while working as a NBC page, created a color-coded caste system that makes class warfare literal. Starts as YA but quickly evolves into Game of Thrones in space with razor whips. The prose runs at startup speed—all momentum and "bloodydamn" neologisms. Engineers will appreciate how the protagonist basically hacks a rigid social hierarchy using exploits the system designers never patched.
   - *Red Rising* (2014)
   - *Golden Son* (2015)
   - *Morning Star* (2016)
@@ -134,7 +134,7 @@ This is a list of books and authors that at least one member of the a16z infra t
   - *Absolution Gap* (2001)
   - *Redemption Ark* (2004)
 
-- [*Teixcalaan*](https://en.wikipedia.org/wiki/Teixcalaan) series by Arkady Martine: [...]
+- [*Teixcalaan*](https://en.wikipedia.org/wiki/Teixcalaan) series by Arkady Martine: Byzantine Empire meets distributed systems in this Hugo-winning duology. Martine, a Byzantine historian turned city planner, explores how empires process information and how language shapes thought (Sapir-Whorf hypothesis with spaceships). The first book is basically about debugging a political algorithm while the second asks what happens when you try to establish a communication protocol with aliens whose entire cognition is a hivemind. For engineers: it's dependency injection but for entire civilizations.
   - *A Memory Called Empire* (2017)
   - *A Desolation Called Peace* (2018)
 
@@ -142,12 +142,12 @@ This is a list of books and authors that at least one member of the a16z infra t
   - *Children of Time* (2015)
   - *Children of Ruin* (2017)
 
-- [*Imperial Radch*](https://en.wikipedia.org/wiki/Imperial_Radch) series by Ann Leckie: [...]
+- [*Imperial Radch*](https://en.wikipedia.org/wiki/Imperial_Radch) series by Ann Leckie: The trilogy that broke sci-fi Twitter by using "she" for everyone and making readers deal with it. Leckie, who went from selling insurance to sweeping every major SF award, tells the story of a warship AI trapped in a single human body seeking revenge. Think distributed systems failure meets identity crisis meets tea addiction. The protagonist is literally a disbanded microservices architecture trying to function as a monolith. Also features the most passive-aggressive glove etiquette in literature.
   - *Ancillary Justice* (2013)
   - *Ancillary Sword* (2014)
   - *Ancillary Mercy* (2015)
 
-- [*Hyperion Cantos*](https://en.wikipedia.org/wiki/Hyperion_Cantos) series by Dan Simmons: [...]
+- [*Hyperion Cantos*](https://en.wikipedia.org/wiki/Hyperion_Cantos) series by Dan Simmons: Canterbury Tales meets cosmic horror in this literary sci-fi tetralogy. Simmons, a former elementary teacher with a Romantic poetry obsession, created the Shrike—a chrome killing machine that moves backwards through time and decorates a tree with its victims. The first book is structured as nested stories (recursive functions for humanities majors), while the sequels dive into AI theology and whether love can debug the universe. Features more John Keats references than a freshman English course and the most terrifying time-debt system since technical interviews.
   - *Hyperion* (1989)
   - *The Fall of Hyperion* (1990)
   - *Endymion* (1996)
@@ -156,7 +156,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ## Fantasy
 
-  - [*The Book of the New Sun*](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun) series by Gene Wolfe
+  - [*The Book of the New Sun*](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun) series by Gene Wolfe: The most unreliable narrator in fiction guides you through a dying Earth where the sun is going out and technology is indistinguishable from magic. Wolfe, an engineer who designed the machine that makes Pringles, wrote puzzles disguised as fantasy novels. Nothing is what it seems—that sword might be a spaceship, that castle might be a robot, and you definitely missed something important on page 47. Reading Wolfe is like debugging code where all the variable names are lies and the comments are in Latin. Requires multiple read-throughs to compile properly.
     - *The Shadow of the Torturer* (1980)
     - *The Claw of the Conciliator* (1982)
     - *The Sword of the Lictor* (1984)
@@ -175,7 +175,7 @@ This is a list of books and authors that at least one member of the a16z infra t
    - [*The Wind-Up Bird Chronicle*](https://en.wikipedia.org/wiki/The_Wind-Up_Bird_Chronicle) (1994)
    - [*1Q84*](https://en.wikipedia.org/wiki/1Q84) (2009)
 
-- [*The Divine Cities*](https://en.wikipedia.org/wiki/The_Divine_Cities) series by Robert Jackson Bennett: [...]
+- [*The Divine Cities*](https://en.wikipedia.org/wiki/The_Divine_Cities) series by Robert Jackson Bennett: What if gods were real, but we killed them, and now their legacy code is breaking reality? Bennett explores post-colonial fantasy through the lens of infrastructure engineering—when your oppressors' deities maintained your plumbing, their death creates both freedom and sewage problems. Each book follows a different protagonist dealing with divine technical debt: a spy investigating miraculous glitches, a general fixing a city that exists in multiple dimensions, and an operator trying to prevent a godly resurrection/system restore. For engineers who've inherited an undocumented codebase that might be sentient.
   - *City of Stairs* (2013)
   - *City of Blades* (2014)
   - *City of Miracles* (2017)
