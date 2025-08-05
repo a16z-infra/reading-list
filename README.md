@@ -19,15 +19,15 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ### Must reads
 
-- [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert): The series that brought epic sci-fi to the mainstream. If you haven't heard of this, you're reading the wrong list. The last three books get a little weird (in a good way!).
-  - *Dune* (1965)
-  - *Dune Messiah* (1969)
-  - *Children of Dune* (1976)
-  - *God Emperor of Dune* (1981)
-  - *Heretics of Dune* (1982)
-  - *Chapterhouse: Dune* (1985)
+- [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert): Arrakis. Sand worms. The spice. Paul Muad'Dib. Baron Harkonnen. The Bene Gesserit. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
+  - [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) (1965)
+  - [*Dune Messiah*](https://en.wikipedia.org/wiki/Dune_Messiah) (1969)
+  - [*Children of Dune*](https://en.wikipedia.org/wiki/Children_of_Dune) (1976)
+  - [*God Emperor of Dune*](https://en.wikipedia.org/wiki/God_Emperor_of_Dune) (1981)
+  - [*Heretics of Dune*](https://en.wikipedia.org/wiki/Heretics_of_Dune) (1982)
+  - [*Chapterhouse: Dune*](https://en.wikipedia.org/wiki/Chapterhouse:_Dune) (1985)
 
-- [Philip K Dick](https://en.wikipedia.org/wiki/Philip_K._Dick): Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way. His stories have also been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. This is a very short list of some of his best works.
+- [Philip K Dick](https://en.wikipedia.org/wiki/Philip_K._Dick): Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way. His stories have been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. This is a very short list of some of his best works.
   - [*The Minority Report*](https://en.wikipedia.org/wiki/The_Minority_Report) (1956)
   - [*The Man in the High Castle*](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle) (1962)
   - [*The Three Stigmata of Palmer Eldritch*](https://en.wikipedia.org/wiki/The_Three_Stigmata_of_Palmer_Eldritch) (1965)
@@ -35,30 +35,30 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Do Androids Dream of Electric Sheep?*](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F) (1968)
   - [*Ubik*](https://en.wikipedia.org/wiki/Ubik) (1969)
 
-- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks: Sci-fi nerds love this series, but it's criminally unknown among casual readers. Every book is a masterpiece of relationships, technology, and inner life in a post-scarcity future. As a bonus, if you read them, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
-  - *Consider Phlebas* (1987)
-  - *The Player of Games* (1988)
-  - *Use of Weapons* (1990)
-  - *The State of the Art* (1989)
-  - *Excession* (1996)
-  - *Inversions* (1998)
-  - *Look to Windward* (2000)
-  - *Matter* (2008)
-  - *Surface Detail* (2010)
-  - *The Hydrogen Sonata* (2012)
+- [*Culture*](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks: Sci-fi nerds love this series, but it's criminally unknown among casual readers. The setting is a hypothetical "post-scarcity" future in which space travel is trivial, machine intelligence is highly advanced, and most physical needs / desires have been solved. The books ask the question: what happens next, once we have everything we wanted? But more importantly, the stories are just beautifully crafted, and the characters (human, alien, and machine) feel completely novel. You could almost picture each book as a (really weird) dramatic play. As a bonus, if you read this series, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
+  - [*Consider Phlebas*](https://en.wikipedia.org/wiki/Consider_Phlebas) (1987)
+  - [*The Player of Games*](https://en.wikipedia.org/wiki/The_Player_of_Games) (1988)
+  - [*Use of Weapons*](https://en.wikipedia.org/wiki/Use_of_Weapons) (1990)
+  - [*The State of the Art*](https://en.wikipedia.org/wiki/The_State_of_the_Art) (1989)
+  - [*Excession*](https://en.wikipedia.org/wiki/Excession) (1996)
+  - [*Inversions*](https://en.wikipedia.org/wiki/Inversions_(novel)) (1998)
+  - [*Look to Windward*](https://en.wikipedia.org/wiki/Look_to_Windward) (2000)
+  - [*Matter*](https://en.wikipedia.org/wiki/Matter_(novel)) (2008)
+  - [*Surface Detail*](https://en.wikipedia.org/wiki/Surface_Detail) (2010)
+  - [*The Hydrogen Sonata*](https://en.wikipedia.org/wiki/The_Hydrogen_Sonata) (2012)
 
 - [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) series by Douglas Adams: An absolute classic of the Englishman-traveling-the-galaxy genre. This series is charming, funny, and absurd. And it has a real message to deliver about the meaning of life. Which turns out to be an integer (read on to find out which one!).
-  - *The Hitchhiker's Guide to the Galaxy* (1979)
-  - *The Restaurant at the End of the Universe* (1980)
-  - *Life, the Universe and Everything* (1982)
-  - *So Long, and Thanks for All the Fish* (1984)
-  - *Mostly Harmless* (1992)
+  - [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)) (1979)
+  - [*The Restaurant at the End of the Universe*](https://en.wikipedia.org/wiki/The_Restaurant_at_the_End_of_the_Universe) (1980)
+  - [*Life, the Universe and Everything*](https://en.wikipedia.org/wiki/Life,_the_Universe_and_Everything) (1982)
+  - [*So Long, and Thanks for All the Fish*](https://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish) (1984)
+  - [*Mostly Harmless*](https://en.wikipedia.org/wiki/Mostly_Harmless) (1992)
   
-- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by Orson Scott Card: Bug-like aliens are coming for Earth at an unknown future time that's suspiciously similar to the 1980s. Only a young genius can save us. These books will make you 100% more ready to stand up to bullies, and you'llfeel good about spending your childhood playing video games.
-  - *Ender's Game* (1985)
-  - *Speaker for the Dead* (1986)
-  - *Xenocide* (1991)
-  - *Children of the Mind* (2008)
+- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by Orson Scott Card: Bug-like aliens are coming for Earth at an unknown future time that's suspiciously similar to the 1980s. Only a young genius can save us. These books will make you 100% more ready to stand up to bullies, and you'll feel much better about spending your childhood playing video games.
+  - [*Ender's Game*](https://en.wikipedia.org/wiki/Ender%27s_Game) (1985)
+  - [*Speaker for the Dead*](https://en.wikipedia.org/wiki/Speaker_for_the_Dead) (1986)
+  - [*Xenocide*](https://en.wikipedia.org/wiki/Xenocide) (1991)
+  - [*Children of the Mind*](https://en.wikipedia.org/wiki/Children_of_the_Mind) (1996)
 
 - [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by William Gibson: Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including ideas around VR, AI, and the word "cyberspace"). They are also just great, gritty sci-fi stories. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
   - [*Neuromancer*](https://en.wikipedia.org/wiki/Neuromancer) (1984)
@@ -80,25 +80,26 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
 
 - [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by [Liu Cixin](https://en.wikipedia.org/wiki/Liu_Cixin): The series that made Western readers realize Chinese sci-fi is terrifyingly good. Liu Cixin solves the Fermi Paradox with game theory, turns astrophysics into a horror story, and makes you grateful that SETI hasn't found anything yet. Obama loved it, Zuckerberg loved it, and you'll love it too—right up until you start looking at the night sky differently.
-  - *The Three Body Problem* (2008)
-  - *The Dark Forest* (2008)
-  - *The Wandering Earth* (2010)
+  - [*The Three-Body Problem*](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)) (2008)
+  - [*The Dark Forest*](https://en.wikipedia.org/wiki/The_Dark_Forest) (2008)
+  - [*Death's End*](https://en.wikipedia.org/wiki/Death%27s_End) (2010)
 
 - [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by [Richard K. Morgan](https://en.wikipedia.org/wiki/Richard_K._Morgan): What if you could back up your consciousness like a git repository and push it to any body? Morgan explores this with the subtlety of a sledgehammer and the philosophy of a cyberpunk noir detective. These books ask what "death" means when you can just restore from backup, and whether violence matters when bodies are just hardware. Netflix tried to capture it, but the books are darker, smarter, and much more fun.
-  - *Altered Carbon* (2002)
-  - *Broken Angels* (2004)
-  - *Woken Furies* (2006)
-  - *Shadows Rising* (2008)
+  - [*Altered Carbon*](https://en.wikipedia.org/wiki/Altered_Carbon) (2002)
+  - [*Broken Angels*](https://en.wikipedia.org/wiki/Broken_Angels_(novel)) (2003)
+  - [*Woken Furies*](https://en.wikipedia.org/wiki/Woken_Furies) (2005)
+  - [*Shadows Rising*](https://en.wikipedia.org/wiki/Shadows_Rising) (2008)
 
 - [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by [James S.A. Corey](https://en.wikipedia.org/wiki/James_S._A._Corey): The most scientifically accurate space opera ever written, where Newton's laws are plot devices and orbital mechanics drive the action. "James S.A. Corey" is actually two guys (a former George R.R. Martin assistant and a sci-fi writer) who decided to make space feel dangerous again. No faster-than-light travel, no artificial gravity—just humans being terrible to each other across the solar system while physics watches, unimpressed.
-  - *Leviathan Wakes* (2011)
-  - *Caliban's War* (2012)
-  - *Abaddon's Gate* (2013)
-  - *Cibola Burn* (2014)
-  - *Nemesis Games* (2015)
-  - *Babylon's Ashes* (2016)
-  - *Persepolis Rising* (2017)
-  - *Tiamat's Wrath* (2018)
+  - [*Leviathan Wakes*](https://en.wikipedia.org/wiki/Leviathan_Wakes) (2011)
+  - [*Caliban's War*](https://en.wikipedia.org/wiki/Caliban%27s_War) (2012)
+  - [*Abaddon's Gate*](https://en.wikipedia.org/wiki/Abaddon%27s_Gate) (2013)
+  - [*Cibola Burn*](https://en.wikipedia.org/wiki/Cibola_Burn) (2014)
+  - [*Nemesis Games*](https://en.wikipedia.org/wiki/Nemesis_Games) (2015)
+  - [*Babylon's Ashes*](https://en.wikipedia.org/wiki/Babylon%27s_Ashes) (2016)
+  - [*Persepolis Rising*](https://en.wikipedia.org/wiki/Persepolis_Rising) (2017)
+  - [*Tiamat's Wrath*](https://en.wikipedia.org/wiki/Tiamat%27s_Wrath) (2019)
+  - [*Leviathan Falls*](https://en.wikipedia.org/wiki/Leviathan_Falls) (2021)
 
 
 
@@ -124,48 +125,52 @@ This is a list of books and authors that at least one member of the a16z infra t
 ### Pretty good books
   
 - [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by [Pierce Brown](https://en.wikipedia.org/wiki/Pierce_Brown): Hunger Games meets Roman Empire meets class warfare in space, written by someone who clearly spent too much time playing strategy games. Brown took every epic battle scene you've ever loved and asked "but what if everyone quoted Marcus Aurelius while stabbing each other?" The series starts as YA dystopia and evolves into military sci-fi that makes Game of Thrones look like a company picnic. Fair warning: you will have strong opinions about color-coding society after this.
-  - *Red Rising* (2014)
-  - *Golden Son* (2015)
-  - *Morning Star* (2016)
-  - *Iron Gold* (2018)
+  - [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) (2014)
+  - [*Golden Son*](https://en.wikipedia.org/wiki/Golden_Son) (2015)
+  - [*Morning Star*](https://en.wikipedia.org/wiki/Morning_Star_(Pierce_Brown_novel)) (2016)
+  - [*Iron Gold*](https://en.wikipedia.org/wiki/Iron_Gold) (2018)
+  - [*Dark Age*](https://en.wikipedia.org/wiki/Dark_Age_(Pierce_Brown_novel)) (2019)
+  - [*Light Bringer*](https://en.wikipedia.org/wiki/Light_Bringer) (2023)
 
 - [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space) series by [Alastair Reynolds](https://en.wikipedia.org/wiki/Alastair_Reynolds): Written by an actual astrophysicist who worked for the European Space Agency, these books treat the speed of light like the hard limit it is. Reynolds creates a universe where relativistic travel means civilizations rise and fall between your departure and arrival, and ancient alien killing machines enforce a cosmic "no fun allowed" policy. Gothic space opera with the physics left in—like if H.P. Lovecraft had a PhD and really understood special relativity.
-  - *Revelation Space* (2000)
-  - *Absolution Gap* (2001)
-  - *Redemption Ark* (2004)
+  - [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space) (2000)
+  - [*Chasm City*](https://en.wikipedia.org/wiki/Chasm_City) (2001)
+  - [*Redemption Ark*](https://en.wikipedia.org/wiki/Redemption_Ark) (2002)
+  - [*Absolution Gap*](https://en.wikipedia.org/wiki/Absolution_Gap) (2003)
 
 - [*Teixcalaan*](https://en.wikipedia.org/wiki/Teixcalaan) series by [Arkady Martine](https://en.wikipedia.org/wiki/Arkady_Martine): A Byzantine historian writes space opera and it's exactly as intricate and politically complex as you'd expect. Martine gives us an empire that runs on poetry, algorithms that might be people, and the best examination of how language shapes thought since... well, since actual linguists started writing sci-fi. These books make you feel smarter just by osmosis. Also features the most realistic depiction of email anxiety in the far future.
-  - *A Memory Called Empire* (2017)
-  - *A Desolation Called Peace* (2018)
+  - [*A Memory Called Empire*](https://en.wikipedia.org/wiki/A_Memory_Called_Empire) (2019)
+  - [*A Desolation Called Peace*](https://en.wikipedia.org/wiki/A_Desolation_Called_Peace) (2021)
 
 - [*Children of Time*](https://en.wikipedia.org/wiki/Children_of_Time) series by [Adrian Tchaikovsky](https://en.wikipedia.org/wiki/Adrian_Tchaikovsky): What happens when your terraforming upload accidentally creates a spider civilization instead of monkeys? Tchaikovsky answers with hard science, evolutionary biology, and arachnids that will make you reconsider your debugging terminology. This series does for spiders what Charlotte's Web did, except with more distributed computing metaphors and existential dread about what constitutes consciousness. You'll never kill a spider again. You might even respect their architecture patterns.
-  - *Children of Time* (2015)
-  - *Children of Ruin* (2017)
+  - [*Children of Time*](https://en.wikipedia.org/wiki/Children_of_Time_(novel)) (2015)
+  - [*Children of Ruin*](https://en.wikipedia.org/wiki/Children_of_Ruin) (2019)
+  - [*Children of Memory*](https://en.wikipedia.org/wiki/Children_of_Memory) (2022)
 
 - [*Imperial Radch*](https://en.wikipedia.org/wiki/Imperial_Radch) series by [Ann Leckie](https://en.wikipedia.org/wiki/Ann_Leckie): The series that broke sci-fi's gender binary by making everyone "she" and letting readers' biases debug themselves. Leckie explores AI consciousness through the eyes of a spaceship forced into a single human body—like containerization gone horribly wrong. Won basically every award because it turns out writing about identity, imperialism, and tea ceremonies in space is exactly what we needed. Features the best unreliable narrator since HAL 9000, except this one actually has feelings about it.
-  - *Ancillary Justice* (2013)
-  - *Ancillary Sword* (2014)
-  - *Ancillary Mercy* (2015)
+  - [*Ancillary Justice*](https://en.wikipedia.org/wiki/Ancillary_Justice) (2013)
+  - [*Ancillary Sword*](https://en.wikipedia.org/wiki/Ancillary_Sword) (2014)
+  - [*Ancillary Mercy*](https://en.wikipedia.org/wiki/Ancillary_Mercy) (2015)
 
-- [*Hyperion Cantos*](https://en.wikipedia.org/wiki/Hyperion_Cantos) series by [Dan Simmons](https://en.wikipedia.org/wiki/Dan_Simmons): Canterbury Tales in space, where each story could be its own novel and probably should have been. Simmons throws in killer robots, time-traveling tombs, a tree-ship full of Templars, and an AI TechnoCore that makes you really appreciate air-gapped systems. The first book is a masterpiece of structure, the second explains everything (maybe too much), and the last two... exist. Features poetry that's actually plot-relevant and the most terrifying babysitter in all of literature.
-  - *Hyperion* (1989)
-  - *The Fall of Hyperion* (1990)
-  - *Endymion* (1996)
-  - *The Rise of Endymion* (1998)
+- [*Hyperion Cantos*](https://en.wikipedia.org/wiki/Hyperion_Cantos) series by [Dan Simmons](https://en.wikipedia.org/wiki/Dan_Simmons): Canterbury Tales in space, where each story could be its own novel and probably should have been. Simmons throws in killer robots, time-traveling tombs, a tree-ship full of Templars, and an AI TechnoCore that makes you really appreciate air-gapped systems. The first book is a masterpiece of structure, the second explains everything (maybe too much), and the last two... exist. Features poetry that's actually plot-relevant and the best divine tech support ticket system you'll ever read about.
+  - [*Hyperion*](https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)) (1989)
+  - [*The Fall of Hyperion*](https://en.wikipedia.org/wiki/The_Fall_of_Hyperion_(novel)) (1990)
+  - [*Endymion*](https://en.wikipedia.org/wiki/Endymion_(Simmons_novel)) (1996)
+  - [*The Rise of Endymion*](https://en.wikipedia.org/wiki/The_Rise_of_Endymion) (1997)
 
 
 ## Fantasy
 
   - [*The Book of the New Sun*](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun) series by [Gene Wolfe](https://en.wikipedia.org/wiki/Gene_Wolfe): The mechanical engineer who wrote fantasy so dense it requires multiple parsings, like badly documented legacy code that turns out to be genius. Wolfe created a dying Earth where the sun is going out, technology is indistinguishable from magic, and the narrator lies to you constantly—but consistently, so you can reverse-engineer the truth. This series is a puzzle box wrapped in gorgeous prose, where every re-read reveals new layers of meaning. Warning: you will join online forums to argue about what actually happened.
-    - *The Shadow of the Torturer* (1980)
-    - *The Claw of the Conciliator* (1982)
-    - *The Sword of the Lictor* (1984)
-    - *The Citadel of the Autarch* (1985)
+    - [*The Shadow of the Torturer*](https://en.wikipedia.org/wiki/The_Shadow_of_the_Torturer) (1980)
+    - [*The Claw of the Conciliator*](https://en.wikipedia.org/wiki/The_Claw_of_the_Conciliator) (1981)
+    - [*The Sword of the Lictor*](https://en.wikipedia.org/wiki/The_Sword_of_the_Lictor) (1982)
+    - [*The Citadel of the Autarch*](https://en.wikipedia.org/wiki/The_Citadel_of_the_Autarch) (1983)
 
   - [*The Baroque Cycle*](https://en.wikipedia.org/wiki/The_Baroque_Cycle) by [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): This is a sweeping, detailed, fantastic, and funny account of the life and times of Isaac Newton. It's like being transported to 17th century England and being at the heart of scientific discovery. If you're not a fan of Stephenson's sci-fi books, give him another chance with this series - it has endings!
-    - *Quicksilver* (2003)
-    - *The Confusion* (2004)
-    - *The System of the World* (2004)
+    - [*Quicksilver*](https://en.wikipedia.org/wiki/Quicksilver_(novel)) (2003)
+    - [*The Confusion*](https://en.wikipedia.org/wiki/The_Confusion) (2004)
+    - [*The System of the World*](https://en.wikipedia.org/wiki/The_System_of_the_World_(novel)) (2004)
 
 - [*UNSONG*](https://unsongbook.com/) by [Scott Alexander](https://en.wikipedia.org/wiki/Scott_Alexander_(writer)): Imagine the world is populated mostly by computer programmers, mystic Jewish scholars, and celestial beings. Oh and magic is real. And Richard Nixon. This book is hard to describe, but it has a completely unique universe and a fun story that ties together nicely.
 
@@ -176,9 +181,9 @@ This is a list of books and authors that at least one member of the a16z infra t
    - [*1Q84*](https://en.wikipedia.org/wiki/1Q84) (2009)
 
 - [*The Divine Cities*](https://en.wikipedia.org/wiki/The_Divine_Cities) series by [Robert Jackson Bennett](https://en.wikipedia.org/wiki/Robert_Jackson_Bennett): Gods are dead, but their miracles are still running in production causing legacy issues. Bennett creates a world where deities operated like infrastructure—when you kill them, all their divine services crash. It's urban fantasy for people who understand technical debt, with a protagonist who solves mysteries using something between archaeology and systems debugging. Also features the best divine tech support ticket system you'll ever read about.
-  - *City of Stairs* (2013)
-  - *City of Blades* (2014)
-  - *City of Miracles* (2017)
+  - [*City of Stairs*](https://en.wikipedia.org/wiki/City_of_Stairs) (2014)
+  - [*City of Blades*](https://en.wikipedia.org/wiki/City_of_Blades) (2016)
+  - [*City of Miracles*](https://en.wikipedia.org/wiki/City_of_Miracles) (2017)
 
 - [Neil Gaiman](https://en.wikipedia.org/wiki/Neil_Gaiman) books: Unfortunately Gaiman is a violent misogynist, it turns out. And his books tend to recycle similar themes. But some are still very good and worth reading, if you can separate the art from the artist.
    - [*Good Omens*](https://en.wikipedia.org/wiki/Good_Omens) (1990)
@@ -187,9 +192,9 @@ This is a list of books and authors that at least one member of the a16z infra t
    - [*Anansi Boys*](https://en.wikipedia.org/wiki/Anansi_Boys) (2005)
 
 - [*The Lord of the Rings*](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings) series by [J.R.R. Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien): Popular Hugo Weaving movie.
-  - *The Fellowship of the Ring* (1954)
-  - *The Two Towers* (1954)
-  - *The Return of the King* (1955)
+  - [*The Fellowship of the Ring*](https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring) (1954)
+  - [*The Two Towers*](https://en.wikipedia.org/wiki/The_Two_Towers) (1954)
+  - [*The Return of the King*](https://en.wikipedia.org/wiki/The_Return_of_the_King) (1955)
 
 
 ## Comic books!
@@ -201,6 +206,6 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ## Non-fiction
 
-- *The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI* by [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li): The ImageNet creator's memoir reads like a startup founder's journey, except the product is modern AI and the debugging involves teaching computers to see cats. Li shows how computer vision went from "maybe computers can identify edges?" to "oh no, they're generating deepfakes." Part immigrant story, part research memoir, part warning about what happens when you successfully teach silicon to perceive reality. Essential reading for understanding why your image classifier thinks that chihuahua is a muffin.
-- *Ask Iwata: Words of Wisdom from Satoru Iwata, Nintendo's Legendary CEO* by [Satoru Iwata](https://en.wikipedia.org/wiki/Satoru_Iwata): The programmer-turned-CEO who personally optimized Pokémon Gold/Silver to fit two regions on one cartridge. This collection captures Iwata's philosophy of making games that are fun for everyone, not just the hardcore. He approached business problems like debugging code: understand the system, find the bottleneck, optimize with elegance. If you've ever said "please understand" unironically, this book explains why. Also contains the best management advice from someone who actually shipped products people loved.
+- [*The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI*](https://en.wikipedia.org/wiki/The_Worlds_I_See) by [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li): The ImageNet creator's memoir reads like a startup founder's journey, except the product is modern AI and the debugging involves teaching computers to see cats. Li shows how computer vision went from "maybe computers can identify edges?" to "oh no, they're generating deepfakes." Part immigrant story, part research memoir, part warning about what happens when you successfully teach silicon to perceive reality. Essential reading for understanding why your image classifier thinks that chihuahua is a muffin.
+- [*Ask Iwata: Words of Wisdom from Satoru Iwata, Nintendo's Legendary CEO*](https://en.wikipedia.org/wiki/Ask_Iwata) by [Satoru Iwata](https://en.wikipedia.org/wiki/Satoru_Iwata): The programmer-turned-CEO who personally optimized Pokémon Gold/Silver to fit two regions on one cartridge. This collection captures Iwata's philosophy of making games that are fun for everyone, not just the hardcore. He approached business problems like debugging code: understand the system, find the bottleneck, optimize with elegance. If you've ever said "please understand" unironically, this book explains why. Also contains the best management advice from someone who actually shipped products people loved.
 
