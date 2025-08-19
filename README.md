@@ -17,7 +17,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ## Sci-fi
 
-### Must reads
+### Must reads (S tier)
 
 - [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert): Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
   - [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) (1965)
@@ -66,7 +66,7 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
 
 
-### Very good books
+### Very good books (A tier)
 
 - [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): A former programmer who writes 900-page novels that somehow feel too short. Stephenson doesn't just write sci-fi, he writes operating manuals for the future. His books predicted cryptocurrency, the metaverse, and distributed computing before most of us knew what TCP/IP stood for. Warning: his endings are notoriously abrupt, like a segfault in the middle of your favorite function.
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
@@ -122,7 +122,7 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*The Mysterious Island*](https://en.wikipedia.org/wiki/The_Mysterious_Island) (1874)
 
 
-### Pretty good books
+### Pretty good books (B tier)
   
 - [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by [Pierce Brown](https://en.wikipedia.org/wiki/Pierce_Brown): Hunger Games meets Roman Empire meets class warfare in space, written by someone who clearly spent too much time playing strategy games. Brown took every epic battle scene you've ever loved and asked "but what if everyone quoted Marcus Aurelius while stabbing each other?" The series starts as YA dystopia and evolves into military sci-fi that makes Game of Thrones look like a company picnic. Fair warning: you will have strong opinions about color-coding society after this.
   - [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) (2014)
