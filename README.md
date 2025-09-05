@@ -122,17 +122,17 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*The Mysterious Island*](https://en.wikipedia.org/wiki/The_Mysterious_Island) (1874)
 
 
-### Pretty good books (B tier)
+### Also worth reading (B tier)
   
-- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by [Pierce Brown](https://en.wikipedia.org/wiki/Pierce_Brown): Hunger Games meets Roman Empire meets class warfare in space, written by someone who clearly spent too much time playing strategy games. Brown took every epic battle scene you've ever loved and asked "but what if everyone quoted Marcus Aurelius while stabbing each other?" The series starts as YA dystopia and evolves into military sci-fi that makes Game of Thrones look like a company picnic. Fair warning: you will have strong opinions about color-coding society after this.
+- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by [Pierce Brown](https://en.wikipedia.org/wiki/Pierce_Brown): This series is a fast read and a ton of fun. One of our partners called it "pure pulp" (in a good way). Think *Gladiator* meets *Hunger Games* in space: this is a violent story about a mistreated, lowly "red" who rises up through the academy ranks to defeat his enemies and lead his arrogant upper-class peers. Brown's basic theory on battle sequences is "what if everyone quoted Marcus Aurelius while stabbing each other?" School battles eventually become real battles for control of the solar system. Romance, murder, betrayal, and general drama ensue. Believe it or not, it's kind of a young adult book too.
   - [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) (2014)
   - [*Golden Son*](https://en.wikipedia.org/wiki/Golden_Son) (2015)
-  - [*Morning Star*](https://en.wikipedia.org/wiki/Morning_Star_(Pierce_Brown_novel)) (2016)
+  - [*Morning Star*](https://en.wikipedia.org/wiki/Morning_Star_(Brown_novel))) (2016)
   - [*Iron Gold*](https://en.wikipedia.org/wiki/Iron_Gold) (2018)
   - [*Dark Age*](https://en.wikipedia.org/wiki/Dark_Age_(Pierce_Brown_novel)) (2019)
   - [*Light Bringer*](https://en.wikipedia.org/wiki/Light_Bringer) (2023)
 
-- [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space_series) series by [Alastair Reynolds](https://en.wikipedia.org/wiki/Alastair_Reynolds): These books read like a cousin of *The Three Body Problem*: grand space opera, with plausible treatment of near-lightspeed travel, and where humanity has to fight for survival in a hostile universe. Reynolds has a PhD in astrophysics, and you can see this influence in the cool technology he imagines (e.g. "cryoarithmetic engines" that cool spacecraft via endothermic computation). And the world building is very strong. On the flip side, the characters feel a little flat and can get bogged down in hyper-rational explanations. But the slow-burning plots get more engaging the more you read.
+- [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space_series) series by [Alastair Reynolds](https://en.wikipedia.org/wiki/Alastair_Reynolds): These books read like a cousin of *The Three Body Problem*: grand space opera, with plausible treatment of near-lightspeed travel, and where humanity has to fight for survival in a hostile universe. Reynolds has a PhD in astrophysics, and you can see this influence in the cool technology he imagines (e.g. "cryoarithmetic engines" that cool spacecraft via endothermic computation). And the world building is very strong. On the flip side, the characters feel a little flat, and Reynolds can get bogged down in hyper-rational explanations of what's going on. But the slow-burning plots get more engaging the more you read.
   - *The Inhibitor Sequence*:
     - [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space) (2000)
     - [*Redemption Ark*](https://en.wikipedia.org/wiki/Redemption_Ark) (2002)
