@@ -60,7 +60,7 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Xenocide*](https://en.wikipedia.org/wiki/Xenocide) (1991)
   - [*Children of the Mind*](https://en.wikipedia.org/wiki/Children_of_the_Mind) (1996)
 
-- [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by [William Gibson](https://en.wikipedia.org/wiki/William_Gibson): Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including ideas around VR, AI, and the word "cyberspace"). You can palpably feel Gibson's influence on later works like *The Matrix*, *Cyberpunk 2044*, and many many others. These books are also just great, gritty sci-fi stories. Gibson has a talent for making you care about characters who are often rough, self-centered, and vaguely unethical. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
+- [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by [William Gibson](https://en.wikipedia.org/wiki/William_Gibson): Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including ideas around VR, AI, and the word "cyberspace"). You can palpably feel Gibson's influence on later works like *The Matrix*, *Cyberpunk 2077*, and many many others. Reading one of these books is kind of like visiting a dystopian, high-tech, 1980s-style, Japanese-ish vision for the future. They are also just great, gritty sci-fi stories. Gibson has a talent for making you care about characters who are often rough, self-centered, and vaguely unethical. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
   - [*Neuromancer*](https://en.wikipedia.org/wiki/Neuromancer) (1984)
   - [*Count Zero*](https://en.wikipedia.org/wiki/Count_Zero) (1986)
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
@@ -68,16 +68,12 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 ### Very good books (A tier)
 
-- [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): A former programmer who writes 900-page novels that somehow feel too short. Stephenson doesn't just write sci-fi, he writes operating manuals for the future. His books predicted cryptocurrency, the metaverse, and distributed computing before most of us knew what TCP/IP stood for. Warning: his endings are notoriously abrupt, like a segfault in the middle of your favorite function.
+- [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): Stephenson is kind of a sci fi descendant of Gibson. A bunch of his book are cyberpunk-ish, and explore similar ideas around the metaverse, distributed computing, and biological augmentation. He also comes up with some truly wild ideas, like the Drummers - a cult living in a cave that collectively performs large-scale computations through hallucinogenic drugs and endless sex - or cryptocurrency. At their best, Stephenson's books are well paced, thought provoking, and funny. He develops sci fi ideas in a way that's diligent, well-researched, and satisfying. Definitely a recommended read. And he nearly makes the S tier for the "matter compilers" in *The Diamond Age*, devices that can build anything from a stream of raw molecules - possibly the most infra idea you can imagine. Fair warning: most of these books famously don't have endings (they literally stop mid-sentence during a normal plot arc).
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
   - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
   - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
   - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
-
-- [Vernor Vinge](https://en.wikipedia.org/wiki/Vernor_Vinge): The computer science professor who gave us the term "technological singularity" and then wrote novels exploring what happens next. His aliens are genuinely alien (dog-like pack minds that think in parallel!), and his universe operates on network protocols where bandwidth determines intelligence. If you've ever wondered what happens when ping times approach infinity, Vinge has answers.
-  - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
-  - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
 
 - [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by [Liu Cixin](https://en.wikipedia.org/wiki/Liu_Cixin): The series that made Western readers realize Chinese sci-fi is terrifyingly good. Liu Cixin solves the Fermi Paradox with game theory, turns astrophysics into a horror story, and makes you grateful that SETI hasn't found anything yet. Obama loved it, Zuckerberg loved it, and you'll love it too—right up until you start looking at the night sky differently.
   - [*The Three-Body Problem*](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)) (2008)
@@ -101,25 +97,9 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Tiamat's Wrath*](https://en.wikipedia.org/wiki/Tiamat%27s_Wrath) (2019)
   - [*Leviathan Falls*](https://en.wikipedia.org/wiki/Leviathan_Falls) (2021)
 
-
-
-### Historical artifacts (that are also good books)
-
-- [HG Wells](https://en.wikipedia.org/wiki/H._G._Wells): The Victorian era's most forward-thinking pessimist, who invented time travel, alien invasions, genetic engineering, and invisible men before we even had airplanes. Wells didn't just write sci-fi—he created the entire toolkit future writers would use. Fun fact: he predicted atomic bombs in 1914, tanks in 1903, and the World Wide Web (sort of) in 1938. Not bad for a guy who thought we'd all be eating synthetic food pills by now.
-  - [*The Time Machine*](https://en.wikipedia.org/wiki/The_Time_Machine) (1895)
-  - [*The War of the Worlds*](https://en.wikipedia.org/wiki/The_War_of_the_Worlds) (1898)
-  - [*The Invisible Man*](https://en.wikipedia.org/wiki/The_Invisible_Man) (1897)
-  - [*The Island of Doctor Moreau*](https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau) (1896)
-
-- [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov): The biochemistry professor who wrote 500+ books because apparently sleep is optional. Asimov gave us the Three Laws of Robotics (which every AI researcher has tried to break), psychohistory (which is just data science with a cooler name), and the idea that galactic empires run on bureaucracy. His Foundation series is basically a unit test for whether civilizations can debug themselves. Also coined the term "robotics," so we literally owe him the word.
-  - [Robot series](https://en.wikipedia.org/wiki/Robot_series_(Asimov)) (1940-1950)
-  - [Galactic Empire series](https://en.wikipedia.org/wiki/Galactic_Empire_(series)) (1952-1964)
-  - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) (1951-1966)
-
-- [Jules Verne](https://en.wikipedia.org/wiki/Jules_Verne): The 19th century French writer who was basically running speculative fiction in production mode while everyone else was still in beta. Verne researched everything obsessively—his novels are full of accurate calculations, real science, and engineering porn before that was a thing. He predicted submarines, helicopters, and space travel with such accuracy that NASA named a lunar crater after him. The man wrote about going to the moon from Florida. In 1865. Using a giant cannon. Close enough.
-  - [*Journey to the Center of the Earth*](https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth) (1864)
-  - [*Twenty Thousand Leagues Under the Sea*](https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea) (1870)
-  - [*The Mysterious Island*](https://en.wikipedia.org/wiki/The_Mysterious_Island) (1874)
+- [Vernor Vinge](https://en.wikipedia.org/wiki/Vernor_Vinge): The computer science professor who gave us the term "technological singularity" and then wrote novels exploring what happens next. His aliens are genuinely alien (dog-like pack minds that think in parallel!), and his universe operates on network protocols where bandwidth determines intelligence. If you've ever wondered what happens when ping times approach infinity, Vinge has answers.
+  - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
+  - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
 
 
 ### Also worth reading (B tier)
@@ -163,6 +143,25 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*The Fall of Hyperion*](https://en.wikipedia.org/wiki/The_Fall_of_Hyperion_(novel)) (1990)
   - [*Endymion*](https://en.wikipedia.org/wiki/Endymion_(Simmons_novel)) (1996)
   - [*The Rise of Endymion*](https://en.wikipedia.org/wiki/The_Rise_of_Endymion) (1997)
+
+
+### Historical artifacts (that are also good books)
+
+- [HG Wells](https://en.wikipedia.org/wiki/H._G._Wells): The Victorian era's most forward-thinking pessimist, who invented time travel, alien invasions, genetic engineering, and invisible men before we even had airplanes. Wells didn't just write sci-fi—he created the entire toolkit future writers would use. Fun fact: he predicted atomic bombs in 1914, tanks in 1903, and the World Wide Web (sort of) in 1938. Not bad for a guy who thought we'd all be eating synthetic food pills by now.
+  - [*The Time Machine*](https://en.wikipedia.org/wiki/The_Time_Machine) (1895)
+  - [*The War of the Worlds*](https://en.wikipedia.org/wiki/The_War_of_the_Worlds) (1898)
+  - [*The Invisible Man*](https://en.wikipedia.org/wiki/The_Invisible_Man) (1897)
+  - [*The Island of Doctor Moreau*](https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau) (1896)
+
+- [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov): The biochemistry professor who wrote 500+ books because apparently sleep is optional. Asimov gave us the Three Laws of Robotics (which every AI researcher has tried to break), psychohistory (which is just data science with a cooler name), and the idea that galactic empires run on bureaucracy. His Foundation series is basically a unit test for whether civilizations can debug themselves. Also coined the term "robotics," so we literally owe him the word.
+  - [Robot series](https://en.wikipedia.org/wiki/Robot_series_(Asimov)) (1940-1950)
+  - [Galactic Empire series](https://en.wikipedia.org/wiki/Galactic_Empire_(series)) (1952-1964)
+  - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) (1951-1966)
+
+- [Jules Verne](https://en.wikipedia.org/wiki/Jules_Verne): The 19th century French writer who was basically running speculative fiction in production mode while everyone else was still in beta. Verne researched everything obsessively—his novels are full of accurate calculations, real science, and engineering porn before that was a thing. He predicted submarines, helicopters, and space travel with such accuracy that NASA named a lunar crater after him. The man wrote about going to the moon from Florida. In 1865. Using a giant cannon. Close enough.
+  - [*Journey to the Center of the Earth*](https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth) (1864)
+  - [*Twenty Thousand Leagues Under the Sea*](https://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea) (1870)
+  - [*The Mysterious Island*](https://en.wikipedia.org/wiki/The_Mysterious_Island) (1874)
 
 
 ## Fantasy
