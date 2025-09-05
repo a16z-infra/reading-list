@@ -65,17 +65,23 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Count Zero*](https://en.wikipedia.org/wiki/Count_Zero) (1986)
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
 
+- Arthur C. Clarke?
+- Robert Heinlein?
+- Ursula K. Le Guin?
+- Kim Stanley Robinson?
+- Connie Willis?
+
 
 ### Very good books (A tier)
 
-- [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): Stephenson is kind of a sci fi descendant of Gibson. A bunch of his book are cyberpunk-ish, and explore similar ideas around the metaverse, distributed computing, and biological augmentation. He also comes up with some truly wild ideas, like the Drummers - a cult living in a cave that collectively performs large-scale computations through hallucinogenic drugs and endless sex - or cryptocurrency. At their best, Stephenson's books are well paced, thought provoking, and funny. He develops sci fi ideas in a way that's diligent, well-researched, and satisfying. Definitely a recommended read. And he nearly makes the S tier for the "matter compilers" in *The Diamond Age*, devices that can build anything from a stream of raw molecules - possibly the most infra idea you can imagine. Fair warning: most of these books famously don't have endings (they literally stop mid-sentence during a normal plot arc).
+- [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): Kind of a sci fi descendant of Gibson. Stephenson's books are often cyberpunk-ish and explore themes around the metaverse, distributed computing, and biological augmentation. He also comes up with some truly wild ideas, like the Drummers - a cult living in a cave that collectively performs large-scale computations through hallucinogenic drugs and endless sex - or cryptocurrency. At their best, Stephenson's books are diligently researched, thought provoking, and funny. He nearly makes the S tier for "matter compilers" in *The Diamond Age*, devices that can build anything from a stream of raw molecules - possibly the most infra idea imaginable. Fair warning though, most of these books don't have endings (they literally stop mid-sentence during a normal plot arc).
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
   - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
   - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
   - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
 
-- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by [Liu Cixin](https://en.wikipedia.org/wiki/Liu_Cixin): The series that made Western readers realize Chinese sci-fi is terrifyingly good. Liu Cixin solves the Fermi Paradox with game theory, turns astrophysics into a horror story, and makes you grateful that SETI hasn't found anything yet. Obama loved it, Zuckerberg loved it, and you'll love it too—right up until you start looking at the night sky differently.
+- [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by [Liu Cixin](https://en.wikipedia.org/wiki/Liu_Cixin): China is likely the biggest sci-fi market in the world, but it didn't have a landmark homegrown talent until Liu published *The Three-Body Problem*. These books open with a painful political scene from the Cultural Revolution, then sweep through realistic astrophysics, VR simulations, family/ friend drama, Fermi's paradox, and planet-scale efforts to ensure humanity's survival. Liu does just a fantastic job of blending the science, space, and human elements together into an engaging story (now also a Netflix show). Hoping this just the start of non-Western sci-fi entering the mainstream.
   - [*The Three-Body Problem*](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)) (2008)
   - [*The Dark Forest*](https://en.wikipedia.org/wiki/The_Dark_Forest) (2008)
   - [*Death's End*](https://en.wikipedia.org/wiki/Death%27s_End) (2010)
