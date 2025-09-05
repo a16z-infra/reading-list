@@ -2,7 +2,7 @@
 
 ![image](header.png)
 
-This is a list of books and authors that at least one member of the a16z infra team read and loved. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers!
+This is a list of books and authors that at least one member of the a16z infra team read and loved. Most of the books on the list are, in some way, about It's heavy on science fiction, because sci-fi is the most infra-y literary genre. People who devote their lives to designing and building new systems  We hope other infra people will like these books too. People who devote their lives to It's heavy on science fiction because.. well, because we really like sci-fi. But also because people who devote their lives to building But infra is fundamentally about building new technology It has a lot of sci-fi because.. we really like sci-fi. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers!
 
 ## Table of Contents
 
@@ -132,11 +132,17 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Dark Age*](https://en.wikipedia.org/wiki/Dark_Age_(Pierce_Brown_novel)) (2019)
   - [*Light Bringer*](https://en.wikipedia.org/wiki/Light_Bringer) (2023)
 
-- [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space) series by [Alastair Reynolds](https://en.wikipedia.org/wiki/Alastair_Reynolds): Written by an actual astrophysicist who worked for the European Space Agency, these books treat the speed of light like the hard limit it is. Reynolds creates a universe where relativistic travel means civilizations rise and fall between your departure and arrival, and ancient alien killing machines enforce a cosmic "no fun allowed" policy. Gothic space opera with the physics left in—like if H.P. Lovecraft had a PhD and really understood special relativity.
-  - [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space) (2000)
+- [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space_series) series by [Alastair Reynolds](https://en.wikipedia.org/wiki/Alastair_Reynolds): These books read like a cousin of *The Three Body Problem*: grand space opera, with plausible treatment of near-lightspeed travel, and where humanity has to fight for survival in a hostile universe. Reynolds has a PhD in astrophysics, and you can see this influence in the cool technology he imagines (e.g. "cryoarithmetic engines" that cool spacecraft via endothermic computation). And the world building is very strong. On the flip side, the characters feel a little flat and can get bogged down in hyper-rational explanations. But the slow-burning plots get more engaging the more you read.
+  - *The Inhibitor Sequence*:
+    - [*Revelation Space*](https://en.wikipedia.org/wiki/Revelation_Space) (2000)
+    - [*Redemption Ark*](https://en.wikipedia.org/wiki/Redemption_Ark) (2002)
+    - [*Absolution Gap*](https://en.wikipedia.org/wiki/Absolution_Gap) (2003)
+    - *Inhibitor Phase* (2021)
+  - *The Dreyfus Emergencies*:
+    - [*The Prefect*](https://en.wikipedia.org/wiki/The_Prefect) (2007)
+    - [*Elysium Fire*](https://en.wikipedia.org/wiki/Elysium_Fire) (2018)
+    - [*Machine Vendetta*](https://en.wikipedia.org/wiki/Machine_Vendetta) (2024)
   - [*Chasm City*](https://en.wikipedia.org/wiki/Chasm_City) (2001)
-  - [*Redemption Ark*](https://en.wikipedia.org/wiki/Redemption_Ark) (2002)
-  - [*Absolution Gap*](https://en.wikipedia.org/wiki/Absolution_Gap) (2003)
 
 - [*Teixcalaan*](https://en.wikipedia.org/wiki/Teixcalaan) series by [Arkady Martine](https://en.wikipedia.org/wiki/Arkady_Martine): A Byzantine historian writes space opera and it's exactly as intricate and politically complex as you'd expect. Martine gives us an empire that runs on poetry, algorithms that might be people, and the best examination of how language shapes thought since... well, since actual linguists started writing sci-fi. These books make you feel smarter just by osmosis. Also features the most realistic depiction of email anxiety in the far future.
   - [*A Memory Called Empire*](https://en.wikipedia.org/wiki/A_Memory_Called_Empire) (2019)
