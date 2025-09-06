@@ -65,16 +65,26 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Count Zero*](https://en.wikipedia.org/wiki/Count_Zero) (1986)
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
 
-- Arthur C. Clarke?
-- Robert Heinlein?
-- Ursula K. Le Guin?
-- Kim Stanley Robinson?
+- Arthur C. Clarke:
+  - [*2001: A Space Odyssey*](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey) (1968)
+  - [*Rendezvous with Rama*](https://en.wikipedia.org/wiki/Rendezvous_with_Rama) (1973)
+  - [*The Fountains of Paradise*](https://en.wikipedia.org/wiki/The_Fountains_of_Paradise) (1979)
+- Robert Heinlein:
+  - [*Starship Troopers*](https://en.wikipedia.org/wiki/Starship_Troopers) (1959)
+  - [*Stranger in a Strange Land*](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land) (1961)
+  - [*The Moon is a Harsh Mistress*](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress) (1966)
+
+- Ursula K. Le Guin:
+  - [*A Wizard of Earthsea*](https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea) (1968)
+  - [*The Left Hand of Darkness*](https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness) (1969)
+  - [*The Dispossessed*](https://en.wikipedia.org/wiki/The_Dispossessed) (1974)
+
 - Connie Willis?
 
 
 ### Very good books (A tier)
 
-- [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): Kind of a sci fi descendant of Gibson. Stephenson's books are often cyberpunk-ish and explore themes around the metaverse, distributed computing, and biological augmentation. He also comes up with some truly wild ideas, like the Drummers - a cult living in a cave that collectively performs large-scale computations through hallucinogenic drugs and endless sex - or cryptocurrency. At their best, Stephenson's books are diligently researched, thought provoking, and funny. He nearly makes the S tier for "matter compilers" in *The Diamond Age*, devices that can build anything from a stream of raw molecules - possibly the most infra idea imaginable. Fair warning though, most of these books don't have endings (they literally stop mid-sentence during a normal plot arc).
+- [Neal Stephenson](https://en.wikipedia.org/wiki/Neal_Stephenson): Kind of a sci fi descendant of Gibson. Stephenson's books are often cyberpunk-ish and explore themes around the metaverse, distributed computing, and biological augmentation. He also comes up with some truly wild ideas, like the Drummers - a cult living in a cave that collectively performs large-scale computations through hallucinogenic drugs and endless sex - or cryptocurrency. At their best, Stephenson's books are diligently researched, thought provoking, and funny. He nearly makes the S tier for "matter compilers" in *The Diamond Age* - devices that can build anything from a stream of raw molecules, possibly the most infra-ish idea imaginable. Fair warning though, most of these books don't have endings (they literally stop mid-sentence during a normal plot arc).
   - [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) (1992)
   - [*The Diamond Age*](https://en.wikipedia.org/wiki/The_Diamond_Age) (1995)
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
@@ -86,13 +96,12 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*The Dark Forest*](https://en.wikipedia.org/wiki/The_Dark_Forest) (2008)
   - [*Death's End*](https://en.wikipedia.org/wiki/Death%27s_End) (2010)
 
-- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by [Richard K. Morgan](https://en.wikipedia.org/wiki/Richard_K._Morgan): What if you could back up your consciousness like a git repository and push it to any body? Morgan explores this with the subtlety of a sledgehammer and the philosophy of a cyberpunk noir detective. These books ask what "death" means when you can just restore from backup, and whether violence matters when bodies are just hardware. Netflix tried to capture it, but the books are darker, smarter, and much more fun.
+- [*Takeshi Kovacs*](https://en.wikipedia.org/wiki/Takeshi_Kovacs) series by [Richard K. Morgan](https://en.wikipedia.org/wiki/Richard_K._Morgan): Imagine you can transfer your consciouness from one body to another. And back yourself up in case of death. That's the premise of the Kovacs series.. in infra terms, we'd call it software-defined humans. Morgan builds a dark, cyberpunk universe around this concept, and exploits it brilliantly to tell a series of detective stories, soldiering stories, and good-enough-over-evil triumphs. As you might expect, it's action packed, and there is a lot of sex and violence. Netflix tried to capture it - the first season is pretty good - but the books are darker and smarter.
   - [*Altered Carbon*](https://en.wikipedia.org/wiki/Altered_Carbon) (2002)
   - [*Broken Angels*](https://en.wikipedia.org/wiki/Broken_Angels_(novel)) (2003)
   - [*Woken Furies*](https://en.wikipedia.org/wiki/Woken_Furies) (2005)
-  - [*Shadows Rising*](https://en.wikipedia.org/wiki/Shadows_Rising) (2008)
 
-- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by [James S.A. Corey](https://en.wikipedia.org/wiki/James_S._A._Corey): Many sci fi books jump far into the future, where technology has advanced dramatically, human civilization has crossed lightyears, and social dynamics are hard to really recognize. This series take the opposite approach: it takes place in the near future, when Earth is getting too crowded, humans have colonized Mars and the Kuiper belt, and space travel tech is fairly conventional. The focus instead is on very believable conflict, and relatable individual stories, as tension builds among the various planetary (and asteroid-based) factions. Add in a few kind of magical sci fi elements, and it's a very fun series (and a great show on Amazon Prime).
+- [*The Expanse*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series)) series by [James S.A. Corey](https://en.wikipedia.org/wiki/James_S._A._Corey): Many sci fi books jump far into the future, where technology has advanced dramatically, human civilization spans lightyears, and social dynamics are hard to really recognize. *The Expanse* takes the opposite approach: it is set in the near future, when Earth is getting too crowded, humans have colonized Mars and the Kuiper belt, and space travel tech is fairly conventional. The focus instead is on very believable conflict, and relatable individual stories, as tension builds among the various planetary (and asteroid-based) factions. Add in a few kind of magical sci fi elements, and it's a very fun series (and a great show on Amazon Prime).
   - [*Leviathan Wakes*](https://en.wikipedia.org/wiki/Leviathan_Wakes) (2011)
   - [*Caliban's War*](https://en.wikipedia.org/wiki/Caliban%27s_War) (2012)
   - [*Abaddon's Gate*](https://en.wikipedia.org/wiki/Abaddon%27s_Gate) (2013)
@@ -103,14 +112,15 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Tiamat's Wrath*](https://en.wikipedia.org/wiki/Tiamat%27s_Wrath) (2019)
   - [*Leviathan Falls*](https://en.wikipedia.org/wiki/Leviathan_Falls) (2021)
 
-- [Vernor Vinge](https://en.wikipedia.org/wiki/Vernor_Vinge): The computer science professor who gave us the term "technological singularity" and then wrote novels exploring what happens next. His aliens are genuinely alien (dog-like pack minds that think in parallel!), and his universe operates on network protocols where bandwidth determines intelligence. If you've ever wondered what happens when ping times approach infinity, Vinge has answers.
+- *Zones of Thought* series by [Vernor Vinge](https://en.wikipedia.org/wiki/Vernor_Vinge): The computer science professor who gave us the term "technological singularity" and then wrote novels exploring what happens next. His aliens are genuinely alien (dog-like pack minds that think in parallel!), and his universe operates on network protocols where bandwidth determines intelligence. If you've ever wondered what happens when ping times approach infinity, Vinge has answers. In his Zones of Thought universe, physics literally throttles computation (the Slow Zone vs. the Beyond vs. the Transcend), and "Powers" feel like FOOMed AGI. He also anticipated modern cyberculture with "True Names" and gave us a near-future AR classic about ubiquitous computing, security, and memetics in "Rainbows End."
   - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
   - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
+  - [*The Children of the Sky*](https://en.wikipedia.org/wiki/The_Children_of_the_Sky_(novel)) (2011)
 
 
 ### Also worth reading (B tier)
   
-- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by [Pierce Brown](https://en.wikipedia.org/wiki/Pierce_Brown): This series is a fast read and a ton of fun. One of our partners called it "pure pulp" (in a good way). Think *Gladiator* meets *Hunger Games* in space: this is a violent story about a mistreated, lowly "red" who rises up through the academy ranks to defeat his enemies and lead his arrogant upper-class peers. Brown's basic theory on battle sequences is "what if everyone quoted Marcus Aurelius while stabbing each other?" School battles eventually become real battles for control of the solar system. Romance, murder, betrayal, and general drama ensue. Believe it or not, it's kind of a young adult book too.
+- [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) series by [Pierce Brown](https://en.wikipedia.org/wiki/Pierce_Brown): This series is a fast read and a ton of fun. One of our partners called it "pure pulp" (in a good way). Think *Gladiator* meets *Hunger Games* in space: this is a violent story about a mistreated, lowly "red" who rises up through the academy ranks to defeat his enemies and lead his arrogant upper-class peers. Brown's basic theory on battle sequences is "what if everyone quoted Marcus Aurelius while stabbing each other?" School battles eventually become real battles for control of the solar system. Romance, murder, betrayal, and general drama ensue. Believe it or not, it's kind of a young adult book.
   - [*Red Rising*](https://en.wikipedia.org/wiki/Red_Rising) (2014)
   - [*Golden Son*](https://en.wikipedia.org/wiki/Golden_Son) (2015)
   - [*Morning Star*](https://en.wikipedia.org/wiki/Morning_Star_(Brown_novel))) (2016)
@@ -130,6 +140,12 @@ This is a list of books and authors that at least one member of the a16z infra t
     - [*Machine Vendetta*](https://en.wikipedia.org/wiki/Machine_Vendetta) (2024)
   - [*Chasm City*](https://en.wikipedia.org/wiki/Chasm_City) (2001)
 
+- [*Hyperion Cantos*](https://en.wikipedia.org/wiki/Hyperion_Cantos) series by [Dan Simmons](https://en.wikipedia.org/wiki/Dan_Simmons): Canterbury Tales in space, where each story could be its own novel and probably should have been. Simmons throws in killer robots, time-traveling tombs, a tree-ship full of Templars, and an AI TechnoCore that makes you really appreciate air-gapped systems. The first book is a masterpiece of structure, the second explains everything (maybe too much), and the last two... exist. Features poetry that's actually plot-relevant and the best divine tech support ticket system you'll ever read about.
+  - [*Hyperion*](https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)) (1989)
+  - [*The Fall of Hyperion*](https://en.wikipedia.org/wiki/The_Fall_of_Hyperion_(novel)) (1990)
+  - [*Endymion*](https://en.wikipedia.org/wiki/Endymion_(Simmons_novel)) (1996)
+  - [*The Rise of Endymion*](https://en.wikipedia.org/wiki/The_Rise_of_Endymion) (1997)
+
 - [*Teixcalaan*](https://en.wikipedia.org/wiki/Teixcalaan) series by [Arkady Martine](https://en.wikipedia.org/wiki/Arkady_Martine): A Byzantine historian writes space opera and it's exactly as intricate and politically complex as you'd expect. Martine gives us an empire that runs on poetry, algorithms that might be people, and the best examination of how language shapes thought since... well, since actual linguists started writing sci-fi. These books make you feel smarter just by osmosis. Also features the most realistic depiction of email anxiety in the far future.
   - [*A Memory Called Empire*](https://en.wikipedia.org/wiki/A_Memory_Called_Empire) (2019)
   - [*A Desolation Called Peace*](https://en.wikipedia.org/wiki/A_Desolation_Called_Peace) (2021)
@@ -143,12 +159,6 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Ancillary Justice*](https://en.wikipedia.org/wiki/Ancillary_Justice) (2013)
   - [*Ancillary Sword*](https://en.wikipedia.org/wiki/Ancillary_Sword) (2014)
   - [*Ancillary Mercy*](https://en.wikipedia.org/wiki/Ancillary_Mercy) (2015)
-
-- [*Hyperion Cantos*](https://en.wikipedia.org/wiki/Hyperion_Cantos) series by [Dan Simmons](https://en.wikipedia.org/wiki/Dan_Simmons): Canterbury Tales in space, where each story could be its own novel and probably should have been. Simmons throws in killer robots, time-traveling tombs, a tree-ship full of Templars, and an AI TechnoCore that makes you really appreciate air-gapped systems. The first book is a masterpiece of structure, the second explains everything (maybe too much), and the last two... exist. Features poetry that's actually plot-relevant and the best divine tech support ticket system you'll ever read about.
-  - [*Hyperion*](https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)) (1989)
-  - [*The Fall of Hyperion*](https://en.wikipedia.org/wiki/The_Fall_of_Hyperion_(novel)) (1990)
-  - [*Endymion*](https://en.wikipedia.org/wiki/Endymion_(Simmons_novel)) (1996)
-  - [*The Rise of Endymion*](https://en.wikipedia.org/wiki/The_Rise_of_Endymion) (1997)
 
 
 ### Historical artifacts (that are also good books)
@@ -183,13 +193,21 @@ This is a list of books and authors that at least one member of the a16z infra t
     - [*The Confusion*](https://en.wikipedia.org/wiki/The_Confusion) (2004)
     - [*The System of the World*](https://en.wikipedia.org/wiki/The_System_of_the_World_(novel)) (2004)
 
-- [*UNSONG*](https://unsongbook.com/) by [Scott Alexander](https://en.wikipedia.org/wiki/Scott_Alexander_(writer)): Imagine the world is populated mostly by computer programmers, mystic Jewish scholars, and celestial beings. Oh and magic is real. And Richard Nixon. This book is hard to describe, but it has a completely unique universe and a fun story that ties together nicely.
+- [*UNSONG*](https://unsongbook.com/) by [Scott Alexander](https://en.wikipedia.org/wiki/Scott_Alexander_(writer)): Imagine the world is populated mostly by computer programmers, mystic Jewish scholars, and celestial beings. Oh and magic is real. And Richard Nixon is involved. This book is hard to describe, but it has a completely unique universe and a fun story that ties together nicely.
 
   - [Haruki Murakami](https://en.wikipedia.org/wiki/Haruki_Murakami): The Japanese author who writes like your code at 3 AM—surreal, full of unexpected connections, and somehow it all works even though you can't explain why. His books feature disappearing cats, parallel worlds accessed through wells, and jazz-loving protagonists who cook pasta while contemplating existence. Murakami proves that you can write the same book 20 different ways and have each one be mysteriously compelling. His secret? Every novel is basically magical realism Stack Overflow.
    - [*Norwegian Wood*](https://en.wikipedia.org/wiki/Norwegian_Wood_(novel)) (1987)
    - [*Kafka on the Shore*](https://en.wikipedia.org/wiki/Kafka_on_the_Shore) (2002)
    - [*The Wind-Up Bird Chronicle*](https://en.wikipedia.org/wiki/The_Wind-Up_Bird_Chronicle) (1994)
    - [*1Q84*](https://en.wikipedia.org/wiki/1Q84) (2009)
+
+- [*Gabriel Garcia Marquez](https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez): The Colombian author who wrote *One Hundred Years of Solitude* and other books that are basically magical realism Stack Overflow. His books feature disappearing cats, parallel worlds accessed through wells, and jazz-loving protagonists who cook pasta while contemplating existence. Murakami proves that you can write the same book 20 different ways and have each one be mysteriously compelling. His secret? Every novel is basically magical realism Stack Overflow.
+  - [*One Hundred Years of Solitude*](https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude) (1967)
+  - [*Love in the Time of Cholera*](https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera) (1985)
+  - [*The Autumn of the Patriarch*](https://en.wikipedia.org/wiki/The_Autumn_of_the_Patriarch) (1975)
+  - [*No One Writes to the Colonel*](https://en.wikipedia.org/wiki/No_One_Writes_to_the_Colonel) (1961)
+  - [*Of Love and Other Demons*](https://en.wikipedia.org/wiki/Of_Love_and_Other_Demons) (1994)
+  - [*The General in His Labyrinth*](https://en.wikipedia.org/wiki/The_General_in_His_Labyrinth) (1989)
 
 - [*The Divine Cities*](https://en.wikipedia.org/wiki/The_Divine_Cities) series by [Robert Jackson Bennett](https://en.wikipedia.org/wiki/Robert_Jackson_Bennett): Gods are dead, but their miracles are still running in production causing legacy issues. Bennett creates a world where deities operated like infrastructure—when you kill them, all their divine services crash. It's urban fantasy for people who understand technical debt, with a protagonist who solves mysteries using something between archaeology and systems debugging. Also features the best divine tech support ticket system you'll ever read about.
   - [*City of Stairs*](https://en.wikipedia.org/wiki/City_of_Stairs) (2014)
