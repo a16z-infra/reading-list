@@ -2,15 +2,16 @@
 
 ![image](header.png)
 
-This is a list of books and authors that at least one member of the a16z infra team read and loved. Most of the books on the list are, in some way, about It's heavy on science fiction, because sci-fi is the most infra-y literary genre. People who devote their lives to designing and building new systems  We hope other infra people will like these books too. People who devote their lives to It's heavy on science fiction because.. well, because we really like sci-fi. But also because people who devote their lives to building But infra is fundamentally about building new technology It has a lot of sci-fi because.. we really like sci-fi. We can't promise this list will make you smarter, but it will definitely make you more confident and respected by your peers!
+This is a list of books and authors that at least one member of the a16z infra team read and loved. It's heavy on science fiction, because sci-fi is the most infra-y literary genre. It's about new systems, and the people who devote their lives to building and understanding them.  We hope other infra people will like these books too. Please open a PR for any changes or additions!
+
 
 ## Table of Contents
 
   - [Sci-fi](#sci-fi)
-    - [Must reads](#must-reads)
-    - [Very good books](#very-good-books)
-    - [Historical artifacts (that are also good books)](#historical-artifacts-that-are-also-good-books)
-    - [Pretty good books](#pretty-good-books)
+    - [Must reads (S  tier)](#must-reads)
+    - [Very good books (A tier)](#very-good-books)
+    - [Also worth reading (B tier)](#pretty-good-books)
+    - [Historical artifacts that are still good books](#historical-artifacts-that-are-also-good-books)
   - [Fantasy](#fantasy)
   - [Comic books](#comic-books)
   - [Non-fiction](#non-fiction)
@@ -53,33 +54,27 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Life, the Universe and Everything*](https://en.wikipedia.org/wiki/Life,_the_Universe_and_Everything) (1982)
   - [*So Long, and Thanks for All the Fish*](https://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish) (1984)
   - [*Mostly Harmless*](https://en.wikipedia.org/wiki/Mostly_Harmless) (1992)
-  
-- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by [Orson Scott Card](https://en.wikipedia.org/wiki/Orson_Scott_Card): Bug-like aliens are coming for Earth at an unknown future time... that's suspiciously similar to the 1980s. Only a group of intelligent young children can save us, particularly a brilliant young leader named Ender. The story is pretty straightforward and a lot of fun, centered around a series of war simulations in the training academy. And it just really resonates emotionally for anyone who felt bullied as a kid, and/or spent most of their childhood playing video games. The sequels are also great, covering Ender's life after the war, living with and making amends for his actions as a soldier.
-  - [*Ender's Game*](https://en.wikipedia.org/wiki/Ender%27s_Game) (1985)
-  - [*Speaker for the Dead*](https://en.wikipedia.org/wiki/Speaker_for_the_Dead) (1986)
-  - [*Xenocide*](https://en.wikipedia.org/wiki/Xenocide) (1991)
-  - [*Children of the Mind*](https://en.wikipedia.org/wiki/Children_of_the_Mind) (1996)
 
 - [*Sprawl trilogy*](https://en.wikipedia.org/wiki/Sprawl_trilogy) by [William Gibson](https://en.wikipedia.org/wiki/William_Gibson): Gibson is the father of cyberpunk, and his books created much of the aesthetic and vocabulary around the first internet wave (including VR, AI, and the word "cyberspace"). You can palpably feel Gibson's influence on later works like *The Matrix*, *Cyberpunk 2077*, and many many others. Reading one of these books is kind of like visiting a dystopian, high-tech, 1980s-style, Japanese-ish vision for the future. They are also just great, gritty sci-fi stories. Gibson has a talent for making you care about characters who are often rough, self-centered, and vaguely unethical. If at first you can't figure out what's going on... it's probably because Gibson was [on acid](https://highprofiles.info/interview/william-gibson/). 
   - [*Neuromancer*](https://en.wikipedia.org/wiki/Neuromancer) (1984)
   - [*Count Zero*](https://en.wikipedia.org/wiki/Count_Zero) (1986)
   - [*Mona Lisa Overdrive*](https://en.wikipedia.org/wiki/Mona_Lisa_Overdrive) (1988)
 
-- Arthur C. Clarke:
+- Arthur C. Clarke: [...]
   - [*2001: A Space Odyssey*](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey) (1968)
   - [*Rendezvous with Rama*](https://en.wikipedia.org/wiki/Rendezvous_with_Rama) (1973)
   - [*The Fountains of Paradise*](https://en.wikipedia.org/wiki/The_Fountains_of_Paradise) (1979)
-- Robert Heinlein:
+  
+- Robert Heinlein: [...]
   - [*Starship Troopers*](https://en.wikipedia.org/wiki/Starship_Troopers) (1959)
   - [*Stranger in a Strange Land*](https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land) (1961)
   - [*The Moon is a Harsh Mistress*](https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress) (1966)
-
-- Ursula K. Le Guin:
-  - [*A Wizard of Earthsea*](https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea) (1968)
-  - [*The Left Hand of Darkness*](https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness) (1969)
-  - [*The Dispossessed*](https://en.wikipedia.org/wiki/The_Dispossessed) (1974)
-
-- Connie Willis?
+  
+- [*Ender's Saga*](https://en.wikipedia.org/wiki/Ender%27s_Game) series by [Orson Scott Card](https://en.wikipedia.org/wiki/Orson_Scott_Card): Bug-like aliens are coming for Earth at an unknown future time... that's suspiciously similar to the 1980s. Only a group of intelligent young children can save us, particularly a brilliant young leader named Ender. The story is pretty straightforward and a lot of fun, centered around a series of war simulations in the training academy. And it just really resonates emotionally for anyone who felt bullied as a kid, and/or spent most of their childhood playing video games. The sequels are also great, covering Ender's life after the war, living with and making amends for his actions as a soldier.
+  - [*Ender's Game*](https://en.wikipedia.org/wiki/Ender%27s_Game) (1985)
+  - [*Speaker for the Dead*](https://en.wikipedia.org/wiki/Speaker_for_the_Dead) (1986)
+  - [*Xenocide*](https://en.wikipedia.org/wiki/Xenocide) (1991)
+  - [*Children of the Mind*](https://en.wikipedia.org/wiki/Children_of_the_Mind) (1996)
 
 
 ### Very good books (A tier)
@@ -90,6 +85,11 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Cryptonomicon*](https://en.wikipedia.org/wiki/Cryptonomicon) (1999)
   - [*Anathem*](https://en.wikipedia.org/wiki/Anathem) (2008)
   - [*Seveneves*](https://en.wikipedia.org/wiki/Seveneves) (2015)
+
+- [Ursula K. Le Guin](https://en.wikipedia.org/wiki/Ursula_K._Le_Guin): [...]
+  - [*A Wizard of Earthsea*](https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea) (1968)
+  - [*The Left Hand of Darkness*](https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness) (1969)
+  - [*The Dispossessed*](https://en.wikipedia.org/wiki/The_Dispossessed) (1974)
 
 - [*Remembrance of Earth's Past*](https://en.wikipedia.org/wiki/Remembrance_of_Earth%27s_Past) series by [Liu Cixin](https://en.wikipedia.org/wiki/Liu_Cixin): China is likely the biggest sci-fi market in the world, but it didn't have a landmark homegrown talent until Liu published *The Three-Body Problem*. These books open with a painful political scene from the Cultural Revolution, then sweep through realistic astrophysics, VR simulations, family/ friend drama, Fermi's paradox, and planet-scale efforts to ensure humanity's survival. Liu does just a fantastic job of blending the science, space, and human elements together into an engaging story (now also a Netflix show). Hoping this just the start of non-Western sci-fi entering the mainstream.
   - [*The Three-Body Problem*](https://en.wikipedia.org/wiki/The_Three-Body_Problem_(novel)) (2008)
@@ -116,6 +116,8 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)
   - [*A Deepness in the Sky*](https://en.wikipedia.org/wiki/A_Deepness_in_the_Sky) (1999)
   - [*The Children of the Sky*](https://en.wikipedia.org/wiki/The_Children_of_the_Sky_(novel)) (2011)
+
+
 
 
 ### Also worth reading (B tier)
@@ -161,7 +163,7 @@ This is a list of books and authors that at least one member of the a16z infra t
   - [*Ancillary Mercy*](https://en.wikipedia.org/wiki/Ancillary_Mercy) (2015)
 
 
-### Historical artifacts (that are also good books)
+### Historical artifacts that are still good books
 
 - [HG Wells](https://en.wikipedia.org/wiki/H._G._Wells): The Victorian era's most forward-thinking pessimist, who invented time travel, alien invasions, genetic engineering, and invisible men before we even had airplanes. Wells didn't just write sci-fi—he created the entire toolkit future writers would use. Fun fact: he predicted atomic bombs in 1914, tanks in 1903, and the World Wide Web (sort of) in 1938. Not bad for a guy who thought we'd all be eating synthetic food pills by now.
   - [*The Time Machine*](https://en.wikipedia.org/wiki/The_Time_Machine) (1895)
