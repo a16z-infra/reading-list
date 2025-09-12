@@ -24,6 +24,8 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 >  If you haven't read a lot of science fiction before (or want to argue about what merits S tier), start here.
 
+<img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" width="200" />
+
 <table>
   <tr>
     <td>
