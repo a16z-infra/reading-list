@@ -35,23 +35,10 @@ We hope other infra people will like these books too! Please open a PR for any c
           <li><a href="https://en.wikipedia.org/wiki/Chapterhouse:_Dune"><em>Chapterhouse: Dune</em></a> (1985)</li>
         </ul>
         
-<table>
-  <tr>
-    <td>
-      <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" width="200" />
-    </td>
-    <td>
-      <a href='https://en.wikipedia.org/wiki/Dune_(novel)'><em>Dune</em></a> series by <a href="https://en.wikipedia.org/wiki/Frank_Herbert">Frank Herbert</a>: Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
-      <br/>
-      <a href="https://en.wikipedia.org/wiki/Dune_(novel)"><em>Dune</em></a> (1965),
-      <a href="https://en.wikipedia.org/wiki/Dune_Messiah"><em>Dune Messiah</em></a> (1969),
-      <a href="https://en.wikipedia.org/wiki/Children_of_Dune"><em>Children of Dune</em></a> (1976),
-      <a href="https://en.wikipedia.org/wiki/God_Emperor_of_Dune"><em>God Emperor of Dune</em></a> (1981),
-      <a href="https://en.wikipedia.org/wiki/Heretics_of_Dune"><em>Heretics of Dune</em></a> (1982),
-      <a href="https://en.wikipedia.org/wiki/Chapterhouse:_Dune"><em>Chapterhouse: Dune</em></a> (1985)
-    </td>
-  </tr>
+|---|---|
+|![](https://github.com/user-attachments/assets/583d01be-261c-4ca9-b651-b62a63e6bd84)|[*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert): Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).|
 
+<table>
   <tr>
     <td style="width: 200px; vertical-align: top;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Philip_K_Dick_1965.jpg"/>
