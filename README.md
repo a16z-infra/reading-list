@@ -41,10 +41,6 @@ We hope other infra people will like these books too! Please open a PR for any c
         </ul>
     </td>
   </tr>
-</table>
-
-
-<table>
   <tr>
     <td style="width: 200px; vertical-align: top;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Philip_K_Dick_1965.jpg"/>
