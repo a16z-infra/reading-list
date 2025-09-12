@@ -37,9 +37,7 @@ We hope other infra people will like these books too! Please open a PR for any c
         
 |image|desc|
 |---|---|
-|![](https://github.com/user-attachments/assets/583d01be-261c-4ca9-b651-b62a63e6bd84)|[*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert): Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
-
-one, two, three|
+|![](https://github.com/user-attachments/assets/583d01be-261c-4ca9-b651-b62a63e6bd84)|[*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert): Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!). one, two, three|
 
 <table>
   <tr>
