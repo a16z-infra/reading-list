@@ -42,14 +42,13 @@ We hope other infra people will like these books too! Please open a PR for any c
     </td>
     <td>
       <a href='https://en.wikipedia.org/wiki/Dune_(novel)'><em>Dune</em></a> series by <a href="https://en.wikipedia.org/wiki/Frank_Herbert">Frank Herbert</a>: Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
-        <ul>
-          <li><a href="https://en.wikipedia.org/wiki/Dune_(novel)"><em>Dune</em></a> (1965)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Dune_Messiah"><em>Dune Messiah</em></a> (1969)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Children_of_Dune"><em>Children of Dune</em></a> (1976)</li>
-          <li><a href="https://en.wikipedia.org/wiki/God_Emperor_of_Dune"><em>God Emperor of Dune</em></a> (1981)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Heretics_of_Dune"><em>Heretics of Dune</em></a> (1982)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Chapterhouse:_Dune"><em>Chapterhouse: Dune</em></a> (1985)</li>
-        </ul>
+      
+      <a href="https://en.wikipedia.org/wiki/Dune_(novel)"><em>Dune</em></a> (1965),
+      <a href="https://en.wikipedia.org/wiki/Dune_Messiah"><em>Dune Messiah</em></a> (1969),
+      <a href="https://en.wikipedia.org/wiki/Children_of_Dune"><em>Children of Dune</em></a> (1976),
+      <a href="https://en.wikipedia.org/wiki/God_Emperor_of_Dune"><em>God Emperor of Dune</em></a> (1981),
+      <a href="https://en.wikipedia.org/wiki/Heretics_of_Dune"><em>Heretics of Dune</em></a> (1982),
+      <a href="https://en.wikipedia.org/wiki/Chapterhouse:_Dune"><em>Chapterhouse: Dune</em></a> (1985)
     </td>
   </tr>
 
