@@ -26,10 +26,10 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 <table>
   <tr>
-    <td style="width: 200px; vertical-align: top;">
-      <img src='https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg' width='200'/>
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" width="200" />
     </td>
-    <td style="vertical-align: top;">
+    <td>
       <a href='https://en.wikipedia.org/wiki/Dune_(novel)'><em>Dune</em></a> series by <a href="https://en.wikipedia.org/wiki/Frank_Herbert">Frank Herbert</a>: Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
         <ul>
           <li><a href="https://en.wikipedia.org/wiki/Dune_(novel)"><em>Dune</em></a> (1965)</li>
