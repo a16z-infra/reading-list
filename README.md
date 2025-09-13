@@ -44,10 +44,10 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 <table>
   <tr>
-    <td style="width: 200px; vertical-align: top;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/DoAndroidsDream.png"/>
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/DoAndroidsDream.png" width="200px"/>
     </td>
-    <td style="vertical-align: top;">
+    <td>
       <a href="https://en.wikipedia.org/wiki/Philip_K._Dick">Philip K Dick</a>: Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way, and many of his new inventions have an irrepressible optimistic bent to them (despite sometimes dark subject matter). His stories have been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. Much of Dick's work was written 50+ years ago, but it still feels fresh, as if it was written for our time. This is a very short list of some of his best works.
         <ul>
           <li><a href="https://en.wikipedia.org/wiki/The_Minority_Report"><em>The Minority Report</em></a> (1956)</li>
