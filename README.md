@@ -24,24 +24,6 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 >  If you haven't read a lot of science fiction before (or want to argue about what merits S tier), start here.
 
-<img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" width="200" />
-<a href='https://en.wikipedia.org/wiki/Dune_(novel)'><em>Dune</em></a> series by <a href="https://en.wikipedia.org/wiki/Frank_Herbert">Frank Herbert</a>: Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
-        <ul>
-          <li><a href="https://en.wikipedia.org/wiki/Dune_(novel)"><em>Dune</em></a> (1965)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Dune_Messiah"><em>Dune Messiah</em></a> (1969)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Children_of_Dune"><em>Children of Dune</em></a> (1976)</li>
-          <li><a href="https://en.wikipedia.org/wiki/God_Emperor_of_Dune"><em>God Emperor of Dune</em></a> (1981)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Heretics_of_Dune"><em>Heretics of Dune</em></a> (1982)</li>
-          <li><a href="https://en.wikipedia.org/wiki/Chapterhouse:_Dune"><em>Chapterhouse: Dune</em></a> (1985)</li>
-        </ul>
-        
-<img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" width="200" />
-
-**[*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) series by [Frank Herbert](https://en.wikipedia.org/wiki/Frank_Herbert)**: Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
-
-**Books**: [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) (1965), [*Dune Messiah*](https://en.wikipedia.org/wiki/Dune_Messiah) (1969), [*Children of Dune*](https://en.wikipedia.org/wiki/Children_of_Dune) (1976), [*God Emperor of Dune*](https://en.wikipedia.org/wiki/God_Emperor_of_Dune) (1981), [*Heretics of Dune*](https://en.wikipedia.org/wiki/Heretics_of_Dune) (1982), [*Chapterhouse: Dune*](https://en.wikipedia.org/wiki/Chapterhouse:_Dune) (1985)
-
-
 <table>
   <tr>
     <td>
@@ -58,6 +40,23 @@ We hope other infra people will like these books too! Please open a PR for any c
       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
     </td>
     <td>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg" width="200" />
+    </td>
+    <td>
+      <a href='https://en.wikipedia.org/wiki/Dune_(novel)'><em>Dune</em></a> series by <a href="https://en.wikipedia.org/wiki/Frank_Herbert">Frank Herbert</a>: Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Dune_(novel)"><em>Dune</em></a> (1965)</li>
+          <li><a href="https://en.wikipedia.org/wiki/Dune_Messiah"><em>Dune Messiah</em></a> (1969)</li>
+          <li><a href="https://en.wikipedia.org/wiki/Children_of_Dune"><em>Children of Dune</em></a> (1976)</li>
+          <li><a href="https://en.wikipedia.org/wiki/God_Emperor_of_Dune"><em>God Emperor of Dune</em></a> (1981)</li>
+          <li><a href="https://en.wikipedia.org/wiki/Heretics_of_Dune"><em>Heretics of Dune</em></a> (1982)</li>
+          <li><a href="https://en.wikipedia.org/wiki/Chapterhouse:_Dune"><em>Chapterhouse: Dune</em></a> (1985)</li>
+        </ul>
     </td>
   </tr>
   
@@ -77,16 +76,7 @@ We hope other infra people will like these books too! Please open a PR for any c
         </ul>
     </td>
   </tr>
-  <tr>
-    <td>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/DoAndroidsDream.png" width="200px"/>
-    </td>
-    <td>
-      <a href="https://en.wikipedia.org/wiki/Philip_K._Dick">Philip K Dick</a>: Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way, and many of his new inventions have an irrepressible optimistic bent to them (despite sometimes dark subject matter). His stories have been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. Much of Dick's work was written 50+ years ago, but it still feels fresh, as if it was written for our time. This is a very short list of some of his best works.
-<br/><br/>
-Books: <a href="https://en.wikipedia.org/wiki/The_Minority_Report"><em>The Minority Report</em></a> (1956), <a href="https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle"><em>The Man in the High Castle</em></a> (1962), <a href="https://en.wikipedia.org/wiki/The_Three_Stigmata_of_Palmer_Eldritch"><em>The Three Stigmata of Palmer Eldritch</em></a> (1965), <a href="https://en.wikipedia.org/wiki/We_Can_Remember_It_for_You_Wholesale"><em>We Can Remember It For You Wholesale</em></a> (1966), <a href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F"><em>Do Androids Dream of Electric Sheep?</em></a> (1968), <a href="https://en.wikipedia.org/wiki/Ubik"><em>Ubik</em></a> (1969)
-    </td>
-  </tr>
+
 </table>
 
 <table>
