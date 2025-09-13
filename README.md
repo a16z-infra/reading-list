@@ -45,7 +45,7 @@ We hope other infra people will like these books too! Please open a PR for any c
 <table>
   <tr>
     <td style="width: 200px; vertical-align: top;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Philip_K_Dick_1965.jpg"/>
+      <img src="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F#/media/File:DoAndroidsDream.png"/>
     </td>
     <td style="vertical-align: top;">
       <a href="https://en.wikipedia.org/wiki/Philip_K._Dick">Philip K Dick</a>: Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way, and many of his new inventions have an irrepressible optimistic bent to them (despite sometimes dark subject matter). His stories have been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. Much of Dick's work was written 50+ years ago, but it still feels fresh, as if it was written for our time. This is a very short list of some of his best works.
