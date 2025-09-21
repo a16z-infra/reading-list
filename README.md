@@ -299,19 +299,19 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 <img width=200 src="https://upload.wikimedia.org/wikipedia/en/8/85/Sandman_no.1_%28Modern_Age%29.comiccover.jpg">
 
-- [*The Sandman*](https://en.wikipedia.org/wiki/The_Sandman_(comics)) (1989-1996)
+- [*The Sandman*](https://en.wikipedia.org/wiki/The_Sandman_(comics)) (1989-1996) by [Neil Gaiman](https://en.wikipedia.org/wiki/Neil_Gaiman): [THIS IS AI GENERATED, NEED TO EDIT] Before Gaiman turned out to be problematic, he created the definitive modern mythology in comic form. Dream (aka Morpheus) is basically a systems administrator for human consciousness—when he goes offline, people can't sleep or dream properly. The series follows his journey from imprisoned daemon process to learning that even anthropomorphic personifications need to refactor their code sometimes. Literary enough to win awards usually reserved for "real" books, dark enough to make goths happy, and smart enough to reference everything from Shakespeare to serial killers. If you think comics are just superheroes punching things, this will debug that assumption.
 
 <img width=200 src="https://upload.wikimedia.org/wikipedia/en/d/d1/Ghost_in_the_Shell.jpg">
 
-- [*Ghost in the Shell*](https://en.wikipedia.org/wiki/Ghost_in_the_Shell) (1989-1991)
+- [*Ghost in the Shell*](https://en.wikipedia.org/wiki/Ghost_in_the_Shell) (1989-1991) by [Masamune Shirow](https://en.wikipedia.org/wiki/Masamune_Shirow): [THIS IS AI GENERATED, NEED TO EDIT] The manga that asked "what happens when you can fork() a human consciousness?" before we even had GitHub. Major Kusanagi is a cyborg cop hunting hackers in a world where the line between human and machine is a gradient, not a boundary. Shirow imagined brain-computer interfaces, ghost hacking, and standalone complexes while most of us were still figuring out dial-up. Dense with technical footnotes that read like documentation for technology that doesn't exist yet. The anime adaptation is gorgeous, but the manga has 10x more ideas per page, including prescient thoughts on AI consciousness, network security, and what happens when your soul runs on software.
 
 <img width=200 src="https://upload.wikimedia.org/wikipedia/en/7/70/Akira_Volume_1_Cover_Japanese_Version_%28Manga%29.jpg">
 
-- [*Akira*](https://en.wikipedia.org/wiki/Akira_(manga)) (1982)
+- [*Akira*](https://en.wikipedia.org/wiki/Akira_(manga)) (1982-1990) by [Katsuhiro Otomo](https://en.wikipedia.org/wiki/Katsuhiro_Otomo): [THIS IS AI GENERATED, NEED TO EDIT] Six volumes of what happens when you give psychic powers to angry teenagers in post-apocalyptic Neo-Tokyo. But really it's about uncontrolled exponential growth—whether that's military technology, urban development, or a kid who can't stop his powers from scaling. Otomo drew every chunk of debris in the destroyed city, every motorcycle detail, every explosion with obsessive precision. The anime compressed 2000+ pages into 2 hours; the manga is the full stack trace. Influenced basically every piece of cyberpunk media that came after, from *The Matrix* to *Stranger Things*. Still the gold standard for how to draw motion in static images and systemic collapse in real-time.
 
 <img width=200 src="https://upload.wikimedia.org/wikipedia/en/b/b6/Nausicaa2p121.jpg">
 
-- [*Nausicaä of the Valley of the Wind*](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind) (1984)
+- [*Nausicaä of the Valley of the Wind*](https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind) (1982-1994) by [Hayao Miyazaki](https://en.wikipedia.org/wiki/Hayao_Miyazaki): [THIS IS AI GENERATED, NEED TO EDIT] Yes, the Studio Ghibli guy wrote a manga, and it's darker and more complex than anything he animated. Nausicaä is basically a distributed systems engineer for the ecosystem, trying to debug why the toxic jungle keeps expanding and giant insects attack human settlements. Turns out it's not a bug, it's a feature—the jungle is Earth's garbage collector, cleaning up humanity's toxic legacy. Miyazaki spent 12 years building a world where bioengineering, ancient technology, and ecological systems create cascading failures that only someone who truly understands the whole system can fix. The movie covers about 20% of the story; the manga goes full eco-philosophy-meets-engineering-manual.
 
 ## Non-fiction [⬆️](#table-of-contents)
 
