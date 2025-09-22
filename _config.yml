@@ -1,0 +1,22 @@
+# Jekyll configuration
+title: "a16z Infra Reading List"
+description: "A curated list of books for infrastructure enthusiasts"
+
+# Collections
+collections:
+  entries:
+    output: false  # Don't create individual pages for each entry
+
+# Exclude files from build
+exclude:
+  - README.md
+  - .git
+  - .gitignore
+  - JEKYLL_SETUP.md
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  toc_levels: 2..3
