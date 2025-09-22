@@ -12,7 +12,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 We hope other infra people will like these books too! Please open a PR for any changes or additions.
 
 <div class="accordion-section">
-<h2 id="sci-fi" class="accordion-header">Sci-fi</h2>
+<h2 id="sci-fi" class="accordion-header active">Sci-fi</h2>
 <div class="accordion-content">
 
 <div class="subsection-accordion accordion-section">
