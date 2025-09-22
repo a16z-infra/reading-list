@@ -19,8 +19,9 @@ We hope other infra people will like these books too! Please open a PR for any c
 <h3 id="must-reads-s-tier" class="accordion-header">Must reads (S tier)</h3>
 <div class="accordion-content">
 
-
+<blockquote class="section-intro">
 If you haven't read a lot of science fiction before (or want to argue about what merits S tier), start here.
+</blockquote>
 
 {% assign must_reads = site.entries | where: "category", "must_read" | sort: "order" %}
 {% for entry in must_reads %}
@@ -48,8 +49,9 @@ If you haven't read a lot of science fiction before (or want to argue about what
 <h3 id="classics-a-tier" class="accordion-header">Classics (A tier)</h3>
 <div class="accordion-content">
 
-{: .section-intro}
+<blockquote class="section-intro">
 These books all had massive impact when they were published and are still great reads today. Some feel a little dated now, so you can skip this section if you don't want to dive into sci-fi history.
+</blockquote>
 
 {% assign classics = site.entries | where: "category", "classic" | sort: "order" %}
 {% for entry in classics %}
@@ -77,8 +79,9 @@ These books all had massive impact when they were published and are still great 
 <h3 id="very-good-books-a-tier" class="accordion-header">Very good books (A tier)</h3>
 <div class="accordion-content">
 
-{: .section-intro}
+<blockquote class="section-intro">
 These are all contemporary books and very very good. Highly recommended.
+</blockquote>
 
 {% assign very_good = site.entries | where: "category", "very_good" | sort: "order" %}
 {% for entry in very_good %}
@@ -105,6 +108,10 @@ These are all contemporary books and very very good. Highly recommended.
 <div class="subsection-accordion accordion-section">
 <h3 id="also-worth-reading-b-tier" class="accordion-header">Also worth reading (B tier)</h3>
 <div class="accordion-content">
+
+<blockquote class="section-intro">
+These books are all fun and/or, interesting and well worth the time, if you are looking for something new.
+</blockquote>
 
 {% assign also_worth = site.entries | where: "category", "also_worth_reading" | sort: "order" %}
 {% for entry in also_worth %}
