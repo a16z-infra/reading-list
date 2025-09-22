@@ -11,24 +11,16 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 We hope other infra people will like these books too! Please open a PR for any changes or additions.
 
-## Table of Contents
-{: .toc #table-of-contents}
+<div class="accordion-section">
+<h2 id="sci-fi" class="accordion-header">Sci-fi</h2>
+<div class="accordion-content">
 
-- [Sci-fi](#sci-fi)
-  - [Must reads (S tier)](#must-reads-s-tier)
-  - [Classics (A tier)](#classics-a-tier)
-  - [Very good books (A tier)](#very-good-books-a-tier)
-  - [Also worth reading (B tier)](#also-worth-reading-b-tier)
-- [Fantasy](#fantasy)
-- [Comic books](#comic-books)
-- [Non-fiction](#non-fiction)
+<div class="subsection-accordion accordion-section">
+<h3 id="must-reads-s-tier" class="accordion-header">Must reads (S tier)</h3>
+<div class="accordion-content">
 
-## Sci-fi
 
-### Must reads (S tier)
-
-{: .section-intro}
-> If you haven't read a lot of science fiction before (or want to argue about what merits S tier), start here.
+If you haven't read a lot of science fiction before (or want to argue about what merits S tier), start here.
 
 {% assign must_reads = site.entries | where: "category", "must_read" | sort: "order" %}
 {% for entry in must_reads %}
@@ -49,7 +41,12 @@ We hope other infra people will like these books too! Please open a PR for any c
 </div>
 {% endfor %}
 
-### Classics (A tier)
+</div>
+</div>
+
+<div class="subsection-accordion accordion-section">
+<h3 id="classics-a-tier" class="accordion-header">Classics (A tier)</h3>
+<div class="accordion-content">
 
 {: .section-intro}
 These books all had massive impact when they were published and are still great reads today. Some feel a little dated now, so you can skip this section if you don't want to dive into sci-fi history.
@@ -73,7 +70,12 @@ These books all had massive impact when they were published and are still great 
 </div>
 {% endfor %}
 
-### Very good books (A tier)
+</div>
+</div>
+
+<div class="subsection-accordion accordion-section">
+<h3 id="very-good-books-a-tier" class="accordion-header">Very good books (A tier)</h3>
+<div class="accordion-content">
 
 {: .section-intro}
 These are all contemporary books and very very good. Highly recommended.
@@ -97,7 +99,12 @@ These are all contemporary books and very very good. Highly recommended.
 </div>
 {% endfor %}
 
-### Also worth reading (B tier)
+</div>
+</div>
+
+<div class="subsection-accordion accordion-section">
+<h3 id="also-worth-reading-b-tier" class="accordion-header">Also worth reading (B tier)</h3>
+<div class="accordion-content">
 
 {% assign also_worth = site.entries | where: "category", "also_worth_reading" | sort: "order" %}
 {% for entry in also_worth %}
@@ -118,7 +125,15 @@ These are all contemporary books and very very good. Highly recommended.
 </div>
 {% endfor %}
 
-## Fantasy
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="accordion-section">
+<h2 id="fantasy" class="accordion-header">Fantasy</h2>
+<div class="accordion-content">
 
 {% assign fantasy = site.entries | where: "category", "fantasy" | sort: "order" %}
 {% for entry in fantasy %}
@@ -139,7 +154,12 @@ These are all contemporary books and very very good. Highly recommended.
 </div>
 {% endfor %}
 
-## Comic books
+</div>
+</div>
+
+<div class="accordion-section">
+<h2 id="comic-books" class="accordion-header">Comic books</h2>
+<div class="accordion-content">
 
 {% assign comics = site.entries | where: "category", "comic" | sort: "order" %}
 {% for entry in comics %}
@@ -160,7 +180,12 @@ These are all contemporary books and very very good. Highly recommended.
 </div>
 {% endfor %}
 
-## Non-fiction
+</div>
+</div>
+
+<div class="accordion-section">
+<h2 id="non-fiction" class="accordion-header">Non-fiction</h2>
+<div class="accordion-content">
 
 {% assign non_fiction = site.entries | where: "category", "non_fiction" | sort: "order" %}
 {% for entry in non_fiction %}
@@ -180,3 +205,6 @@ These are all contemporary books and very very good. Highly recommended.
   </div>
 </div>
 {% endfor %}
+
+</div>
+</div>

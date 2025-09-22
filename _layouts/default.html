@@ -141,7 +141,105 @@
                 margin: 0 auto;
             }
         }
+        
+        /* Accordion styles */
+        .accordion-section {
+            margin-bottom: 20px;
+        }
+        
+        .accordion-header {
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            padding-right: 30px;
+        }
+        
+        .accordion-header:hover {
+            color: #0366d6;
+        }
+        
+        .accordion-header::after {
+            content: '▶';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease;
+            font-size: 0.8em;
+        }
+        
+        .accordion-header.active::after {
+            transform: translateY(-50%) rotate(90deg);
+        }
+        
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .accordion-content.show {
+            max-height: none;
+        }
+        
+        .subsection-accordion .accordion-header {
+            font-size: 1.25em;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set up accordion functionality
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const isActive = this.classList.contains('active');
+                    
+                    // Toggle current section
+                    this.classList.toggle('active');
+                    content.classList.toggle('show');
+                    
+                    // Update max-height for smooth animation
+                    if (!isActive) {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        // After transition, set to none for dynamic content
+                        setTimeout(() => {
+                            if (content.classList.contains('show')) {
+                                content.style.maxHeight = 'none';
+                            }
+                        }, 300);
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        // Force reflow
+                        content.offsetHeight;
+                        content.style.maxHeight = '0';
+                    }
+                });
+            });
+            
+            // Handle anchor links to auto-expand sections
+            if (window.location.hash) {
+                const target = document.querySelector(window.location.hash);
+                if (target) {
+                    // Find parent accordion content
+                    let parent = target.parentElement;
+                    while (parent && !parent.classList.contains('accordion-content')) {
+                        parent = parent.parentElement;
+                    }
+                    if (parent) {
+                        const header = parent.previousElementSibling;
+                        if (header && header.classList.contains('accordion-header')) {
+                            header.click();
+                            setTimeout(() => target.scrollIntoView(), 350);
+                        }
+                    }
+                }
+            }
+        });
+    </script>
 </head>
 <body>
     {{ content }}
