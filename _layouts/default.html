@@ -238,6 +238,15 @@
                     }
                 }
             }
+            
+            // Auto-open the sci-fi accordion by default
+            const sciFiHeader = document.querySelector('#sci-fi');
+            if (sciFiHeader && sciFiHeader.classList.contains('accordion-header')) {
+                const content = sciFiHeader.nextElementSibling;
+                sciFiHeader.classList.add('active');
+                content.classList.add('show');
+                content.style.maxHeight = 'none';
+            }
         });
     </script>
 </head>
