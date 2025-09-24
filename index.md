@@ -13,21 +13,16 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 
 
-<div class="toc">
-<ul>
-  <li><a href="#sci-fi">Sci-fi</a>
-    <ul>
-      <li><a href="#must-reads-s-tier">Must reads (S tier)</a></li>
-      <li><a href="#classics-a-tier">Classics (A tier)</a></li>
-      <li><a href="#very-good-books-a-tier">Very good books (A tier)</a></li>
-      <li><a href="#also-worth-reading-b-tier">Also worth reading (B tier)</a></li>
-    </ul>
-  </li>
-  <li><a href="#fantasy">Fantasy</a></li>
-  <li><a href="#comic-books">Comic books</a></li>
-  <li><a href="#non-fiction">Non-fiction</a></li>
-</ul>
-</div>
+## Table of Contents
+
+- [Sci-fi](#sci-fi)
+  - [Must reads (S tier)](#must-reads-s-tier)
+  - [Classics (A tier)](#classics-a-tier)
+  - [Very good books (A tier)](#very-good-books-a-tier)
+  - [Also worth reading (B tier)](#also-worth-reading-b-tier)
+- [Fantasy](#fantasy)
+- [Comic books](#comic-books)
+- [Non-fiction](#non-fiction)
 
 <h2 id="sci-fi" class="header-with-link">Sci-fi <a href="#" class="back-to-top">⬆︎</a></h2>
 
