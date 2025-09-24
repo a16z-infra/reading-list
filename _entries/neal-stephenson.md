@@ -1,6 +1,6 @@
 ---
 category: very_good
-order: 30
+order: 7
 book_title:
 series_title:
 title_url:

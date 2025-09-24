@@ -1,6 +1,6 @@
 ---
 category: very_good
-order: 50
+order: 5
 book_title:
 series_title: Zones of Thought
 title_url:
