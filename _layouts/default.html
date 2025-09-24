@@ -239,13 +239,6 @@
                 }
             }
             
-            // Auto-open all accordions by default
-            accordionHeaders.forEach(header => {
-                const content = header.nextElementSibling;
-                header.classList.add('active');
-                content.classList.add('show');
-                content.style.maxHeight = 'none';
-            });
         });
     </script>
 </head>
