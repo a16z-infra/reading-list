@@ -29,9 +29,9 @@ We hope other infra people will like these books too! Please open a PR for any c
 </ul>
 </div>
 
-<h2 id="sci-fi">Sci-fi</h2>
+<h2 id="sci-fi" class="header-with-link">Sci-fi <a href="#" class="back-to-top">⬆︎</a></h2>
 
-<h3 id="must-reads-s-tier">Must reads (S tier)</h3>
+<h3 id="must-reads-s-tier" class="header-with-link">Must reads (S tier) <a href="#" class="back-to-top">⬆︎</a></h3>
 
 <blockquote class="section-intro">
 If you haven't read a lot of science fiction before (or want to argue about what merits S tier), start here.
@@ -56,7 +56,7 @@ If you haven't read a lot of science fiction before (or want to argue about what
 </div>
 {% endfor %}
 
-<h3 id="classics-a-tier">Classics (A tier)</h3>
+<h3 id="classics-a-tier" class="header-with-link">Classics (A tier) <a href="#" class="back-to-top">⬆︎</a></h3>
 
 <blockquote class="section-intro">
 These books all had massive impact when they were published and are still great reads today. Some feel a little dated now, so you can skip this section if you don't want to dive into sci-fi history.
@@ -81,7 +81,7 @@ These books all had massive impact when they were published and are still great 
 </div>
 {% endfor %}
 
-<h3 id="very-good-books-a-tier">Very good books (A tier)</h3>
+<h3 id="very-good-books-a-tier" class="header-with-link">Very good books (A tier) <a href="#" class="back-to-top">⬆︎</a></h3>
 
 <blockquote class="section-intro">
 These are all contemporary books and very very good. Highly recommended.
@@ -106,7 +106,7 @@ These are all contemporary books and very very good. Highly recommended.
 </div>
 {% endfor %}
 
-<h3 id="also-worth-reading-b-tier">Also worth reading (B tier)</h3>
+<h3 id="also-worth-reading-b-tier" class="header-with-link">Also worth reading (B tier) <a href="#" class="back-to-top">⬆︎</a></h3>
 
 <blockquote class="section-intro">
 These books are all fun and/or, interesting and well worth the time, if you are looking for something new.
@@ -131,7 +131,7 @@ These books are all fun and/or, interesting and well worth the time, if you are 
 </div>
 {% endfor %}
 
-<h2 id="fantasy">Fantasy</h2>
+<h2 id="fantasy" class="header-with-link">Fantasy <a href="#" class="back-to-top">⬆︎</a></h2>
 
 {% assign fantasy = site.entries | where: "category", "fantasy" | sort: "order" %}
 {% for entry in fantasy %}
@@ -152,7 +152,7 @@ These books are all fun and/or, interesting and well worth the time, if you are 
 </div>
 {% endfor %}
 
-<h2 id="comic-books">Comic books</h2>
+<h2 id="comic-books" class="header-with-link">Comic books <a href="#" class="back-to-top">⬆︎</a></h2>
 
 {% assign comics = site.entries | where: "category", "comic" | sort: "order" %}
 {% for entry in comics %}
@@ -173,7 +173,7 @@ These books are all fun and/or, interesting and well worth the time, if you are 
 </div>
 {% endfor %}
 
-<h2 id="non-fiction">Non-fiction</h2>
+<h2 id="non-fiction" class="header-with-link">Non-fiction <a href="#" class="back-to-top">⬆︎</a></h2>
 
 {% assign non_fiction = site.entries | where: "category", "non_fiction" | sort: "order" %}
 {% for entry in non_fiction %}
