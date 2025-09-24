@@ -5,11 +5,29 @@ title: a16z Infra Reading List
 
 # a16z Infra Reading List
 
-![Header](header.png){: .header-image}
+<!-- ![Header](header.png){: .header-image} -->
 
 This is a list of books and authors that at least one member of the a16z infra team read and loved. It's heavy on science fiction because sci-fi is the most infra-y literary genre: it's about new technology, new systems, and the people who devote their lives to building and understanding them.
 
 We hope other infra people will like these books too! Please open a PR for any changes or additions.
+
+
+
+<div class="toc">
+<ul>
+  <li><a href="#sci-fi">Sci-fi</a>
+    <ul>
+      <li><a href="#must-reads-s-tier">Must reads (S tier)</a></li>
+      <li><a href="#classics-a-tier">Classics (A tier)</a></li>
+      <li><a href="#very-good-books-a-tier">Very good books (A tier)</a></li>
+      <li><a href="#also-worth-reading-b-tier">Also worth reading (B tier)</a></li>
+    </ul>
+  </li>
+  <li><a href="#fantasy">Fantasy</a></li>
+  <li><a href="#comic-books">Comic books</a></li>
+  <li><a href="#non-fiction">Non-fiction</a></li>
+</ul>
+</div>
 
 <div class="accordion-section">
 <h2 id="sci-fi" class="accordion-header">Sci-fi</h2>
