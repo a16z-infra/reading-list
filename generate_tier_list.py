@@ -85,18 +85,14 @@ def load_entries(entries_dir):
                     # Extract base filename (without extension) for cover caching
                     base_filename = os.path.splitext(os.path.basename(entry_file))[0]
                     
-                    # Determine display title: book_title, then series_title (+ postfix), then author
+                    # Determine display title: book_title, then series_title, then author
                     book_title = metadata.get('book_title')
                     series_title = metadata.get('series_title')
-                    series_postfix = metadata.get('series_postfix')
                     
                     if book_title:
                         display_title = book_title
                     elif series_title:
-                        if series_postfix:
-                            display_title = series_title + " " + series_postfix
-                        else:
-                            display_title = series_title
+                        display_title = series_title
                     else:
                         display_title = metadata.get('author', 'Unknown')
                     
@@ -119,7 +115,7 @@ def load_entries(entries_dir):
     
     return entries_by_tier
 
-def create_placeholder_cover(title, author, size=(100, 150)):
+def create_placeholder_cover(title, author, size=(200, 300)):
     """Create a book-like placeholder image"""
     img = Image.new('RGB', size, color='white')
     draw = ImageDraw.Draw(img)
@@ -177,6 +173,36 @@ def create_placeholder_cover(title, author, size=(100, 150)):
     
     return img
 
+def wrap_text(text, font, max_width):
+    """Wrap text to fit within max_width, returning list of lines"""
+    words = text.split()
+    lines = []
+    current_line = ""
+    
+    for word in words:
+        test_line = current_line + " " + word if current_line else word
+        # Create a temporary image to measure text
+        temp_img = Image.new('RGB', (1, 1))
+        temp_draw = ImageDraw.Draw(temp_img)
+        bbox = temp_draw.textbbox((0, 0), test_line, font=font)
+        text_width = bbox[2] - bbox[0]
+        
+        if text_width <= max_width:
+            current_line = test_line
+        else:
+            if current_line:
+                lines.append(current_line)
+                current_line = word
+            else:
+                # Single word is too long, add it anyway
+                lines.append(word)
+                current_line = ""
+    
+    if current_line:
+        lines.append(current_line)
+    
+    return lines
+
 def get_extension_from_url(url):
     """Extract file extension from URL"""
     if not url:
@@ -192,7 +218,7 @@ def get_extension_from_url(url):
         return '.png'
     return ext.lower()
 
-def download_cover(url, title, author, base_filename, size=(100, 150), covers_dir='_entries/covers'):
+def download_cover(url, title, author, base_filename, size=(200, 300), covers_dir='_entries/covers'):
     """Download and resize book cover, with fallback to placeholder. Uses local cache if available."""
     # Create covers directory if it doesn't exist
     os.makedirs(covers_dir, exist_ok=True)
@@ -255,12 +281,12 @@ def download_cover(url, title, author, base_filename, size=(100, 150), covers_di
 def create_tier_list(entries_by_tier, output_file='tier_list.png'):
     """Create the tier list graphic"""
     # Configuration
-    img_width = 1400
-    tier_height = 200
-    tier_label_width = 140
-    cover_width = 100
-    cover_height = 150
-    padding = 10
+    img_width = 2200
+    tier_height = 360
+    tier_label_width = 180
+    cover_width = 200
+    cover_height = 300
+    padding = 15
     
     # Calculate image height
     num_tiers = len([tier for tier in entries_by_tier if entries_by_tier[tier]])
@@ -272,10 +298,10 @@ def create_tier_list(entries_by_tier, output_file='tier_list.png'):
     
     # Try to load a font (fallback to default if not available)
     try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 48)
-        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 60)
-        subtitle_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
-        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 11)
+        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
+        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 72)
+        subtitle_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 24)
+        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
     except:
         title_font = ImageFont.load_default()
         tier_font = ImageFont.load_default()
@@ -318,16 +344,22 @@ def create_tier_list(entries_by_tier, output_file='tier_list.png'):
             font=tier_font
         )
         
-        # Draw tier subtitle
+        # Draw tier subtitle with word wrapping
         subtitle = TIER_SUBTITLES[tier]
-        subtitle_bbox = draw.textbbox((0, 0), subtitle, font=subtitle_font)
-        subtitle_width = subtitle_bbox[2] - subtitle_bbox[0]
-        draw.text(
-            ((tier_label_width - subtitle_width) // 2, y_offset + 120),
-            subtitle,
-            fill='white',
-            font=subtitle_font
-        )
+        wrapped_subtitle_lines = wrap_text(subtitle, subtitle_font, tier_label_width - 20)
+        
+        # Draw each line centered horizontally
+        subtitle_y = y_offset + 160
+        for line in wrapped_subtitle_lines:
+            line_bbox = draw.textbbox((0, 0), line, font=subtitle_font)
+            line_width = line_bbox[2] - line_bbox[0]
+            draw.text(
+                ((tier_label_width - line_width) // 2, subtitle_y),
+                line,
+                fill='white',
+                font=subtitle_font
+            )
+            subtitle_y += 30
         
         # Draw vertical line after tier label
         draw.line(
@@ -353,18 +385,32 @@ def create_tier_list(entries_by_tier, output_file='tier_list.png'):
             cover_y = y_offset + (tier_height - cover_height) // 2
             img.paste(cover, (x_offset, cover_y))
             
-            # Draw book title below cover (truncated if needed)
+            # Draw book title below cover with word wrapping
             title_text = entry['title'] or 'Unknown'
-            if len(title_text) > 15:
-                title_text = title_text[:12] + '...'
+            wrapped_lines = wrap_text(title_text, book_font, cover_width - 4)
             
-            text_y = y_offset + tier_height - 25
+            # Limit to 2 lines max
+            if len(wrapped_lines) > 2:
+                wrapped_lines = wrapped_lines[:2]
+                # Add ellipsis to last line if truncated
+                wrapped_lines[1] = wrapped_lines[1][:20] + '...' if len(wrapped_lines[1]) > 20 else wrapped_lines[1]
+            
+            # Calculate text background height
+            line_height = 24
+            text_bg_height = len(wrapped_lines) * line_height + 6
+            text_y = y_offset + tier_height - text_bg_height
+            
             # Add semi-transparent background for text
             draw.rectangle(
-                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + 15)],
+                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + text_bg_height)],
                 fill=(255, 255, 255, 200)
             )
-            draw.text((x_offset, text_y), title_text, fill='black', font=book_font)
+            
+            # Draw each line
+            current_y = text_y
+            for line in wrapped_lines:
+                draw.text((x_offset, current_y), line, fill='black', font=book_font)
+                current_y += line_height
             
             x_offset += cover_width + padding
         
@@ -411,12 +457,12 @@ def create_text_tier_list(entries_by_tier, output_file='tier_list.txt'):
 def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
     """Create the sci-fi tier list graphic with full titles"""
     # Configuration
-    img_width = 1400
-    tier_height = 200
-    tier_label_width = 200
-    cover_width = 100
-    cover_height = 150
-    padding = 10
+    img_width = 2200
+    tier_height = 360
+    tier_label_width = 240
+    cover_width = 200
+    cover_height = 300
+    padding = 15
     
     # Only include sci-fi tiers
     scifi_tiers = ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B']
@@ -429,9 +475,9 @@ def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
     
     # Load fonts
     try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 48)
-        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 28)
-        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 11)
+        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
+        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 36)
+        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
     except:
         title_font = ImageFont.load_default()
         tier_font = ImageFont.load_default()
@@ -469,17 +515,27 @@ def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
             fill='black'
         )
         
-        # Draw tier full name (centered vertically)
+        # Draw tier full name with word wrapping (centered vertically)
         tier_name = tier_full_names[tier]
-        tier_bbox = draw.textbbox((0, 0), tier_name, font=tier_font)
-        tier_height_text = tier_bbox[3] - tier_bbox[1]
-        tier_width_text = tier_bbox[2] - tier_bbox[0]
-        draw.text(
-            ((tier_label_width - tier_width_text) // 2, y_offset + (tier_height - tier_height_text) // 2),
-            tier_name,
-            fill='white',
-            font=tier_font
-        )
+        wrapped_tier_lines = wrap_text(tier_name, tier_font, tier_label_width - 20)
+        
+        # Calculate total height of wrapped text
+        line_height = 42
+        total_text_height = len(wrapped_tier_lines) * line_height
+        start_y = y_offset + (tier_height - total_text_height) // 2
+        
+        # Draw each line centered horizontally
+        current_y = start_y
+        for line in wrapped_tier_lines:
+            line_bbox = draw.textbbox((0, 0), line, font=tier_font)
+            line_width = line_bbox[2] - line_bbox[0]
+            draw.text(
+                ((tier_label_width - line_width) // 2, current_y),
+                line,
+                fill='white',
+                font=tier_font
+            )
+            current_y += line_height
         
         # Draw vertical line after tier label
         draw.line(
@@ -504,17 +560,32 @@ def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
             cover_y = y_offset + (tier_height - cover_height) // 2
             img.paste(cover, (x_offset, cover_y))
             
-            # Draw book title
+            # Draw book title with word wrapping
             title_text = entry['title'] or 'Unknown'
-            if len(title_text) > 15:
-                title_text = title_text[:12] + '...'
+            wrapped_lines = wrap_text(title_text, book_font, cover_width - 4)
             
-            text_y = y_offset + tier_height - 25
+            # Limit to 2 lines max
+            if len(wrapped_lines) > 2:
+                wrapped_lines = wrapped_lines[:2]
+                # Add ellipsis to last line if truncated
+                wrapped_lines[1] = wrapped_lines[1][:20] + '...' if len(wrapped_lines[1]) > 20 else wrapped_lines[1]
+            
+            # Calculate text background height
+            line_height = 24
+            text_bg_height = len(wrapped_lines) * line_height + 6
+            text_y = y_offset + tier_height - text_bg_height
+            
+            # Add semi-transparent background for text
             draw.rectangle(
-                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + 15)],
+                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + text_bg_height)],
                 fill=(255, 255, 255, 200)
             )
-            draw.text((x_offset, text_y), title_text, fill='black', font=book_font)
+            
+            # Draw each line
+            current_y = text_y
+            for line in wrapped_lines:
+                draw.text((x_offset, current_y), line, fill='black', font=book_font)
+                current_y += line_height
             
             x_offset += cover_width + padding
         
@@ -533,12 +604,12 @@ def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
 def create_other_categories_list(entries_by_tier, output_file='tier_list_other.png'):
     """Create the other categories list (Fantasy, Comics, Non-fiction)"""
     # Configuration
-    img_width = 1400
-    tier_height = 200
-    tier_label_width = 200
-    cover_width = 100
-    cover_height = 150
-    padding = 10
+    img_width = 2200
+    tier_height = 360
+    tier_label_width = 240
+    cover_width = 200
+    cover_height = 300
+    padding = 15
     
     # Category colors (red, orange, yellow)
     category_colors = {
@@ -574,9 +645,9 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
     
     # Load fonts
     try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 48)
-        category_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 28)
-        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 11)
+        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
+        category_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 36)
+        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
     except:
         title_font = ImageFont.load_default()
         category_font = ImageFont.load_default()
@@ -606,17 +677,27 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
             fill='black'
         )
         
-        # Draw category name (centered vertically)
+        # Draw category name with word wrapping (centered vertically)
         cat_name = category_names[category]
-        cat_bbox = draw.textbbox((0, 0), cat_name, font=category_font)
-        cat_height_text = cat_bbox[3] - cat_bbox[1]
-        cat_width_text = cat_bbox[2] - cat_bbox[0]
-        draw.text(
-            ((tier_label_width - cat_width_text) // 2, y_offset + (tier_height - cat_height_text) // 2),
-            cat_name,
-            fill='white',
-            font=category_font
-        )
+        wrapped_cat_lines = wrap_text(cat_name, category_font, tier_label_width - 20)
+        
+        # Calculate total height of wrapped text
+        line_height = 42
+        total_text_height = len(wrapped_cat_lines) * line_height
+        start_y = y_offset + (tier_height - total_text_height) // 2
+        
+        # Draw each line centered horizontally
+        current_y = start_y
+        for line in wrapped_cat_lines:
+            line_bbox = draw.textbbox((0, 0), line, font=category_font)
+            line_width = line_bbox[2] - line_bbox[0]
+            draw.text(
+                ((tier_label_width - line_width) // 2, current_y),
+                line,
+                fill='white',
+                font=category_font
+            )
+            current_y += line_height
         
         # Draw vertical line after category label
         draw.line(
@@ -641,17 +722,32 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
             cover_y = y_offset + (tier_height - cover_height) // 2
             img.paste(cover, (x_offset, cover_y))
             
-            # Draw book title
+            # Draw book title with word wrapping
             title_text = entry['title'] or 'Unknown'
-            if len(title_text) > 15:
-                title_text = title_text[:12] + '...'
+            wrapped_lines = wrap_text(title_text, book_font, cover_width - 4)
             
-            text_y = y_offset + tier_height - 25
+            # Limit to 2 lines max
+            if len(wrapped_lines) > 2:
+                wrapped_lines = wrapped_lines[:2]
+                # Add ellipsis to last line if truncated
+                wrapped_lines[1] = wrapped_lines[1][:20] + '...' if len(wrapped_lines[1]) > 20 else wrapped_lines[1]
+            
+            # Calculate text background height
+            line_height = 24
+            text_bg_height = len(wrapped_lines) * line_height + 6
+            text_y = y_offset + tier_height - text_bg_height
+            
+            # Add semi-transparent background for text
             draw.rectangle(
-                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + 15)],
+                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + text_bg_height)],
                 fill=(255, 255, 255, 200)
             )
-            draw.text((x_offset, text_y), title_text, fill='black', font=book_font)
+            
+            # Draw each line
+            current_y = text_y
+            for line in wrapped_lines:
+                draw.text((x_offset, current_y), line, fill='black', font=book_font)
+                current_y += line_height
             
             x_offset += cover_width + padding
         
