@@ -1,10 +1,10 @@
 ---
-category: also_worth_reading
-order: 30
+category: very_good
+order: 60
 book_title:
 series_title: Hyperion Cantos
 title_url: https://en.wikipedia.org/wiki/Hyperion_Cantos
-series_postfix: series
+series_postfix:
 author: Dan Simmons
 author_url: https://en.wikipedia.org/wiki/Dan_Simmons
 cover_url: https://upload.wikimedia.org/wikipedia/en/7/73/Hyperion_cover.jpg

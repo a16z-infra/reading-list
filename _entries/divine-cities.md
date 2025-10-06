@@ -1,6 +1,6 @@
 ---
 category: fantasy
-order: 60
+order: 80
 book_title:
 series_title: The Divine Cities
 title_url: https://en.wikipedia.org/wiki/The_Divine_Cities
