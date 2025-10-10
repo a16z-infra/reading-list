@@ -1,4 +1,4 @@
-This is the content behind the a16z infra reading list at https://a16z-infra.github.io/reading-list
+This is the content behind the a16z infra reading list at https://potential-robot-n2lnnnw.pages.github.io/ [TODO replace me with public url]
 
 The list is built using Jekyll, a static site generator that's integrated into GitHub Pages. The book & author entries are stored as individual markdown files in the `_entries/` directory. Jekyll automatically compiles the new list whenever an update is pushed to the `main` branch.
 
