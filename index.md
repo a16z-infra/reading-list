@@ -21,7 +21,6 @@ We hope other infra people will like these books too! Please open a PR for any c
   - [Very good books (A tier)](#very-good-books-a-tier)
   - [Also worth reading (B tier)](#also-worth-reading-b-tier)
 - [Fantasy](#fantasy)
-- [Comic books](#comic-books)
 - [Non-fiction](#non-fiction)
 
 <h2 id="sci-fi" class="header-with-link"><span class="highlight2">Sci-fi</span> <a href="#" class="back-to-top">⬆︎</a></h2>
