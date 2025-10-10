@@ -339,9 +339,9 @@ def create_tier_list(entries_by_tier, output_file='tier_list.png'):
     cover_height = 375
     padding = 15
     
-    # Calculate image dimensions based on content
+    # Calculate image dimensions based on content (no top title)
     num_tiers = len([tier for tier in entries_by_tier if entries_by_tier[tier]])
-    img_height = num_tiers * tier_height + 100  # Extra space for title
+    img_height = num_tiers * tier_height
     
     # Calculate width based on the tier with the most books
     max_books_in_tier = max(len(entries_by_tier[tier]) for tier in entries_by_tier if entries_by_tier[tier])
@@ -363,14 +363,8 @@ def create_tier_list(entries_by_tier, output_file='tier_list.png'):
         subtitle_font = ImageFont.load_default()
         book_font = ImageFont.load_default()
     
-    # Draw title
-    title = "a16z Infra Reading List - Tier List"
-    title_bbox = draw.textbbox((0, 0), title, font=title_font)
-    title_width = title_bbox[2] - title_bbox[0]
-    draw.text(((img_width - title_width) // 2, 20), title, fill='black', font=title_font)
-    
-    # Draw tiers
-    y_offset = 100
+    # Draw tiers (start at top since we removed the title)
+    y_offset = 0
     for tier in ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B', 'C']:
         if not entries_by_tier[tier]:
             continue
@@ -521,7 +515,7 @@ def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
     # Only include sci-fi tiers
     scifi_tiers = ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B']
     num_tiers = len([tier for tier in scifi_tiers if entries_by_tier[tier]])
-    img_height = num_tiers * tier_height + 100
+    img_height = num_tiers * tier_height
     
     # Calculate width based on the tier with the most books
     max_books_in_tier = max(len(entries_by_tier[tier]) for tier in scifi_tiers if entries_by_tier[tier])
@@ -549,14 +543,8 @@ def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
         'B': 'Also Worth Reading\n(B tier)'
     }
     
-    # Draw title
-    title = "a16z Infra Reading List - Sci-Fi"
-    title_bbox = draw.textbbox((0, 0), title, font=title_font)
-    title_width = title_bbox[2] - title_bbox[0]
-    draw.text(((img_width - title_width) // 2, 20), title, fill='black', font=title_font)
-    
-    # Draw tiers
-    y_offset = 100
+    # Draw tiers (start at top since we removed the title)
+    y_offset = 0
     for tier in scifi_tiers:
         if not entries_by_tier[tier]:
             continue
@@ -694,7 +682,7 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
             entries_by_category[cat].append(entry)
     
     num_categories = len([cat for cat in entries_by_category if entries_by_category[cat]])
-    img_height = num_categories * tier_height + 100
+    img_height = num_categories * tier_height
     
     # Calculate width based on the category with the most books
     max_books_in_category = max(len(entries_by_category[cat]) for cat in entries_by_category if entries_by_category[cat])
@@ -714,14 +702,8 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
         category_font = ImageFont.load_default()
         book_font = ImageFont.load_default()
     
-    # Draw title
-    title = "a16z Infra Reading List - Other Categories"
-    title_bbox = draw.textbbox((0, 0), title, font=title_font)
-    title_width = title_bbox[2] - title_bbox[0]
-    draw.text(((img_width - title_width) // 2, 20), title, fill='black', font=title_font)
-    
-    # Draw categories
-    y_offset = 100
+    # Draw categories (start at top since we removed the title)
+    y_offset = 0
     for category in ['fantasy', 'comic', 'non_fiction']:
         if not entries_by_category[category]:
             continue
@@ -836,7 +818,7 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
     # Only include sci-fi tiers
     scifi_tiers = ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B']
     num_tiers = len([tier for tier in scifi_tiers if entries_by_tier[tier]])
-    img_height = num_tiers * tier_height + 100
+    img_height = num_tiers * tier_height
     
     # Calculate width based on the tier with the most books
     max_books_in_tier = max(len(entries_by_tier[tier]) for tier in scifi_tiers if entries_by_tier[tier])
@@ -864,14 +846,8 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
         'B': 'Also Worth Reading\n(B tier)'
     }
     
-    # Draw title
-    title = "a16z Infra Reading List - Authors"
-    title_bbox = draw.textbbox((0, 0), title, font=title_font)
-    title_width = title_bbox[2] - title_bbox[0]
-    draw.text(((img_width - title_width) // 2, 20), title, fill='black', font=title_font)
-    
-    # Draw tiers
-    y_offset = 100
+    # Draw tiers (start at top since we removed the title)
+    y_offset = 0
     for tier in scifi_tiers:
         if not entries_by_tier[tier]:
             continue

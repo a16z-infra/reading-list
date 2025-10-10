@@ -26,6 +26,8 @@ We hope other infra people will like these books too! Please open a PR for any c
 
 <h2 id="sci-fi" class="header-with-link"><span class="highlight2">Sci-fi</span> <a href="#" class="back-to-top">⬆︎</a></h2>
 
+<!-- ![](tier_list_authors.png){: .header-image} -->
+
 <h3 id="must-reads-s-tier" class="header-with-link"><span class="highlight3">Must reads (S tier)</span> <a href="#" class="back-to-top">⬆︎</a></h3>
 
 <blockquote class="section-intro">
