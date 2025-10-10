@@ -151,27 +151,6 @@ We are not fantasy people, so please open PRs to add everything we've missed (in
 </div>
 {% endfor %}
 
-<h2 id="comic-books" class="header-with-link"><span class="highlight2">Comic books</span> <a href="#" class="back-to-top">⬆︎</a></h2>
-
-{% assign comics = site.entries | where: "category", "comic" | sort: "order" %}
-{% for entry in comics %}
-<div class="entry">
-  <div class="entry-image">
-    <img src="{{ entry.cover_url }}" alt="{{ entry.series_title | default: entry.book_title | default: entry.author }}">
-  </div>
-  <div class="entry-content">
-    {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
-    {% elsif entry.book_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
-    {% else %}
-      <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
-    {% endif %}
-    {{ entry.content | markdownify }}
-  </div>
-</div>
-{% endfor %}
-
 <h2 id="non-fiction" class="header-with-link"><span class="highlight2">Non-fiction</span> <a href="#" class="back-to-top">⬆︎</a></h2>
 
 {% assign non_fiction = site.entries | where: "category", "non_fiction" | sort: "order" %}
