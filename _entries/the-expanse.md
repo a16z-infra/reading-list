@@ -9,7 +9,7 @@ author: James S.A. Corey
 author_url: https://en.wikipedia.org/wiki/James_S._A._Corey
 cover_url: https://upload.wikimedia.org/wikipedia/en/0/08/Leviathan_Wakes.jpg
 ---
-Many sci fi books jump far into the future, where technology has advanced dramatically, human civilization spans lightyears, and social dynamics are hard to really recognize. *The Expanse* takes the opposite approach: it is set in the near future, when Earth is getting too crowded, humans have colonized Mars and the Kuiper belt, and space travel has advanced through fairly conventional means. The focus instead is on very believable conflict, and relatable individual stories, as tension builds among the various planetary (and asteroid-based) factions. Add in a few magical sci fi elements, and it's a very fun series (and a great show on Amazon Prime).
+Many sci fi books jump far into the future, where technology has advanced dramatically, human civilization spans lightyears, and social dynamics are hard to really recognize. *The Expanse* takes the opposite approach: it is set in the near future, when Earth is getting too crowded, humans have colonized Mars and the Kuiper belt, and space travel has advanced via fairly conventional tech. The focus instead is on very believable conflict, and relatable individual stories, as tension builds among the various planetary (and asteroid-based) factions. Add in a few magical sci fi elements, and it's a very fun series (and a great show on Amazon Prime).
   - [*Leviathan Wakes*](https://en.wikipedia.org/wiki/Leviathan_Wakes) (2011)
   - [*Caliban's War*](https://en.wikipedia.org/wiki/Caliban%27s_War) (2012)
   - [*Abaddon's Gate*](https://en.wikipedia.org/wiki/Abaddon%27s_Gate) (2013)

@@ -1,6 +1,6 @@
 ---
 category: classic
-order: 60
+order: 50
 book_title:
 series_title:
 title_url:
