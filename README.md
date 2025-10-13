@@ -28,4 +28,12 @@ Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought e
 
 You should specify at most one of `book_title` or `series_title`. And you can leave both blank if you're just highlighting an author.
 
-If you'd like to test locally, you'll need to install Ruby, Bundler, and Jekyll.
+If you'd like to test the site locally...
+
+1. Install Ruby and Jekyll (mac instructions: https://jekyllrb.com/docs/installation/macos/)
+2. Install bundler: run `gem install bundler`
+3. In your local copy of the repo, run `bundle install` once to install dependencies
+4. Then run `bundle exec jekyll serve` each time you need to start the local server
+5. Access the site at http://127.0.0.1:4000/ by default
+
+When a PR is merged, the site will be automatically updated
