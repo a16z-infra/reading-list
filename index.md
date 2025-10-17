@@ -130,7 +130,7 @@ These books are all fun and/or interesting, and well worth the time, if you are 
 <h2 id="fantasy" class="header-with-link"><span class="highlight2">Fantasy</span> <a href="#" class="back-to-top">⬆︎</a></h2>
 
 <blockquote class="section-intro">
-We are not fantasy people, so please open PRs to add everything we've missed (including tiers)!
+We are not fantasy people really. This list tends towards interesting/ slightly different takes on the genre. Please open PRs to add everything we've missed (including tiers)!
 </blockquote>
 
 {% assign fantasy = site.entries | where: "category", "fantasy" | sort: "order" %}
