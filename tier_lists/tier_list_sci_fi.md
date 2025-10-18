@@ -33,5 +33,5 @@
 - **Ann Leckie** - Imperial Radch series
 - **Adrian Tchaikovsky** - Children of Time series
 - **Arkady Martine** - Teixcalaan series
-- **Greg Egan**
+- **Greg Egan** - Permutation City
 

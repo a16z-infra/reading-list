@@ -104,6 +104,7 @@ def load_entries(entries_dir):
                     entry = {
                         'title': display_title,
                         'author': author,
+                        'book_title': book_title,
                         'series_title': series_title,
                         'series_postfix': series_postfix,
                         'cover_url': metadata.get('cover_url', ''),
@@ -229,7 +230,7 @@ def get_extension_from_url(url):
         return '.png'
     return ext.lower()
 
-def download_cover(url, title, author, base_filename, size=(250, 375), covers_dir='_entries/covers'):
+def download_cover(url, title, author, base_filename, size=(250, 375), covers_dir='../_entries/covers'):
     """Download and resize book cover, with fallback to placeholder. Uses local cache if available."""
     # Create covers directory if it doesn't exist
     os.makedirs(covers_dir, exist_ok=True)
@@ -357,8 +358,8 @@ def create_text_tier_list(entries_by_tier, output_file='tier_list.txt'):
             
             f.write("\n")
 
-def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fantasy_comics.png'):
-    """Create a tier list for fantasy and comic books with authors display"""
+def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
+    """Create a tier list for other categories (fantasy, comics, non-fiction) with authors display"""
     # Configuration
     tier_height = 480
     tier_label_width = 240
@@ -371,17 +372,20 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
     category_colors = {
         'fantasy': '#FF7F7F',     # Red
         'comic': '#FFBF7F',       # Orange
+        'non_fiction': '#FFFF7F'  # Yellow
     }
     
     category_names = {
         'fantasy': 'Fantasy',
         'comic': 'Comic Books',
+        'non_fiction': 'Non-Fiction'
     }
     
     # Organize entries by original category
     entries_by_category = {
         'fantasy': [],
         'comic': [],
+        'non_fiction': []
     }
     
     for entry in entries_by_tier['C']:
@@ -391,7 +395,7 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
     
     # Calculate number of rows needed for each category
     rows_data = []
-    for category in ['fantasy', 'comic']:
+    for category in ['fantasy', 'comic', 'non_fiction']:
         if not entries_by_category[category]:
             continue
         
@@ -508,10 +512,11 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
             
             img.paste(cover, (x_offset, cover_y))
             
-            # Draw author name and series (if available)
+            # Draw author name and series/book title (if available)
             author_text = entry['author'] or 'Unknown'
             series_title = entry.get('series_title')
             series_postfix = entry.get('series_postfix')
+            book_title = entry.get('book_title')
             
             # Build list of text elements to draw
             text_elements = []
@@ -524,7 +529,7 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
             for line in author_lines:
                 text_elements.append({'text': line, 'font': book_font, 'height': 24})
             
-            # Add series name if present (same font as author)
+            # Add series name or book title if present (same font as author)
             if series_title:
                 series_text = series_title
                 if series_postfix:
@@ -538,6 +543,18 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
                     if series_lines and len(series_lines[-1]) > 20:
                         series_lines[-1] = series_lines[-1][:20] + '...'
                 for line in series_lines:
+                    text_elements.append({'text': line, 'font': book_font, 'height': 24})
+            elif book_title:
+                # Use book title if no series title
+                book_lines = wrap_text(book_title, book_font, cover_width - 4)
+                # Allow up to 2 lines for book title (total of 3 lines with author)
+                remaining_lines = 3 - len(text_elements)
+                if len(book_lines) > remaining_lines:
+                    book_lines = book_lines[:remaining_lines]
+                    # Add ellipsis to last line if truncated
+                    if book_lines and len(book_lines[-1]) > 20:
+                        book_lines[-1] = book_lines[-1][:20] + '...'
+                for line in book_lines:
                     text_elements.append({'text': line, 'font': book_font, 'height': 24})
             
             # Top-align all captions at the same position below covers
@@ -568,14 +585,15 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
         y_offset += tier_height
     
     img.save(output_file, 'PNG')
-    print(f"Fantasy/Comics tier list saved to {output_file}")
+    print(f"Other categories tier list saved to {output_file}")
     
     # Also create markdown version
     md_file = output_file.replace('.png', '.md')
     with open(md_file, 'w') as f:
-        f.write("# Fantasy & Comic Books Reading List\n\n")
+        f.write("# Other Reading List\n\n")
+        f.write("Fantasy, Comic Books, and Non-Fiction\n\n")
         
-        for category in ['fantasy', 'comic']:
+        for category in ['fantasy', 'comic', 'non_fiction']:
             if not entries_by_category[category]:
                 continue
             
@@ -585,6 +603,7 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
                 author = entry['author'] or 'Unknown'
                 series_title = entry.get('series_title')
                 series_postfix = entry.get('series_postfix')
+                book_title = entry.get('book_title')
                 
                 # Format entry
                 if series_title:
@@ -592,15 +611,17 @@ def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fant
                     if series_postfix:
                         series_text += " " + series_postfix
                     f.write(f"- **{author}** - {series_text}\n")
+                elif book_title:
+                    f.write(f"- **{author}** - {book_title}\n")
                 else:
                     f.write(f"- **{author}**\n")
             
             f.write("\n")
     
-    print(f"Fantasy/Comics markdown list saved to {md_file}")
+    print(f"Other categories markdown list saved to {md_file}")
 
-def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png'):
-    """Create an authors-only tier list (no series/book titles)"""
+def create_sci_fi_tier_list(entries_by_tier, output_file='tier_list_sci_fi.png'):
+    """Create a sci-fi tier list (displays authors and series titles)"""
     # Configuration
     tier_height = 480
     tier_label_width = 240
@@ -706,10 +727,11 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
             
             img.paste(cover, (x_offset, cover_y))
             
-            # Draw author name and series (if available)
+            # Draw author name and series/book title (if available)
             author_text = entry['author'] or 'Unknown'
             series_title = entry.get('series_title')
             series_postfix = entry.get('series_postfix')
+            book_title = entry.get('book_title')
             
             # Build list of text elements to draw
             text_elements = []
@@ -722,7 +744,7 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
             for line in author_lines:
                 text_elements.append({'text': line, 'font': book_font, 'height': 24})
             
-            # Add series name if present (same font as author)
+            # Add series name or book title if present (same font as author)
             if series_title:
                 series_text = series_title
                 if series_postfix:
@@ -736,6 +758,18 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
                     if series_lines and len(series_lines[-1]) > 20:
                         series_lines[-1] = series_lines[-1][:20] + '...'
                 for line in series_lines:
+                    text_elements.append({'text': line, 'font': book_font, 'height': 24})
+            elif book_title:
+                # Use book title if no series title
+                book_lines = wrap_text(book_title, book_font, cover_width - 4)
+                # Allow up to 2 lines for book title (total of 3 lines with author)
+                remaining_lines = 3 - len(text_elements)
+                if len(book_lines) > remaining_lines:
+                    book_lines = book_lines[:remaining_lines]
+                    # Add ellipsis to last line if truncated
+                    if book_lines and len(book_lines[-1]) > 20:
+                        book_lines[-1] = book_lines[-1][:20] + '...'
+                for line in book_lines:
                     text_elements.append({'text': line, 'font': book_font, 'height': 24})
             
             # Top-align all captions at the same position below covers
@@ -766,7 +800,7 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
         y_offset += tier_height
     
     img.save(output_file, 'PNG')
-    print(f"Authors tier list saved to {output_file}")
+    print(f"Sci-Fi tier list saved to {output_file}")
     
     # Also create markdown version
     md_file = output_file.replace('.png', '.md')
@@ -790,6 +824,7 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
                 author = entry['author'] or 'Unknown'
                 series_title = entry.get('series_title')
                 series_postfix = entry.get('series_postfix')
+                book_title = entry.get('book_title')
                 
                 # Format entry
                 if series_title:
@@ -797,18 +832,20 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
                     if series_postfix:
                         series_text += " " + series_postfix
                     f.write(f"- **{author}** - {series_text}\n")
+                elif book_title:
+                    f.write(f"- **{author}** - {book_title}\n")
                 else:
                     f.write(f"- **{author}**\n")
             
             f.write("\n")
     
-    print(f"Authors markdown list saved to {md_file}")
+    print(f"Sci-Fi markdown list saved to {md_file}")
 
 if __name__ == '__main__':
     print("Generating tier lists...\n")
     
     # Load entries
-    entries_dir = '_entries'
+    entries_dir = '../_entries'
     entries_by_tier = load_entries(entries_dir)
     
     # Print summary
@@ -828,10 +865,10 @@ if __name__ == '__main__':
     
     print("\nDownloading covers and creating tier lists...")
     
-    # Create authors tier list
-    print("\n1. Creating Authors tier list...")
-    create_authors_tier_list(entries_by_tier, 'tier_list_authors.png')
+    # Create sci-fi tier list
+    print("\n1. Creating Sci-Fi tier list...")
+    create_sci_fi_tier_list(entries_by_tier, 'tier_list_sci_fi.png')
     
-    # Create fantasy/comics tier list
-    print("\n2. Creating Fantasy/Comics tier list...")
-    create_fantasy_comics_tier_list(entries_by_tier, 'tier_list_fantasy_comics.png')
+    # Create other categories tier list
+    print("\n2. Creating Other Categories tier list...")
+    create_other_tier_list(entries_by_tier, 'tier_list_other.png')
