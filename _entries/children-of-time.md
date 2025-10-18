@@ -1,6 +1,6 @@
 ---
 category: also_worth_reading
-order: 40
+order: 50
 book_title:
 series_title: Children of Time
 title_url: https://en.wikipedia.org/wiki/Children_of_Time
