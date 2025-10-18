@@ -330,152 +330,6 @@ def download_cover(url, title, author, base_filename, size=(250, 375), covers_di
         print(f"✗ Failed to download cover for {title}: {str(e)[:50]}... Using placeholder.")
         return create_placeholder_cover(title, author, size)
 
-def create_tier_list(entries_by_tier, output_file='tier_list.png'):
-    """Create the tier list graphic"""
-    # Configuration
-    tier_height = 420
-    tier_label_width = 180
-    cover_width = 250
-    cover_height = 375
-    padding = 15
-    
-    # Calculate image dimensions based on content (no top title)
-    num_tiers = len([tier for tier in entries_by_tier if entries_by_tier[tier]])
-    img_height = num_tiers * tier_height
-    
-    # Calculate width based on the tier with the most books
-    max_books_in_tier = max(len(entries_by_tier[tier]) for tier in entries_by_tier if entries_by_tier[tier])
-    img_width = tier_label_width + (max_books_in_tier * (cover_width + padding)) + padding
-    
-    # Create image
-    img = Image.new('RGB', (img_width, img_height), color='white')
-    draw = ImageDraw.Draw(img)
-    
-    # Try to load a font (fallback to default if not available)
-    try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
-        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 72)
-        subtitle_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 24)
-        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
-    except:
-        title_font = ImageFont.load_default()
-        tier_font = ImageFont.load_default()
-        subtitle_font = ImageFont.load_default()
-        book_font = ImageFont.load_default()
-    
-    # Draw tiers (start at top since we removed the title)
-    y_offset = 0
-    for tier in ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B', 'C']:
-        if not entries_by_tier[tier]:
-            continue
-            
-        # Draw tier background
-        draw.rectangle(
-            [(0, y_offset), (img_width, y_offset + tier_height)],
-            fill=TIER_COLORS[tier]
-        )
-        
-        # Draw tier label with black background
-        draw.rectangle(
-            [(0, y_offset), (tier_label_width, y_offset + tier_height)],
-            fill='black'
-        )
-        
-        # Draw tier letter
-        tier_label = TIER_NAMES[tier]
-        tier_label_bbox = draw.textbbox((0, 0), tier_label, font=tier_font)
-        tier_label_height = tier_label_bbox[3] - tier_label_bbox[1]
-        tier_label_width_text = tier_label_bbox[2] - tier_label_bbox[0]
-        draw.text(
-            ((tier_label_width - tier_label_width_text) // 2, y_offset + 40),
-            tier_label,
-            fill='white',
-            font=tier_font
-        )
-        
-        # Draw tier subtitle with word wrapping
-        subtitle = TIER_SUBTITLES[tier]
-        wrapped_subtitle_lines = wrap_text(subtitle, subtitle_font, tier_label_width - 20)
-        
-        # Draw each line centered horizontally
-        subtitle_y = y_offset + 160
-        for line in wrapped_subtitle_lines:
-            line_bbox = draw.textbbox((0, 0), line, font=subtitle_font)
-            line_width = line_bbox[2] - line_bbox[0]
-            draw.text(
-                ((tier_label_width - line_width) // 2, subtitle_y),
-                line,
-                fill='white',
-                font=subtitle_font
-            )
-            subtitle_y += 30
-        
-        # Draw vertical line after tier label
-        draw.line(
-            [(tier_label_width, y_offset), (tier_label_width, y_offset + tier_height)],
-            fill='black',
-            width=3
-        )
-        
-        # Draw book covers and titles
-        x_offset = tier_label_width + padding
-        for entry in entries_by_tier[tier]:
-            if x_offset + cover_width > img_width - padding:
-                break  # No more room in this tier
-                
-            # Download and place cover
-            cover = download_cover(
-                entry['cover_url'], 
-                entry['title'] or 'Unknown', 
-                entry['author'],
-                entry['base_filename'],
-                (cover_width, cover_height)
-            )
-            cover_y = y_offset + (tier_height - cover_height) // 2
-            img.paste(cover, (x_offset, cover_y))
-            
-            # Draw book title below cover with word wrapping
-            title_text = entry['title'] or 'Unknown'
-            wrapped_lines = wrap_text(title_text, book_font, cover_width - 4)
-            
-            # Limit to 2 lines max
-            if len(wrapped_lines) > 2:
-                wrapped_lines = wrapped_lines[:2]
-                # Add ellipsis to last line if truncated
-                wrapped_lines[1] = wrapped_lines[1][:20] + '...' if len(wrapped_lines[1]) > 20 else wrapped_lines[1]
-            
-            # Calculate text background height
-            line_height = 24
-            text_bg_height = len(wrapped_lines) * line_height + 6
-            text_y = y_offset + tier_height - text_bg_height
-            
-            # Add semi-transparent background for text
-            draw.rectangle(
-                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + text_bg_height)],
-                fill=(255, 255, 255, 200)
-            )
-            
-            # Draw each line
-            current_y = text_y
-            for line in wrapped_lines:
-                draw.text((x_offset, current_y), line, fill='black', font=book_font)
-                current_y += line_height
-            
-            x_offset += cover_width + padding
-        
-        # Draw horizontal line below tier
-        draw.line(
-            [(0, y_offset + tier_height), (img_width, y_offset + tier_height)],
-            fill='black',
-            width=3
-        )
-        
-        y_offset += tier_height
-    
-    # Save image
-    img.save(output_file, 'PNG')
-    print(f"\nTier list saved to {output_file}")
-
 def create_text_tier_list(entries_by_tier, output_file='tier_list.txt'):
     """Create a text version of the tier list"""
     with open(output_file, 'w') as f:
@@ -503,177 +357,31 @@ def create_text_tier_list(entries_by_tier, output_file='tier_list.txt'):
             
             f.write("\n")
 
-def create_scifi_tier_list(entries_by_tier, output_file='tier_list_scifi.png'):
-    """Create the sci-fi tier list graphic with full titles"""
+def create_fantasy_comics_tier_list(entries_by_tier, output_file='tier_list_fantasy_comics.png'):
+    """Create a tier list for fantasy and comic books with authors display"""
     # Configuration
-    tier_height = 420
+    tier_height = 480
     tier_label_width = 240
     cover_width = 250
     cover_height = 375
     padding = 15
+    max_books_per_row = 6
     
-    # Only include sci-fi tiers
-    scifi_tiers = ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B']
-    num_tiers = len([tier for tier in scifi_tiers if entries_by_tier[tier]])
-    img_height = num_tiers * tier_height
-    
-    # Calculate width based on the tier with the most books
-    max_books_in_tier = max(len(entries_by_tier[tier]) for tier in scifi_tiers if entries_by_tier[tier])
-    img_width = tier_label_width + (max_books_in_tier * (cover_width + padding)) + padding
-    
-    # Create image
-    img = Image.new('RGB', (img_width, img_height), color='white')
-    draw = ImageDraw.Draw(img)
-    
-    # Load fonts
-    try:
-        title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
-        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 36)
-        book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
-    except:
-        title_font = ImageFont.load_default()
-        tier_font = ImageFont.load_default()
-        book_font = ImageFont.load_default()
-    
-    # Full tier names for sci-fi
-    tier_full_names = {
-        'S': 'Must Reads\n(S tier)',
-        'A_CLASSIC': 'Classics\n(A tier)',
-        'A_VERY_GOOD': 'Very Good\n(A tier)',
-        'B': 'Also Worth Reading\n(B tier)'
-    }
-    
-    # Draw tiers (start at top since we removed the title)
-    y_offset = 0
-    for tier in scifi_tiers:
-        if not entries_by_tier[tier]:
-            continue
-            
-        # Draw tier background
-        draw.rectangle(
-            [(0, y_offset), (img_width, y_offset + tier_height)],
-            fill=TIER_COLORS[tier]
-        )
-        
-        # Draw tier label with black background
-        draw.rectangle(
-            [(0, y_offset), (tier_label_width, y_offset + tier_height)],
-            fill='black'
-        )
-        
-        # Draw tier full name with word wrapping (centered vertically)
-        tier_name = tier_full_names[tier]
-        wrapped_tier_lines = wrap_text(tier_name, tier_font, tier_label_width - 20)
-        
-        # Calculate total height of wrapped text
-        line_height = 42
-        total_text_height = len(wrapped_tier_lines) * line_height
-        start_y = y_offset + (tier_height - total_text_height) // 2
-        
-        # Draw each line centered horizontally
-        current_y = start_y
-        for line in wrapped_tier_lines:
-            line_bbox = draw.textbbox((0, 0), line, font=tier_font)
-            line_width = line_bbox[2] - line_bbox[0]
-            draw.text(
-                ((tier_label_width - line_width) // 2, current_y),
-                line,
-                fill='white',
-                font=tier_font
-            )
-            current_y += line_height
-        
-        # Draw vertical line after tier label
-        draw.line(
-            [(tier_label_width, y_offset), (tier_label_width, y_offset + tier_height)],
-            fill='black',
-            width=3
-        )
-        
-        # Draw book covers
-        x_offset = tier_label_width + padding
-        for entry in entries_by_tier[tier]:
-            if x_offset + cover_width > img_width - padding:
-                break
-                
-            cover = download_cover(
-                entry['cover_url'], 
-                entry['title'] or 'Unknown', 
-                entry['author'],
-                entry['base_filename'],
-                (cover_width, cover_height)
-            )
-            cover_y = y_offset + (tier_height - cover_height) // 2
-            img.paste(cover, (x_offset, cover_y))
-            
-            # Draw book title with word wrapping
-            title_text = entry['title'] or 'Unknown'
-            wrapped_lines = wrap_text(title_text, book_font, cover_width - 4)
-            
-            # Limit to 2 lines max
-            if len(wrapped_lines) > 2:
-                wrapped_lines = wrapped_lines[:2]
-                # Add ellipsis to last line if truncated
-                wrapped_lines[1] = wrapped_lines[1][:20] + '...' if len(wrapped_lines[1]) > 20 else wrapped_lines[1]
-            
-            # Calculate text background height
-            line_height = 24
-            text_bg_height = len(wrapped_lines) * line_height + 6
-            text_y = y_offset + tier_height - text_bg_height
-            
-            # Add semi-transparent background for text
-            draw.rectangle(
-                [(x_offset - 2, text_y - 2), (x_offset + cover_width + 2, text_y + text_bg_height)],
-                fill=(255, 255, 255, 200)
-            )
-            
-            # Draw each line
-            current_y = text_y
-            for line in wrapped_lines:
-                draw.text((x_offset, current_y), line, fill='black', font=book_font)
-                current_y += line_height
-            
-            x_offset += cover_width + padding
-        
-        # Draw horizontal line below tier
-        draw.line(
-            [(0, y_offset + tier_height), (img_width, y_offset + tier_height)],
-            fill='black',
-            width=3
-        )
-        
-        y_offset += tier_height
-    
-    img.save(output_file, 'PNG')
-    print(f"Sci-Fi tier list saved to {output_file}")
-
-def create_other_categories_list(entries_by_tier, output_file='tier_list_other.png'):
-    """Create the other categories list (Fantasy, Comics, Non-fiction)"""
-    # Configuration
-    tier_height = 420
-    tier_label_width = 240
-    cover_width = 250
-    cover_height = 375
-    padding = 15
-    
-    # Category colors (red, orange, yellow)
+    # Category colors
     category_colors = {
         'fantasy': '#FF7F7F',     # Red
         'comic': '#FFBF7F',       # Orange
-        'non_fiction': '#FFFF7F'  # Yellow
     }
     
     category_names = {
         'fantasy': 'Fantasy',
         'comic': 'Comic Books',
-        'non_fiction': 'Non-Fiction'
     }
     
     # Organize entries by original category
     entries_by_category = {
         'fantasy': [],
         'comic': [],
-        'non_fiction': []
     }
     
     for entry in entries_by_tier['C']:
@@ -681,12 +389,34 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
         if cat in entries_by_category:
             entries_by_category[cat].append(entry)
     
-    num_categories = len([cat for cat in entries_by_category if entries_by_category[cat]])
-    img_height = num_categories * tier_height
+    # Calculate number of rows needed for each category
+    rows_data = []
+    for category in ['fantasy', 'comic']:
+        if not entries_by_category[category]:
+            continue
+        
+        entries = entries_by_category[category]
+        num_rows = (len(entries) + max_books_per_row - 1) // max_books_per_row  # Ceiling division
+        
+        for row_idx in range(num_rows):
+            start_idx = row_idx * max_books_per_row
+            end_idx = min(start_idx + max_books_per_row, len(entries))
+            row_entries = entries[start_idx:end_idx]
+            
+            rows_data.append({
+                'category': category,
+                'entries': row_entries,
+                'is_first_row': row_idx == 0,
+                'row_number': row_idx + 1,
+                'total_rows': num_rows
+            })
     
-    # Calculate width based on the category with the most books
-    max_books_in_category = max(len(entries_by_category[cat]) for cat in entries_by_category if entries_by_category[cat])
-    img_width = tier_label_width + (max_books_in_category * (cover_width + padding)) + padding
+    # Calculate image dimensions
+    num_rows = len(rows_data)
+    img_height = num_rows * tier_height
+    
+    # Width based on max books per row
+    img_width = tier_label_width + (max_books_per_row * (cover_width + padding)) + padding
     
     # Create image
     img = Image.new('RGB', (img_width, img_height), color='white')
@@ -702,13 +432,16 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
         category_font = ImageFont.load_default()
         book_font = ImageFont.load_default()
     
-    # Draw categories (start at top since we removed the title)
+    # Draw rows
     y_offset = 0
-    for category in ['fantasy', 'comic', 'non_fiction']:
-        if not entries_by_category[category]:
-            continue
-            
-        # Draw category background
+    for row_data in rows_data:
+        category = row_data['category']
+        entries = row_data['entries']
+        is_first_row = row_data['is_first_row']
+        row_number = row_data['row_number']
+        total_rows = row_data['total_rows']
+        
+        # Draw row background
         draw.rectangle(
             [(0, y_offset), (img_width, y_offset + tier_height)],
             fill=category_colors[category]
@@ -721,7 +454,16 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
         )
         
         # Draw category name with word wrapping (centered vertically)
-        cat_name = category_names[category]
+        if is_first_row and total_rows == 1:
+            # Single row - just show category name
+            cat_name = category_names[category]
+        elif is_first_row:
+            # First of multiple rows
+            cat_name = f"{category_names[category]}\n(part {row_number}/{total_rows})"
+        else:
+            # Continuation row
+            cat_name = f"{category_names[category]}\n(part {row_number}/{total_rows})"
+        
         wrapped_cat_lines = wrap_text(cat_name, category_font, tier_label_width - 20)
         
         # Calculate total height of wrapped text
@@ -751,10 +493,7 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
         
         # Draw book covers
         x_offset = tier_label_width + padding
-        for entry in entries_by_category[category]:
-            if x_offset + cover_width > img_width - padding:
-                break
-                
+        for entry in entries:
             cover = download_cover(
                 entry['cover_url'], 
                 entry['title'] or 'Unknown', 
@@ -762,23 +501,48 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
                 entry['base_filename'],
                 (cover_width, cover_height)
             )
-            cover_y = y_offset + (tier_height - cover_height) // 2
+            # Top-align all covers in the row
+            gap = 5
+            vertical_padding = 20  # Space from top of row
+            cover_y = y_offset + vertical_padding
+            
             img.paste(cover, (x_offset, cover_y))
             
-            # Draw book title with word wrapping
-            title_text = entry['title'] or 'Unknown'
-            wrapped_lines = wrap_text(title_text, book_font, cover_width - 4)
+            # Draw author name and series (if available)
+            author_text = entry['author'] or 'Unknown'
+            series_title = entry.get('series_title')
+            series_postfix = entry.get('series_postfix')
             
-            # Limit to 2 lines max
-            if len(wrapped_lines) > 2:
-                wrapped_lines = wrapped_lines[:2]
-                # Add ellipsis to last line if truncated
-                wrapped_lines[1] = wrapped_lines[1][:20] + '...' if len(wrapped_lines[1]) > 20 else wrapped_lines[1]
+            # Build list of text elements to draw
+            text_elements = []
             
-            # Calculate text background height
-            line_height = 24
-            text_bg_height = len(wrapped_lines) * line_height + 6
-            text_y = y_offset + tier_height - text_bg_height
+            # Add author name
+            author_lines = wrap_text(author_text, book_font, cover_width - 4)
+            # Limit author to 1 line
+            if len(author_lines) > 1:
+                author_lines = author_lines[:1]
+            for line in author_lines:
+                text_elements.append({'text': line, 'font': book_font, 'height': 24})
+            
+            # Add series name if present (same font as author)
+            if series_title:
+                series_text = series_title
+                if series_postfix:
+                    series_text += " " + series_postfix
+                series_lines = wrap_text(series_text, book_font, cover_width - 4)
+                # Allow up to 2 lines for series (total of 3 lines with author)
+                remaining_lines = 3 - len(text_elements)
+                if len(series_lines) > remaining_lines:
+                    series_lines = series_lines[:remaining_lines]
+                    # Add ellipsis to last line if truncated
+                    if series_lines and len(series_lines[-1]) > 20:
+                        series_lines[-1] = series_lines[-1][:20] + '...'
+                for line in series_lines:
+                    text_elements.append({'text': line, 'font': book_font, 'height': 24})
+            
+            # Top-align all captions at the same position below covers
+            text_bg_height = sum(elem['height'] for elem in text_elements) + 6
+            text_y = cover_y + cover_height + gap
             
             # Add semi-transparent background for text
             draw.rectangle(
@@ -788,13 +552,13 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
             
             # Draw each line
             current_y = text_y
-            for line in wrapped_lines:
-                draw.text((x_offset, current_y), line, fill='black', font=book_font)
-                current_y += line_height
+            for elem in text_elements:
+                draw.text((x_offset, current_y), elem['text'], fill='black', font=elem['font'])
+                current_y += elem['height']
             
             x_offset += cover_width + padding
         
-        # Draw horizontal line below category
+        # Draw horizontal line below row
         draw.line(
             [(0, y_offset + tier_height), (img_width, y_offset + tier_height)],
             fill='black',
@@ -804,7 +568,36 @@ def create_other_categories_list(entries_by_tier, output_file='tier_list_other.p
         y_offset += tier_height
     
     img.save(output_file, 'PNG')
-    print(f"Other categories list saved to {output_file}")
+    print(f"Fantasy/Comics tier list saved to {output_file}")
+    
+    # Also create markdown version
+    md_file = output_file.replace('.png', '.md')
+    with open(md_file, 'w') as f:
+        f.write("# Fantasy & Comic Books Reading List\n\n")
+        
+        for category in ['fantasy', 'comic']:
+            if not entries_by_category[category]:
+                continue
+            
+            f.write(f"## {category_names[category]}\n\n")
+            
+            for entry in entries_by_category[category]:
+                author = entry['author'] or 'Unknown'
+                series_title = entry.get('series_title')
+                series_postfix = entry.get('series_postfix')
+                
+                # Format entry
+                if series_title:
+                    series_text = series_title
+                    if series_postfix:
+                        series_text += " " + series_postfix
+                    f.write(f"- **{author}** - {series_text}\n")
+                else:
+                    f.write(f"- **{author}**\n")
+            
+            f.write("\n")
+    
+    print(f"Fantasy/Comics markdown list saved to {md_file}")
 
 def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png'):
     """Create an authors-only tier list (no series/book titles)"""
@@ -974,6 +767,42 @@ def create_authors_tier_list(entries_by_tier, output_file='tier_list_authors.png
     
     img.save(output_file, 'PNG')
     print(f"Authors tier list saved to {output_file}")
+    
+    # Also create markdown version
+    md_file = output_file.replace('.png', '.md')
+    with open(md_file, 'w') as f:
+        f.write("# Sci-Fi Reading List\n\n")
+        
+        tier_full_names_md = {
+            'S': 'S Tier - Must Reads',
+            'A_CLASSIC': 'A Tier - Classics',
+            'A_VERY_GOOD': 'A Tier - Very Good',
+            'B': 'B Tier - Also Worth Reading'
+        }
+        
+        for tier in scifi_tiers:
+            if not entries_by_tier[tier]:
+                continue
+            
+            f.write(f"## {tier_full_names_md[tier]}\n\n")
+            
+            for entry in entries_by_tier[tier]:
+                author = entry['author'] or 'Unknown'
+                series_title = entry.get('series_title')
+                series_postfix = entry.get('series_postfix')
+                
+                # Format entry
+                if series_title:
+                    series_text = series_title
+                    if series_postfix:
+                        series_text += " " + series_postfix
+                    f.write(f"- **{author}** - {series_text}\n")
+                else:
+                    f.write(f"- **{author}**\n")
+            
+            f.write("\n")
+    
+    print(f"Authors markdown list saved to {md_file}")
 
 if __name__ == '__main__':
     print("Generating tier lists...\n")
@@ -999,14 +828,10 @@ if __name__ == '__main__':
     
     print("\nDownloading covers and creating tier lists...")
     
-    # Create sci-fi tier list
-    print("\n1. Creating Sci-Fi tier list...")
-    create_scifi_tier_list(entries_by_tier, 'tier_list_scifi.png')
-    
-    # Create other categories list
-    print("\n2. Creating Other Categories list...")
-    create_other_categories_list(entries_by_tier, 'tier_list_other.png')
-    
     # Create authors tier list
-    print("\n3. Creating Authors tier list...")
+    print("\n1. Creating Authors tier list...")
     create_authors_tier_list(entries_by_tier, 'tier_list_authors.png')
+    
+    # Create fantasy/comics tier list
+    print("\n2. Creating Fantasy/Comics tier list...")
+    create_fantasy_comics_tier_list(entries_by_tier, 'tier_list_fantasy_comics.png')
