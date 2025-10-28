@@ -11,7 +11,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 We hope other infra people will like these books too! Please open a PR for any changes or additions [here](https://github.com/a16z-infra/reading-list).
 
-
+<div class="pb-40"></div>
 
 <h2><span class="highlight2">Table of Contents</span></h2>
 
@@ -22,6 +22,8 @@ We hope other infra people will like these books too! Please open a PR for any c
   - [Also worth reading (B tier)](#also-worth-reading-b-tier)
 - [Fantasy](#fantasy)
 - [Non-fiction](#non-fiction)
+
+<div class="pb-10"></div>
 
 <h2 id="sci-fi" class="header-with-link"><span class="highlight2">Sci-fi</span> <a href="#" class="back-to-top">⬆︎</a></h2>
 
