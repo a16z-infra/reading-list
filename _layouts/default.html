@@ -27,19 +27,19 @@
         }
 
         :root.light-mode {
-            --bg-color: #ffffff;
-            --text-color: #24292e;
-            --heading-color: #1a1a1a;
+            --bg-color: #f7eeeb;
+            --text-color: rgb(87, 84, 82);
+            --heading-color: rgb(75, 80, 88);
             --border-color: #e1e4e8;
-            --link-color: #586069;
-            --link-hover-color: #0366d6;
-            --section-intro-bg: #f6f8fa;
+            --link-color: rgb(87, 84, 82);
+            --link-hover-color: rgb(145, 140, 138);
+            --section-intro-bg: #FAF5F4;
             --section-intro-border: #d1d5da;
             --blockquote-color: #6a737d;
             --blockquote-border: #dfe2e5;
             --code-bg: #f6f8fa;
-            --h2-border: #e1e4e8;
-            --h3-border: #e1e4e8;
+            --h2-border: #918C8A;
+            --h3-border: #918C8A;
             --box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
 
@@ -56,7 +56,7 @@
             --blockquote-border: #dfe2e5;
             --code-bg: #f6f8fa;
             --h2-border: #918C8A;
-            --h3-border: #eaecef;
+            --h3-border: #918C8A;
             --box-shadow: 0 1px 3px rgba(0,0,0,0.3);
         }
 
@@ -74,7 +74,7 @@
         .wrapper {
             max-width: 1440px;
             margin: 0 auto;
-            padding: 83px 56px 112px;
+            padding: 83px 56px 20px;
             position: relative;
         }
         
@@ -200,7 +200,7 @@
         
         .section-intro {
             background: var(--section-intro-bg);
-            border-left: 4px solid var(--section-intro-border);
+            /* border-left: 4px solid var(--section-intro-border); */
             padding: 16px;
             margin: 24px 0 56px;
             color: var(--text-color);
@@ -211,7 +211,7 @@
             margin: 0;
             padding: 0 1em;
             color: var(--blockquote-color);
-            border-left: 0.25em solid var(--blockquote-border);
+            /* border-left: 0.25em solid var(--blockquote-border); */
             transition: color 0.3s ease, border-color 0.3s ease;
         }
         
@@ -331,7 +331,7 @@
             position: fixed;
             top: 20px;
             right: 20px;
-            background: var(--section-intro-bg);
+            background: var(--bg-color);
             border: 1px solid var(--border-color);
             border-radius: 6px;
             padding: 8px 12px;
@@ -347,7 +347,7 @@
         }
 
         .theme-toggle:hover {
-            background: var(--border-color);
+            background: var(--section-intro-bg);
         }
 
         .theme-toggle-icon {
@@ -362,6 +362,17 @@
                 padding: 6px 10px;
                 font-size: 12px;
             }
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 0;
+            color: var(--text-color);
+            font-size: 0.9em;
+            opacity: 0.8;
+            transition: color 0.3s ease, opacity 0.3s ease;
         }
     </style>
     <script>
@@ -479,6 +490,9 @@
         <span id="theme-text">Dark</span>
     </button>
     <div class="wrapper">{{ content }}</div>
+    <footer>
+        Made with 🤖 by <strong><a href="https://a16z.com/infra/" target="_blank">a16z infra</a></strong>
+    </footer>
     <script>
         // Update theme text on load
         document.addEventListener('DOMContentLoaded', function() {

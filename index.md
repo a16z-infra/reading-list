@@ -11,7 +11,7 @@ This is a list of books and authors that at least one member of the a16z infra t
 
 We hope other infra people will like these books too! Please open a PR for any changes or additions [here](https://github.com/a16z-infra/reading-list).
 
-<div class="pb-40"></div>
+
 
 <h2><span class="highlight2">Table of Contents</span></h2>
 
@@ -43,7 +43,7 @@ If you haven't read a lot of science fiction before (or want to argue about what
   </div>
   <div class="entry-content">
     {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
+      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em></strong> {{ entry.series_postfix }} by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% elsif entry.book_title %}
       <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% else %}
@@ -68,7 +68,7 @@ These books all had massive impact when they were published and are still great 
   </div>
   <div class="entry-content">
     {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
+      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em></strong> {{ entry.series_postfix }} by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% elsif entry.book_title %}
       <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% else %}
@@ -93,7 +93,7 @@ These are all contemporary books and very very good. Highly recommended.
   </div>
   <div class="entry-content">
     {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
+      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em></strong> {{ entry.series_postfix }} by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% elsif entry.book_title %}
       <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% else %}
@@ -118,7 +118,7 @@ These books are all fun and/or interesting, and well worth the time, if you are 
   </div>
   <div class="entry-content">
     {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
+      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em></strong> {{ entry.series_postfix }} by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% elsif entry.book_title %}
       <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% else %}
@@ -143,7 +143,7 @@ We are not fantasy people really. This list tends towards interesting/ slightly 
   </div>
   <div class="entry-content">
     {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
+      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em></strong> {{ entry.series_postfix }} by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% elsif entry.book_title %}
       <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% else %}
@@ -164,7 +164,7 @@ We are not fantasy people really. This list tends towards interesting/ slightly 
   </div>
   <div class="entry-content">
     {% if entry.series_title %}
-      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em> {{ entry.series_postfix }}</strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
+      <strong><em><a href="{{ entry.title_url }}">{{ entry.series_title }}</a></em></strong> {{ entry.series_postfix }} by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% elsif entry.book_title %}
       <strong><em><a href="{{ entry.title_url }}">{{ entry.book_title }}</a></em></strong> by <strong><a href="{{ entry.author_url }}">{{ entry.author }}</a></strong>: 
     {% else %}
