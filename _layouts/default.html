@@ -3,49 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Geist:wght@100..900&display=swap" rel="stylesheet">
     <title>{{ page.title | default: site.title }}</title>
     <style>
+        /* CSS Variables for theming - default to dark mode */
+        :root {
+            --bg-color: #0F0F0F;
+            --text-color: #BDB6B3;
+            --heading-color: #F7EEEB;
+            --border-color: #918C8A;
+            --link-color: #918C8A;
+            --link-hover-color: #F7EEEB;
+            --section-intro-bg: #FFFFFF0D;
+            --section-intro-border: #918C8A;
+            --blockquote-color: #6a737d;
+            --blockquote-border: #dfe2e5;
+            --code-bg: #f6f8fa;
+            --h2-border: #918C8A;
+            --h3-border: #eaecef;
+            --box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        :root.light-mode {
+            --bg-color: #f7eeeb;
+            --text-color: rgb(87, 84, 82);
+            --heading-color: rgb(75, 80, 88);
+            --border-color: #e1e4e8;
+            --link-color: rgb(87, 84, 82);
+            --link-hover-color: rgb(145, 140, 138);
+            --section-intro-bg: #FAF5F4;
+            --section-intro-border: #d1d5da;
+            --blockquote-color: #6a737d;
+            --blockquote-border: #dfe2e5;
+            --code-bg: #f6f8fa;
+            --h2-border: #918C8A;
+            --h3-border: #918C8A;
+            --box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        :root.dark-mode {
+            --bg-color: #0F0F0F;
+            --text-color: #BDB6B3;
+            --heading-color: #F7EEEB;
+            --border-color: #918C8A;
+            --link-color: #918C8A;
+            --link-hover-color: #F7EEEB;
+            --section-intro-bg: #FFFFFF0D;
+            --section-intro-border: #918C8A;
+            --blockquote-color: #6a737d;
+            --blockquote-border: #dfe2e5;
+            --code-bg: #f6f8fa;
+            --h2-border: #918C8A;
+            --h3-border: #918C8A;
+            --box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-            line-height: 1.6;
-            color: #24292e;
-            max-width: 1200px;
+            font-family: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            font-size: 16px;
+            line-height: 1.75;
+            color: var(--text-color);
+            background: var(--bg-color);
+            margin: 0;
+            letter-spacing: 0.02em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .wrapper {
+            max-width: 1440px;
             margin: 0 auto;
-            padding: 20px;
-            background: #ffffff;
+            padding: 83px 56px 20px;
+            position: relative;
         }
         
         h1, h2, h3, h4 {
             margin-top: 24px;
             margin-bottom: 16px;
-            font-weight: 600;
+            font-weight: 400;
             line-height: 1.25;
+            font-family: 'DM Mono', sans-serif;
+            color: var(--heading-color);
+            letter-spacing: -0.05em;
+            transition: color 0.3s ease;
         }
         
         h1 {
-            font-size: 2em;
-            border-bottom: 1px solid #646a6f;
-            padding-bottom: 0.3em;
+            font-size: 2.625em;
+            margin-bottom: 10px;
         }
         
         h2 {
-            font-size: 1.5em;
-            border-bottom: 1px solid #959da5;
+            font-size: 1.75em;
+            border-bottom: 1px solid var(--h2-border);
             padding-bottom: 0.3em;
+            transition: border-color 0.3s ease;
         }
         
         h3 {
-            font-size: 1.25em;
-            border-bottom: 1px solid #eaecef;
+            font-size: 1.37em;
+            border-bottom: 1px solid var(--h3-border);
             padding-bottom: 0.3em;
+            transition: border-color 0.3s ease;
+        }
+
+        p {
+            margin: 10px 0 28px;
         }
         
         a {
-            color: #0366d6;
+            color: var(--link-color);
             text-decoration: none;
+            transition: color 0.3s ease;
         }
         
         a:hover {
+            color: var(--link-hover-color);
             text-decoration: underline;
         }
         
@@ -55,13 +129,22 @@
             margin: 0 auto 30px;
             display: block;
         }
+
+        .pb-40 {
+            padding-bottom: 2.5em;
+        }
+
+        .pb-10 {
+            padding-bottom: 10px;
+        }
         
         .toc {
-            background: #f6f8fa;
-            border: 1px solid #d1d5da;
+            background: var(--section-intro-bg);
+            border: 1px solid var(--border-color);
             border-radius: 6px;
             padding: 16px;
             margin-bottom: 30px;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
         
         .toc ul {
@@ -93,7 +176,8 @@
             width: 100%;
             height: auto;
             border-radius: 4px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            box-shadow: var(--box-shadow);
+            transition: box-shadow 0.3s ease;
         }
         
         .entry-content {
@@ -104,35 +188,47 @@
             margin-top: 10px;
             padding-left: 20px;
         }
-        
-        .entry-content ul li {
-            margin: 4px 0;
+
+        .entry-content strong em,
+        .entry-content a em {
+            font-style: normal;
+        }
+
+        .entry-content p {
+            margin: 23px 0 16px;
         }
         
         .section-intro {
-            background: #f6f8fa;
-            border-left: 4px solid #0366d6;
+            background: var(--section-intro-bg);
+            /* border-left: 4px solid var(--section-intro-border); */
             padding: 16px;
-            margin: 20px 0;
-            font-style: italic;
+            margin: 24px 0 56px;
+            color: var(--text-color);
+            transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
         }
         
         blockquote {
             margin: 0;
             padding: 0 1em;
-            color: #6a737d;
-            border-left: 0.25em solid #dfe2e5;
+            color: var(--blockquote-color);
+            /* border-left: 0.25em solid var(--blockquote-border); */
+            transition: color 0.3s ease, border-color 0.3s ease;
         }
         
         code {
-            background: #f6f8fa;
+            background: var(--code-bg);
             padding: 2px 4px;
             border-radius: 3px;
             font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
             font-size: 85%;
+            transition: background-color 0.3s ease;
         }
         
         @media (max-width: 768px) {
+            .wrapper {
+                padding: 60px 30px;
+            }
+
             .entry {
                 flex-direction: column;
             }
@@ -157,7 +253,7 @@
         }
         
         .accordion-header:hover {
-            color: #0366d6;
+            color: var(--link-hover-color);
         }
         
         .accordion-header::after {
@@ -216,23 +312,126 @@
         .highlight1 {
             /* background-color: #ffeb3b; */
             padding: 2px 4px;
-            font-weight: 600;
         }
         
         .highlight2 {
             /* background-color: #40E0D0; */
             padding: 2px 4px;
-            font-weight: 600;
+            font-weight: 400;
         }
         
         .highlight3 {
             /* background-color: #98FB98; */
             padding: 2px 4px;
-            font-weight: 600;
+            font-weight: 400;
+        }
+
+        /* Theme toggle button */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            color: var(--text-color);
+            transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-family: inherit;
+        }
+
+        .theme-toggle:hover {
+            background: var(--section-intro-bg);
+        }
+
+        .theme-toggle-icon {
+            font-size: 16px;
+            line-height: 1;
+        }
+
+        @media (max-width: 768px) {
+            .theme-toggle {
+                top: 10px;
+                right: 10px;
+                padding: 6px 10px;
+                font-size: 12px;
+            }
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 0;
+            color: var(--text-color);
+            font-size: 0.9em;
+            opacity: 0.8;
+            transition: color 0.3s ease, opacity 0.3s ease;
         }
     </style>
     <script>
+        // Theme management - runs immediately to prevent flash
+        (function() {
+            // Get saved theme preference or default based on system preference
+            const savedTheme = localStorage.getItem('theme');
+            let initialTheme;
+            
+            if (savedTheme) {
+                initialTheme = savedTheme;
+            } else {
+                // Default to system preference if no preference saved
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                initialTheme = prefersDark ? 'dark' : 'light';
+            }
+            
+            // Apply theme immediately to prevent flash
+            if (initialTheme === 'dark') {
+                document.documentElement.classList.add('dark-mode');
+            } else {
+                document.documentElement.classList.add('light-mode');
+            }
+        })();
+
         document.addEventListener('DOMContentLoaded', function() {
+            // Set up theme toggle
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = document.getElementById('theme-icon');
+            const root = document.documentElement;
+            
+            // Get current theme from root element class
+            const currentTheme = root.classList.contains('dark-mode') ? 'dark' : 'light';
+            
+            // Update icon based on current theme
+            if (themeIcon) {
+                themeIcon.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+            }
+            
+            // Theme toggle handler
+            if (themeToggle) {
+                themeToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const isDark = root.classList.contains('dark-mode');
+                    
+                    if (isDark) {
+                        root.classList.remove('dark-mode');
+                        root.classList.add('light-mode');
+                        localStorage.setItem('theme', 'light');
+                        if (themeIcon) themeIcon.textContent = '🌙';
+                    } else {
+                        root.classList.remove('light-mode');
+                        root.classList.add('dark-mode');
+                        localStorage.setItem('theme', 'dark');
+                        if (themeIcon) themeIcon.textContent = '☀️';
+                    }
+                });
+            }
+
             // Set up accordion functionality
             const accordionHeaders = document.querySelectorAll('.accordion-header');
             
@@ -286,6 +485,38 @@
     </script>
 </head>
 <body>
-    {{ content }}
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <span id="theme-icon" class="theme-toggle-icon">🌙</span>
+        <span id="theme-text">Dark</span>
+    </button>
+    <div class="wrapper">{{ content }}</div>
+    <footer>
+        Made with 🤖 by <strong><a href="https://a16z.com/infra/" target="_blank">a16z infra</a></strong>
+    </footer>
+    <script>
+        // Update theme text on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeText = document.getElementById('theme-text');
+            const root = document.documentElement;
+            const isDark = root.classList.contains('dark-mode');
+            
+            if (themeText) {
+                themeText.textContent = isDark ? 'Dark' : 'Light';
+            }
+            
+            // Update theme text when theme changes
+            const themeToggle = document.getElementById('theme-toggle');
+            if (themeToggle) {
+                themeToggle.addEventListener('click', function() {
+                    setTimeout(() => {
+                        const isDarkNow = root.classList.contains('dark-mode');
+                        if (themeText) {
+                            themeText.textContent = isDarkNow ? 'Dark' : 'Light';
+                        }
+                    }, 0);
+                });
+            }
+        });
+    </script>
 </body>
 </html>
