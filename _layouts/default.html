@@ -448,7 +448,7 @@
             
             // Update icon based on current theme
             if (themeIcon) {
-                themeIcon.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+                themeIcon.textContent = currentTheme === 'dark' ? '🌙' : '☀️';
             }
             
             // Theme toggle handler
@@ -461,12 +461,12 @@
                         root.classList.remove('dark-mode');
                         root.classList.add('light-mode');
                         localStorage.setItem('theme', 'light');
-                        if (themeIcon) themeIcon.textContent = '🌙';
+                        if (themeIcon) themeIcon.textContent = '☀️';
                     } else {
                         root.classList.remove('light-mode');
                         root.classList.add('dark-mode');
                         localStorage.setItem('theme', 'dark');
-                        if (themeIcon) themeIcon.textContent = '☀️';
+                        if (themeIcon) themeIcon.textContent = '🌙';
                     }
                 });
             }
