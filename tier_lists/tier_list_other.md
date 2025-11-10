@@ -1,6 +1,6 @@
 # Other Reading List
 
-Fantasy, Comic Books, and Non-Fiction
+Fantasy and Non-Fiction
 
 ## Fantasy
 
@@ -12,13 +12,6 @@ Fantasy, Comic Books, and Non-Fiction
 - **Neal Stephenson** - The Baroque Cycle
 - **Scott Alexander** - UNSONG
 - **Neil Gaiman**
-
-## Comic Books
-
-- **Neil Gaiman** - The Sandman
-- **Masamune Shirow** - Ghost in the Shell
-- **Katsuhiro Otomo** - Akira
-- **Hayao Miyazaki** - Nausicaä of the Valley of the Wind
 
 ## Non-Fiction
 

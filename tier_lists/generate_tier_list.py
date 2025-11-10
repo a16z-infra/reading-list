@@ -359,7 +359,7 @@ def create_text_tier_list(entries_by_tier, output_file='tier_list.txt'):
             f.write("\n")
 
 def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
-    """Create a tier list for other categories (fantasy, comics, non-fiction) with authors display"""
+    """Create a tier list for other categories (fantasy, non-fiction) with authors display"""
     # Configuration
     tier_height = 480
     tier_label_width = 240
@@ -371,20 +371,17 @@ def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
     # Category colors
     category_colors = {
         'fantasy': '#FF7F7F',     # Red
-        'comic': '#FFBF7F',       # Orange
         'non_fiction': '#FFFF7F'  # Yellow
     }
     
     category_names = {
         'fantasy': 'Fantasy',
-        'comic': 'Comic Books',
         'non_fiction': 'Non-Fiction'
     }
     
     # Organize entries by original category
     entries_by_category = {
         'fantasy': [],
-        'comic': [],
         'non_fiction': []
     }
     
@@ -395,7 +392,7 @@ def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
     
     # Calculate number of rows needed for each category
     rows_data = []
-    for category in ['fantasy', 'comic', 'non_fiction']:
+    for category in ['fantasy', 'non_fiction']:
         if not entries_by_category[category]:
             continue
         
@@ -417,7 +414,8 @@ def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
     
     # Calculate image dimensions
     num_rows = len(rows_data)
-    img_height = num_rows * tier_height
+    title_height = 80
+    img_height = title_height + num_rows * tier_height
     
     # Width based on max books per row
     img_width = tier_label_width + (max_books_per_row * (cover_width + padding)) + padding
@@ -428,16 +426,25 @@ def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
     
     # Load fonts
     try:
+        header_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 48)
         title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
         category_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 36)
         book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
     except:
+        header_font = ImageFont.load_default()
         title_font = ImageFont.load_default()
         category_font = ImageFont.load_default()
         book_font = ImageFont.load_default()
     
+    # Draw title
+    title_text = "a16z Infra Other Reading"
+    title_bbox = draw.textbbox((0, 0), title_text, font=header_font)
+    title_width = title_bbox[2] - title_bbox[0]
+    title_x = (img_width - title_width) // 2
+    draw.text((title_x, 20), title_text, fill='black', font=header_font)
+    
     # Draw rows
-    y_offset = 0
+    y_offset = title_height
     for row_data in rows_data:
         category = row_data['category']
         entries = row_data['entries']
@@ -591,9 +598,9 @@ def create_other_tier_list(entries_by_tier, output_file='tier_list_other.png'):
     md_file = output_file.replace('.png', '.md')
     with open(md_file, 'w') as f:
         f.write("# Other Reading List\n\n")
-        f.write("Fantasy, Comic Books, and Non-Fiction\n\n")
+        f.write("Fantasy and Non-Fiction\n\n")
         
-        for category in ['fantasy', 'comic', 'non_fiction']:
+        for category in ['fantasy', 'non_fiction']:
             if not entries_by_category[category]:
                 continue
             
@@ -632,7 +639,8 @@ def create_sci_fi_tier_list(entries_by_tier, output_file='tier_list_sci_fi.png')
     # Only include sci-fi tiers
     scifi_tiers = ['S', 'A_CLASSIC', 'A_VERY_GOOD', 'B']
     num_tiers = len([tier for tier in scifi_tiers if entries_by_tier[tier]])
-    img_height = num_tiers * tier_height
+    title_height = 80
+    img_height = title_height + num_tiers * tier_height
     
     # Calculate width based on the tier with the most books
     max_books_in_tier = max(len(entries_by_tier[tier]) for tier in scifi_tiers if entries_by_tier[tier])
@@ -644,24 +652,42 @@ def create_sci_fi_tier_list(entries_by_tier, output_file='tier_list_sci_fi.png')
     
     # Load fonts
     try:
+        header_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 48)
         title_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 56)
-        tier_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 36)
+        tier_letter_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 120)  # Very large font for tier letter
+        tier_text_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 36)  # Normal font for descriptive text
         book_font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
     except:
+        header_font = ImageFont.load_default()
         title_font = ImageFont.load_default()
-        tier_font = ImageFont.load_default()
+        tier_letter_font = ImageFont.load_default()
+        tier_text_font = ImageFont.load_default()
         book_font = ImageFont.load_default()
     
-    # Full tier names for sci-fi
-    tier_full_names = {
-        'S': 'Must Reads\n(S tier)',
-        'A_CLASSIC': 'Classics\n(A tier)',
-        'A_VERY_GOOD': 'Very Good\n(A tier)',
-        'B': 'Also Worth Reading\n(B tier)'
+    # Draw title
+    title_text = "a16z Infra Sci-fi Tier List"
+    title_bbox = draw.textbbox((0, 0), title_text, font=header_font)
+    title_width = title_bbox[2] - title_bbox[0]
+    title_x = (img_width - title_width) // 2
+    draw.text((title_x, 20), title_text, fill='black', font=header_font)
+    
+    # Tier letters and descriptive text for sci-fi
+    tier_letters = {
+        'S': 'S',
+        'A_CLASSIC': 'A',
+        'A_VERY_GOOD': 'A',
+        'B': 'B'
     }
     
-    # Draw tiers (start at top since we removed the title)
-    y_offset = 0
+    tier_descriptions = {
+        'S': 'Must Reads',
+        'A_CLASSIC': 'Classics',
+        'A_VERY_GOOD': 'Very Good/ Modern',
+        'B': 'Also Worth Reading'
+    }
+    
+    # Draw tiers (start after title)
+    y_offset = title_height
     for tier in scifi_tiers:
         if not entries_by_tier[tier]:
             continue
@@ -678,27 +704,53 @@ def create_sci_fi_tier_list(entries_by_tier, output_file='tier_list_sci_fi.png')
             fill='black'
         )
         
-        # Draw tier full name with word wrapping (centered vertically)
-        tier_name = tier_full_names[tier]
-        wrapped_tier_lines = wrap_text(tier_name, tier_font, tier_label_width - 20)
+        # Get tier letter and description
+        tier_letter = tier_letters[tier]
+        tier_description = tier_descriptions[tier]
         
-        # Calculate total height of wrapped text
-        line_height = 42
-        total_text_height = len(wrapped_tier_lines) * line_height
-        start_y = y_offset + (tier_height - total_text_height) // 2
+        # Calculate positions for letter and text
+        # Draw the large letter first
+        letter_bbox = draw.textbbox((0, 0), tier_letter, font=tier_letter_font)
+        letter_width = letter_bbox[2] - letter_bbox[0]
+        letter_height = letter_bbox[3] - letter_bbox[1]
         
-        # Draw each line centered horizontally
-        current_y = start_y
-        for line in wrapped_tier_lines:
-            line_bbox = draw.textbbox((0, 0), line, font=tier_font)
+        # Wrap the description text
+        wrapped_desc_lines = wrap_text(tier_description, tier_text_font, tier_label_width - 20)
+        desc_line_height = 42
+        total_desc_height = len(wrapped_desc_lines) * desc_line_height
+        
+        # Calculate spacing: letter at top, then gap, then description text
+        letter_y = y_offset + 60  # Start letter a bit from top
+        gap = 35  # Gap between letter and text
+        desc_start_y = letter_y + letter_height + gap
+        
+        # Center everything vertically if needed
+        total_content_height = letter_height + gap + total_desc_height
+        if total_content_height < tier_height - 120:  # If content is smaller than available space
+            extra_space = tier_height - total_content_height - 120
+            letter_y += extra_space // 2
+            desc_start_y = letter_y + letter_height + gap
+        
+        # Draw the large tier letter (centered horizontally)
+        draw.text(
+            ((tier_label_width - letter_width) // 2, letter_y),
+            tier_letter,
+            fill='white',
+            font=tier_letter_font
+        )
+        
+        # Draw the description text below the letter (centered horizontally)
+        current_y = desc_start_y
+        for line in wrapped_desc_lines:
+            line_bbox = draw.textbbox((0, 0), line, font=tier_text_font)
             line_width = line_bbox[2] - line_bbox[0]
             draw.text(
                 ((tier_label_width - line_width) // 2, current_y),
                 line,
                 fill='white',
-                font=tier_font
+                font=tier_text_font
             )
-            current_y += line_height
+            current_y += desc_line_height
         
         # Draw vertical line after tier label
         draw.line(
