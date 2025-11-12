@@ -21,6 +21,5 @@ kramdown:
   auto_ids: true
   toc_levels: 2..3
 
-# Google Analytics
-# Set your Google Analytics tracking ID (e.g., G-XXXXXXXXXX)
-google_analytics: G-WSDN4C7F8C
+# Analytics
+cloudflare_analytics: "ee40de4adcd44c009a2dccabc4652c3d"
