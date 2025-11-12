@@ -117,12 +117,17 @@
         a {
             color: var(--link-color);
             text-decoration: none;
-            transition: color 0.3s ease;
+            border-bottom: 1px dashed var(--link-color);
+        }
+
+        a:has(img),
+        a:has(svg) {
+            border-bottom: none;
         }
         
         a:hover {
             color: var(--link-hover-color);
-            text-decoration: underline;
+            border-bottom: 1px solid var(--link-hover-color);
         }
         
         .header-image {
