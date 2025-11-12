@@ -76,7 +76,7 @@
         .wrapper {
             max-width: 1440px;
             margin: 0 auto;
-            padding: 83px 56px 20px;
+            padding: 20px 56px 20px;
             position: relative;
         }
         
@@ -228,7 +228,7 @@
         
         @media (max-width: 768px) {
             .wrapper {
-                padding: 60px 30px;
+                padding: 20px 30px;
             }
 
             .entry {
@@ -331,13 +331,12 @@
 
         /* Theme toggle button container */
         .header-controls {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
             gap: 12px;
+            margin-bottom: 20px;
+            padding-top: 20px;
         }
         
         .header-logo-link {
@@ -417,9 +416,8 @@
 
         @media (max-width: 768px) {
             .header-controls {
-                top: 10px;
-                right: 10px;
                 gap: 8px;
+                padding-top: 10px;
             }
             
             .header-logo {
@@ -558,38 +556,40 @@
     </script>
 </head>
 <body>
-    <div class="header-controls">
-        <a href="https://a16z.com/infra/" target="_blank" rel="noopener noreferrer" class="header-logo-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="175" height="70" viewBox="0 0 175 70" fill="none" class="header-logo">
-                <g clip-path="url(#clip0_3013_3404)">
-                    <path d="M30.1815 6.42202V31.4679H23.7595V20.5505H6.42007V31.4679H-0.00195312V6.42202L6.42007 0H23.7595L30.1815 6.42202ZM6.42007 14.7706H23.7595V5.77982H6.42007V14.7706Z"></path>
-                    <path d="M66.1444 25.6881V31.4679H35.9609V25.6881H48.1628V6.42202L37.8875 16.6972V8.34862L46.2362 0H54.5848V25.6881H66.1444Z"></path>
-                    <path d="M102.109 17.9817V25.6881L96.3295 31.4679H77.7056L71.9258 25.6881V8.34862L80.2744 0H100.825V5.77982H78.3478V12.2018H96.3295L102.109 17.9817ZM78.3478 25.6881H95.6873V17.9817H78.3478V25.6881Z"></path>
-                    <path d="M138.072 5.77982V0H107.889V5.77982H129.724L107.889 25.6881V31.4679H138.072V25.6881H116.237L138.072 5.77982Z"></path>
-                    <path d="M54.2637 64.2201H59.7224V38.5321H66.1444V70H55.227L47.8417 62.6047V47.844L44.3096 44.3119H42.383V70H35.9609V38.5321H45.594L54.2637 47.2018V64.2201Z"></path>
-                    <path d="M125.87 59.0825V64.2201H138.072V70H127.155L116.879 59.0825H114.311V70H107.889V38.5321H132.292L138.072 44.3119V53.3027L132.292 59.0825H125.87ZM114.311 53.3027H131.65V44.3119H114.311V53.3027Z"></path>
-                    <path d="M174.035 44.9541V70H167.613V59.0825H150.274V70H143.852V44.9541L150.274 38.5321H167.613L174.035 44.9541ZM150.274 53.3027H167.613V44.3119H150.274V53.3027Z"></path>
-                    <path d="M30.1815 44.3119V38.5321H-0.00195312V44.3119H11.8788V64.2202H-0.00195312V70H30.1815V64.2202H18.3008V44.3119H30.1815Z"></path>
-                    <path d="M71.9258 70H78.3478V56.5137H97.6139V50.7339H78.3478V44.3119H102.109V38.5321H78.3478H71.9258V70Z"></path>
-                </g>
-                <defs>
-                    <clipPath id="clip0_3013_3404">
-                        <rect width="174.037" height="70" fill="white"></rect>
-                    </clipPath>
-                </defs>
-            </svg>
-        </a>
-        <a href="https://github.com/a16z-infra/reading-list" target="_blank" rel="noopener noreferrer" class="header-github-link" aria-label="View on GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="header-github-icon">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-        </a>
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-            <span id="theme-icon" class="theme-toggle-icon">🌙</span>
-            <span id="theme-text">Dark</span>
-        </button>
+    <div class="wrapper">
+        <div class="header-controls">
+            <a href="https://a16z.com/infra/" target="_blank" rel="noopener noreferrer" class="header-logo-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="175" height="70" viewBox="0 0 175 70" fill="none" class="header-logo">
+                    <g clip-path="url(#clip0_3013_3404)">
+                        <path d="M30.1815 6.42202V31.4679H23.7595V20.5505H6.42007V31.4679H-0.00195312V6.42202L6.42007 0H23.7595L30.1815 6.42202ZM6.42007 14.7706H23.7595V5.77982H6.42007V14.7706Z"></path>
+                        <path d="M66.1444 25.6881V31.4679H35.9609V25.6881H48.1628V6.42202L37.8875 16.6972V8.34862L46.2362 0H54.5848V25.6881H66.1444Z"></path>
+                        <path d="M102.109 17.9817V25.6881L96.3295 31.4679H77.7056L71.9258 25.6881V8.34862L80.2744 0H100.825V5.77982H78.3478V12.2018H96.3295L102.109 17.9817ZM78.3478 25.6881H95.6873V17.9817H78.3478V25.6881Z"></path>
+                        <path d="M138.072 5.77982V0H107.889V5.77982H129.724L107.889 25.6881V31.4679H138.072V25.6881H116.237L138.072 5.77982Z"></path>
+                        <path d="M54.2637 64.2201H59.7224V38.5321H66.1444V70H55.227L47.8417 62.6047V47.844L44.3096 44.3119H42.383V70H35.9609V38.5321H45.594L54.2637 47.2018V64.2201Z"></path>
+                        <path d="M125.87 59.0825V64.2201H138.072V70H127.155L116.879 59.0825H114.311V70H107.889V38.5321H132.292L138.072 44.3119V53.3027L132.292 59.0825H125.87ZM114.311 53.3027H131.65V44.3119H114.311V53.3027Z"></path>
+                        <path d="M174.035 44.9541V70H167.613V59.0825H150.274V70H143.852V44.9541L150.274 38.5321H167.613L174.035 44.9541ZM150.274 53.3027H167.613V44.3119H150.274V53.3027Z"></path>
+                        <path d="M30.1815 44.3119V38.5321H-0.00195312V44.3119H11.8788V64.2202H-0.00195312V70H30.1815V64.2202H18.3008V44.3119H30.1815Z"></path>
+                        <path d="M71.9258 70H78.3478V56.5137H97.6139V50.7339H78.3478V44.3119H102.109V38.5321H78.3478H71.9258V70Z"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_3013_3404">
+                            <rect width="174.037" height="70" fill="white"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+            <a href="https://github.com/a16z-infra/reading-list" target="_blank" rel="noopener noreferrer" class="header-github-link" aria-label="View on GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="header-github-icon">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span id="theme-icon" class="theme-toggle-icon">🌙</span>
+                <span id="theme-text">Dark</span>
+            </button>
+        </div>
+        {{ content }}
     </div>
-    <div class="wrapper">{{ content }}</div>
     <footer>
         Made with 🤖 by <strong><a href="https://a16z.com/infra/" target="_blank">a16z infra</a></strong>
     </footer>
