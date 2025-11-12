@@ -9,7 +9,7 @@ title: a16z Infra Reading List
 
 This is a list of books and authors that at least one member of the a16z infra team read and loved. It's heavy on science fiction because sci-fi is the most infra-y literary genre: it's about new technology, new systems, and the people who devote their lives to building and understanding them.
 
-We hope other infra people will like these books too! Please open a PR for any changes or additions [here](https://github.com/a16z-infra/reading-list).
+We hope other infra people will like these books too! Please open a PR for any changes or additions <a href="https://github.com/a16z-infra/reading-list" target="_blank">here</a>.
 
 
 
