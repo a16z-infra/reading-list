@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Geist:wght@100..900&display=swap" rel="stylesheet">
-    {% include google-analytics.html %}
     <title>{{ page.title | default: site.title }}</title>
     <style>
         /* CSS Variables for theming - default to dark mode */
@@ -617,5 +616,6 @@
             }
         });
     </script>
+    {% include cloudflare-analytics.html %}
 </body>
 </html>
