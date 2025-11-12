@@ -129,6 +129,11 @@
             color: var(--link-hover-color);
             border-bottom: 1px solid var(--link-hover-color);
         }
+
+        a:has(img):hover,
+        a:has(svg):hover {
+            border-bottom: none;
+        }
         
         .header-image {
             width: 100%;
