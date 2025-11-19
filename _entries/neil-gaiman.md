@@ -9,8 +9,10 @@ author: Neil Gaiman
 author_url: https://en.wikipedia.org/wiki/Neil_Gaiman
 cover_url: https://upload.wikimedia.org/wikipedia/en/4/49/American_gods.jpg
 ---
-So.. Gaiman is a real test in separating the art from the artist. His books are entertaining and have a fresh voice compared to a lot of traditional fantasy. Unfortunately, he's not only treated many women horribly, but you can start to see those themes pop up in his books if you look for them. The stories also tend to be pretty similar to one another. But some are still very good and worth reading.
-   - [*Good Omens*](https://en.wikipedia.org/wiki/Good_Omens) (1990)
+So.. Gaiman is a real test in separating the art from the artist. He first became famous for *The Sandman*, the Vertigo comic that remixed mythology, horror, and literary fiction into something that felt cinematic decades before prestige TV discovered superheroes. Sandman made the medium feel grown up, winning World Fantasy and Bram Stoker awards and proving that a monthly comic could carry highbrow themes about stories, gods, and trauma without losing the weird. His prose books are entertaining and have a fresh voice compared to a lot of traditional fantasy. Unfortunately, he's not only treated many women horribly, but you can start to see those themes pop up in his books if you look for them. The stories also tend to be pretty similar to one another. But some are still very good and worth reading.
+  
+   - [*Good Omens*](https://en.wikipedia.org/wiki/Good_Omens) (1990, co-written with Terry Pratchett)
    - [*Stardust*](https://en.wikipedia.org/wiki/Stardust_(novel)) (2000)
    - [*American Gods*](https://en.wikipedia.org/wiki/American_Gods) (2001)
    - [*Anansi Boys*](https://en.wikipedia.org/wiki/Anansi_Boys) (2005)
+   - [*The Sandman*](https://en.wikipedia.org/wiki/The_Sandman_(comic_book_series)) (1989–1996)
