@@ -14,5 +14,5 @@ This series is a fast read and a ton of fun. One of our partners called it "pure
   - [*Golden Son*](https://en.wikipedia.org/wiki/Golden_Son) (2015)
   - [*Morning Star*](https://en.wikipedia.org/wiki/Morning_Star_(Brown_novel)) (2016)
   - [*Iron Gold*](https://en.wikipedia.org/wiki/Iron_Gold) (2018)
-  - [*Dark Age*](https://en.wikipedia.org/wiki/Dark_Age_(Pierce_Brown_novel)) (2019)
-  - [*Light Bringer*](https://en.wikipedia.org/wiki/Light_Bringer) (2023)
+  - [*Dark Age*](https://en.wikipedia.org/wiki/Dark_Age_(novel)) (2019)
+  - [*Light Bringer*](https://en.wikipedia.org/wiki/Light_Bringer_(novel)) (2023)

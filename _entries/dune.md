@@ -15,5 +15,5 @@ Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought e
   - [*Dune Messiah*](https://en.wikipedia.org/wiki/Dune_Messiah) (1969)
   - [*Children of Dune*](https://en.wikipedia.org/wiki/Children_of_Dune) (1976)
   - [*God Emperor of Dune*](https://en.wikipedia.org/wiki/God_Emperor_of_Dune) (1981)
-  - [*Heretics of Dune*](https://en.wikipedia.org/wiki/Heretics_of_Dune) (1982)
+  - [*Heretics of Dune*](https://en.wikipedia.org/wiki/Heretics_of_Dune) (1984)
   - [*Chapterhouse: Dune*](https://en.wikipedia.org/wiki/Chapterhouse:_Dune) (1985)
