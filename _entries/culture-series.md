@@ -7,7 +7,7 @@ title_url: https://en.wikipedia.org/wiki/Culture_series
 series_postfix: series
 author: Iain M. Banks
 author_url: https://en.wikipedia.org/wiki/Iain_M._Banks
-cover_url: https://upload.wikimedia.org/wikipedia/en/5/53/Banksphlebas.jpg
+cover_url: covers/7e252962-1b7e-4355-a435-a35cae21b0bd.jpg
 ---
 Sci-fi nerds love this series, but it's criminally unknown among casual readers. The setting is a hypothetical "post-scarcity" future in which space travel is trivial, machine intelligence is highly advanced, and most physical needs / desires have been solved. The books ask the question: what happens next, once we have everything we wanted? But more importantly, the stories are just beautifully crafted, and the characters (human, alien, and machine) feel completely novel. You could almost picture each book as a (really weird) dramatic play. As a bonus, if you read this series, you will get the joke about SpaceX's [spaceport names](https://en.wikipedia.org/wiki/Autonomous_spaceport_drone_ship).
   - [*Consider Phlebas*](https://en.wikipedia.org/wiki/Consider_Phlebas) (1987)

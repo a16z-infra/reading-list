@@ -7,7 +7,7 @@ title_url: https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy
 series_postfix: series
 author: Douglas Adams
 author_url: https://en.wikipedia.org/wiki/Douglas_Adams
-cover_url: https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg
+cover_url: covers/809fc7ef-e310-4819-92c2-0f8e2646d027.jpg
 ---
 An absolute classic of the Englishman-traveling-the-galaxy genre. It follows the adventures of a hapless man in his pyjamas (Arthur Dent), several incorrigible aliens, and a depressed robot as they try their best to understand a galaxy that doesn't really make a lot of sense. We won't spoil it with too much plot description, but this series is charming, funny, and absurd. Plus it has a real message to deliver about the meaning of life. Which turns out to be an integer.
   - [*The Hitchhiker's Guide to the Galaxy*](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(novel)) (1979)

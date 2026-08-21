@@ -7,7 +7,7 @@ title_url:
 series_postfix:
 author: HG Wells
 author_url: https://en.wikipedia.org/wiki/H._G._Wells
-cover_url: https://upload.wikimedia.org/wikipedia/commons/b/b4/Two_complete_science_adventure_books_1951win_n4.jpg
+cover_url: covers/95afa203-2541-4568-b2e5-a042e355cddb.jpg
 ---
 Wells reads like a grumpy Leonardo da Vinci. His stories are intelligent and well thought-out, often putting up a mirror to polite society (e.g. *War of the Worlds* was written at the peak of British imperialism). He also proved to be a visionary, writing about concepts like time travel, alien invasions, and genetic engineering before those ideas were well known. Wells' worldview, though, was oddly anti-technology. His stories usually ended badly, and included more dystopian technological advances like atomic bombs (a phrase he may have coined), tanks, and air combat. So Wells was not exactly an optimist, but his work is too important to ignore.
   - [*The Time Machine*](https://en.wikipedia.org/wiki/The_Time_Machine) (1895)
