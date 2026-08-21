@@ -7,7 +7,7 @@ title_url:
 series_postfix: series
 author: Vernor Vinge
 author_url: https://en.wikipedia.org/wiki/Vernor_Vinge
-cover_url: https://upload.wikimedia.org/wikipedia/en/4/4a/A_Fire_Upon_the_Deep.bookcover.jpg
+cover_url: covers/86399246-ff78-488b-8940-fc67ad9b7386.jpg
 ---
 The story is pretty creative and feels zero derivative from anything else that came before (or even after). Vinge's aliens are genuinely alien (like dog-like pack minds that think in parallel). There's also buried super intelligence, bonsai things on wheels, a galactic immune system against super intelligences, computational "zones" limited by physics, etc. It's a weird trip where you can probably never predict what would happen next.
   - [*A Fire Upon the Deep*](https://en.wikipedia.org/wiki/A_Fire_Upon_the_Deep) (1992)

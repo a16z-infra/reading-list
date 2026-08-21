@@ -7,7 +7,7 @@ title_url:
 series_postfix:
 author: Philip K Dick
 author_url: https://en.wikipedia.org/wiki/Philip_K._Dick
-cover_url: https://upload.wikimedia.org/wikipedia/commons/e/ee/DoAndroidsDream.png
+cover_url: covers/1b9913bc-fa2c-4834-a2a8-e9b56e98e145.png
 ---
 Dick's contribution to sci-fi is hard to overstate. All of his ~150 novels and short stories have at least one genuinely new idea: catching crime before it happens; changing who won WWII; editing human memories; etc. Most are also told in a fun and fast-paced way, and many of his new inventions have an irrepressible optimistic bent to them (despite sometimes dark subject matter). His stories have been heavily adapted into movies and TV shows, and in many ways changed how we as a society think about the future. Much of Dick's work was written 50+ years ago, but it still feels fresh, as if it was written for our time. This is a very short list of some of his best works.
   - [*The Minority Report*](https://en.wikipedia.org/wiki/The_Minority_Report) (1956)

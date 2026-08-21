@@ -8,7 +8,7 @@ series_url: https://en.wikipedia.org/wiki/Dune_(novel)
 series_postfix: series
 author: Frank Herbert
 author_url: https://en.wikipedia.org/wiki/Frank_Herbert
-cover_url: https://upload.wikimedia.org/wikipedia/commons/b/be/Dune_by_Frank_Herbert_first_edition_cover.jpg
+cover_url: covers/326a05a8-6aad-4d74-b2f2-e5501ff3668b.jpg
 ---
 Arrakis. Sand worms. The spice. Paul Muad'Dib. This is the series that brought epic sci-fi to the mainstream. It's also one of the first series that demonstrated sci-fi should be taken seriously, in this case as an allegory for geopolitical tensions in the Middle East. In case you've only seen the (very well done) movies, do yourself a favor and read the books, which are infinitely deeper and more intricately plotted. The last three fast-forward several thousand years and get a little weird (in a good way!).
   - [*Dune*](https://en.wikipedia.org/wiki/Dune_(novel)) (1965)

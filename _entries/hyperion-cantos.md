@@ -7,7 +7,7 @@ title_url: https://en.wikipedia.org/wiki/Hyperion_Cantos
 series_postfix:
 author: Dan Simmons
 author_url: https://en.wikipedia.org/wiki/Dan_Simmons
-cover_url: https://upload.wikimedia.org/wikipedia/en/7/73/Hyperion_cover.jpg
+cover_url: covers/65b261bf-ec98-4223-ad4a-3b664b2fef9e.jpg
 ---
 This is a super unique series that also belongs generally to the science fantasy subgenre. It takes place in 2732, when humans have colonized hundreds of planets and have cool technology like superhuman AI and teleportation portals ("farcasters"). The stories themselves are modeled on *The Canterbury Tales*, recounting the backstories of a group of pilgrims visiting the remote planet Hyperion: two Catholic priests, a soldier, a professor, etc. Each pilgrim has an engaging story to tell as they journey to meet a bizarre, terrifying creature known as the Shrike - which then kicks off more of a space opera plot. Like *BotNS*, it's a very well-written series that's intentionally mysterious.
   - [*Hyperion*](https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)) (1989)

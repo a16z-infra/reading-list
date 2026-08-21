@@ -7,7 +7,7 @@ title_url:
 series_postfix:
 author: Arthur C. Clarke
 author_url: https://en.wikipedia.org/wiki/Arthur_C._Clarke
-cover_url: https://upload.wikimedia.org/wikipedia/en/7/77/2001_A_Space_Odyssey-Arthur_C._Clarke.jpg
+cover_url: covers/2d2ad505-a547-492b-b797-eaf2e53c2fd0.jpg
 ---
 Clarke is often grouped with Asimov and Heinlein as the "Big Three" of golden age sci-fi. He has legit credentials outside of fiction writing: he served in the RAF as a radar specialist during WWII; he graduated with degrees in mathematics and physics from King's College; and wrote technical papers about novel uses for geostationary satellites. His stories are grounded in real science and technical detail (e.g. he was an early proponent of space elevators). But they're also deeply philosophical, especially related to the relationship between man & machine, and carry an air of mystery. *2001*, cowritten with Stanley Kubrick, is his best known work.
   - [*2001: A Space Odyssey*](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey) (1968)
