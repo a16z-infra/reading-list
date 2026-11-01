@@ -11,13 +11,9 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import yaml
 import glob
-import ssl
-import urllib3
 import random
 from tqdm import tqdm
 
-# Disable SSL warnings
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Define tier mappings - keeping classics and very_good separate
 TIER_MAPPING = {
@@ -278,8 +274,10 @@ def download_cover(url, title, author, base_filename, size=(250, 375), covers_di
     }
     
     try:
-        # Try to download with proper headers and SSL handling, using streaming
-        response = requests.get(url, headers=headers, timeout=10, verify=False, stream=True)
+        # Download with a browser User-Agent header, using streaming.
+        # TLS verification stays on (requests default): a host with a bad
+        # certificate fails into the placeholder fallback below.
+        response = requests.get(url, headers=headers, timeout=10, stream=True)
         response.raise_for_status()
         
         # Get total file size
